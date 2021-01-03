@@ -1,4 +1,6 @@
 module.exports = {
+      pathPrefix: "/dvinnik.dev",
+
   siteMetadata: {
     title: `Dmitry Vinnik`,
     description: `Dmitry is an Open Source Developer Advocate at Facebook, where he focuses on projects in the mobile space. His goal is to help developers be more productive through open source.`,
