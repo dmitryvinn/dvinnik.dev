@@ -62,4 +62,46 @@ exports.createPages = async ({ graphql, actions }) => {
       }
     });
   });
+
+
+
+  const talkTemplate = path.resolve(`src/templates/Talk/index.js`);
+
+  const talkRes = await graphql(`
+    query {
+      allMarkdownRemark(
+        filter: { frontmatter: { category: { eq: "talk" } } }
+        sort: { fields: frontmatter___date, order: DESC }
+      ) {
+        edges {
+          node {
+            fields {
+              slug
+            }
+            frontmatter {
+              title
+            }
+          }
+        }
+      }
+    }
+  `);
+
+  const talks = talkRes.data.allMarkdownRemark.edges;
+
+  talks.forEach((talk, index) => {
+    const previous = index === talks.length - 1 ? null : talks[index + 1].node;
+    const next = index === 0 ? null : talks[index - 1].node;
+
+    createPage({
+      path: `${talk.node.fields.slug}`,
+      component: talkTemplate,
+      context: {
+        slug: `${talk.node.fields.slug}`,
+        previous,
+        next
+      }
+    });
+  });
+
 };

@@ -7,9 +7,13 @@ const mainNavItems = [
     title: 'About Me',
     slug: '/'
   },
+  // {
+  //   title: 'Blog',
+  //   slug: '/blog/'
+  // },
   {
-    title: 'Blog',
-    slug: '/blog/'
+    title: 'Talks',
+    slug: '/talks/'
   },
   {
     title: 'Contact Me',
