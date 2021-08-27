@@ -7,7 +7,7 @@ date: '2019-01-01'
 tags: ['testing']
 published: true
 ---
-![German Shepherd](./cover.jpg)
+![Architecture](./cover.jpg)
 
 **Elevator Pitch (~300 words)**
 

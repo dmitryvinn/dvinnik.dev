@@ -7,7 +7,7 @@ date: '2021-01-01'
 tags: ['testing', 'web', 'ui']
 published: true
 ---
-![Teamwork](./cover.jpg)
+![Code](./cover.jpg)
 
 **Elevator Pitch (~300 words)**
 

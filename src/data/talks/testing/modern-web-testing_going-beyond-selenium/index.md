@@ -1,7 +1,7 @@
 ---
 category: 'talk'
 cover: './cover.jpg'
-title: 'Domain Driven Testing: Know What You’re Doing'
+title: 'Modern Web Testing: Going Beyond Selenium'
 description: 'In this talk, we dive into platform-specific Selenium solutions, and non-Selenium based testing products'
 date: '2019-01-01'
 tags: ['testing', 'ui', 'web']
