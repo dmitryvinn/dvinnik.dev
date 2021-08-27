@@ -2,12 +2,12 @@
 category: 'talk'
 cover: './cover.jpg'
 title: 'Measuring Project Health in Open Source'
-description: 'In this talk, we look at the Facebook Open Source team's approach to measure the current state of Facebook open source projects.'
+description: "In this talk, we look at the Facebook Open Source team's approach to measure the current state of Facebook open source projects."
 date: '2019-01-01'
 tags: ['devrel','oss']
 published: true
 ---
-![kindness](./cover.jpg)
+![open source](./cover.jpg)
 
 **Elevator Pitch (~300 words)**
 
