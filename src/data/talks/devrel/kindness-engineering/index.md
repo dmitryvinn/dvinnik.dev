@@ -19,7 +19,6 @@ It is a known saying that if you want to ruin your day, post something publicly 
 
 In this talk, we will discuss how each person in any enterprise or open-source community can bring clarity to the development process, establish kindness as the critical value in the team, and retain focus on a team’s proactive success. The audience will be able to avoid a reactive approach to any incident resolution and instead highlight how the team can move forward as a cohesive unit rather than a ball of irritation and suppressed anger.
 
-
 **Takeaways**
 
 <br>
