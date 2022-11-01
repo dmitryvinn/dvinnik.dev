@@ -3,7 +3,12 @@ module.exports = {
 
   siteMetadata: {
     title: `Dmitry Vinnik`,
-    description: `Dmitry is an Open Source Developer Advocate at Facebook, where he focuses on projects in the mobile space. His goal is to help developers be more productive through open source.`,
+    description: `Dmitry is an Open Source and Developer Advocacy expert. He currently leads a DevRel team at Meta Open Source, where he focuses on projects in the Business Messaging space.
+
+Dmitry always emphasizes a community-first approach. He applies this mindset and passion while working with open source projects, creating [various educational content, or speaking at events.
+
+Dmitry also regularly shares DevRel resources on his site and shares regular updates through his DevRel Newsletter.
+`,
     author: `Dmitry Vinnik`
   },
   plugins: [

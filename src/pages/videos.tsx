@@ -2,15 +2,15 @@ import React from 'react';
 
 import Layout from 'components/Layout';
 import SEO from 'components/SEO';
-import Posts from 'components/Posts';
+import Videos from 'components/Videos';
 
-const BlogPage: React.FC = () => {
+const VideosPage: React.FC = () => {
   return (
     <Layout>
-      <SEO title="Blog" />
-      <Posts />
+      <SEO title="Videos" />
+      <Videos />
     </Layout>
   );
 };
 
-export default BlogPage;
+export default VideosPage;

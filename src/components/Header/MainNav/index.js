@@ -7,13 +7,29 @@ const mainNavItems = [
     title: 'About Me',
     slug: '/'
   },
-  // {
-  //   title: 'Blog',
-  //   slug: '/blog/'
-  // },
+  {
+    title: 'Articles',
+    slug: '/articles/'
+  },
+  {
+    title: 'Videos',
+    slug: '/videos/'
+  },
+  {
+    title: 'Events',
+    slug: '/events/'
+  },
+  {
+    title: 'Podcasts',
+    slug: '/podcasts/'
+  },
   {
     title: 'Talks',
     slug: '/talks/'
+  },
+  {
+    title: 'DevRel Resources',
+    slug: '/devrel-resources/'
   },
   {
     title: 'Contact Me',
