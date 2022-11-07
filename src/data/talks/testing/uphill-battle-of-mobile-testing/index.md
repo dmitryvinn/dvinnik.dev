@@ -14,6 +14,16 @@ published: true
 Have you had a customer complaining that your app looks different on a new phone? This feel-and-look area is where visual testing comes into play. 
 In this talk, we discuss how to get started and be successful with visual testing on mobile devices with native mobile and hybrid web applications. 
 
+**Presented at**
+
+<br>
+
+- [SauceCon: 2018]()
+- [SeleniumConf India: 2018]()
+- [All Things Open: 2018]()
+
+<br>
+
 **Abstract**
  
 Do you remember those games where you had to find differences between two almost identical images? If you've ever made changes in production, you sure played this game of searching for any visual changes you might have caused.
@@ -39,6 +49,14 @@ This session discusses how to implement visual testing on mobile devices coverin
 <iframe width="560" height="315" src="https://www.youtube.com/embed/m-ahvlutEVk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br>
+
+<br>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HRkGNtt_bbM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br>
+
+*[SeleniumConf India: 2018]()*
 
 **Slide Deck**
 

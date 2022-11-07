@@ -19,7 +19,7 @@ const Articles = () => {
         }
       }
       allMarkdownRemark(
-        filter: { frontmatter: { category: { eq: "blog" }, published: { eq: true } } }
+        filter: { frontmatter: { category: { eq: "article" }, published: { eq: true } } }
         sort: { fields: frontmatter___date, order: DESC }
       ) {
         edges {
@@ -47,7 +47,6 @@ const Articles = () => {
       }
     }
   `);
-
   const sectionTitle = markdownRemark.frontmatter;
   const articles = allMarkdownRemark.edges;
 
@@ -83,6 +82,7 @@ const Articles = () => {
                   </Styled.Card>
                 </motion.div>
               </Link>
+              <br></br>
             </Styled.Articles>
           );
         })}

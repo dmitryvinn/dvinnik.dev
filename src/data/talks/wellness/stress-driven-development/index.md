@@ -13,6 +13,14 @@ published: true
 
 In this talk, we discuss how to manage your day and avoid the daily stressors of any engineering team. The main takeaways of this presentation are how to prevent stress from being accumulated at work and how to organize the work itself in a productive way.
 
+**Presented at**
+
+<br>
+
+- [GeeCon Prague: 2018]()
+
+<br>
+
 **Abstract**
  
 When was the last time you took a day off? How many times this week have you worked overtime? These questions are related to one thing we all experience daily - stress.  Employees trapped by their routine to "deliver business value at all cost" often forget to take care of themselves. Unfortunately, this work-related stress affects our loved ones too, because work-life balance that we all hear about, usually means work-life stress.
@@ -28,7 +36,6 @@ What if I were to say that it does not have to be this way? In this talk, we dis
 3. Tips and Tricks to retain anti-stress practices
 
 
-   
 <br>
 
 **Recording**
@@ -36,7 +43,7 @@ What if I were to say that it does not have to be this way? In this talk, we dis
 <br>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nRisoHAnhnA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+*[]*
 <br>
 
 **Slide Deck**

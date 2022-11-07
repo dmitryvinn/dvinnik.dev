@@ -4,7 +4,7 @@ cover: './cover.jpg'
 title: 'Back to the CompletableFuture: Concurrency in Action'
 description: 'In this talk, we explore concurrency programming and how developer-friendly it has become with the latest advantages of the Java language.'
 date: '2019-01-01'
-tags: ['jvm,concurrency,java']
+tags: ['java']
 published: true
 ---
 ![back to the future](./cover.jpg)
@@ -34,11 +34,45 @@ Fear no more! The world of concurrency in Java has changed since JDK8 and contin
    
 <br>
 
+**Presented at**
+
+<br>
+
+- [JVMCon: 2018]()
+- [VoxxedDays Vienna: 2018]()
+- [Devoxx Poland: 2018]()
+- [JDK.io: 2018]()
+- [JCon: 2018]()
+- [MakeIT: 2018]()
+
+<br>
+
 **Recording**
+
 
 <br>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/husm8xMJ2So" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xm_ROh6X_Cg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br>
+
+<br>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XK0QL6qSkFM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+*[JDK.io: 2018]()*
+
+<br>
+
+<br>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tM11P8dkcHk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+*[Devoxx Poland: 2018]()*
 
 <br>
 

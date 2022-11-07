@@ -13,6 +13,16 @@ published: true
 
 In this talk, we discuss how to use Domain knowledge around your product to help improve your Software Quality. We use Domain Driven Testing tools to ensure we validate what your customers work with rather than what you think they might use.
 
+**Presented at**
+
+<br>
+
+- [JavaDay Istanbul: 2018]()
+- [Targeting Quality: 2018]()
+- [Quest for Quality: 2018]()
+- [ConTEST NYC: 2018]()
+- [VoxxedDays Ticino: 2018]()
+<br>
 
 **Abstract**
  
@@ -38,6 +48,11 @@ In this talk, we discuss how knowledge of your company's domain (aka, the focus 
 <br>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/82bVGCLZQCo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br>
+<br>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UIycEOBxMpA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br>
 
