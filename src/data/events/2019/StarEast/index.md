@@ -3,7 +3,7 @@ category: 'event'
 cover: './cover.jpg'
 title: 'StarEast'
 description: 'Software Conference for the whole team - based in Norway'
-date: '2019-03-12'
+date: '2019-04-28'
 tags: ['testing']
 published: true
 ---
@@ -16,16 +16,10 @@ published: true
 
 **Location**
 
-Bergen, Norway
+Orlando, FL, USA
 
 **Event Information**
 
-*THE SOFTWARE CONFERENCE FOR THE WHOLE TEAM*
+TechWell delivers training, support, research, and publications to software managers, developers, test professionals, and quality engineers worldwide. Since 1986, we have been at the forefront of software quality improvement technology and were instrumental in setting the stage for the software industry to view testing as a distinct discipline. Today, TechWell produces several of the most respected conferences in the software testing and development industry including the STAR, Agile + DevOps, and EPIC Experience conference series. TechWell hosts international gatherings of software professionals and experts focused on building better software. Our events feature real-world techniques and strategies from leading software organizations, practical insight from industry experts, as well as the knowledge and support gained through peer-based networking.
 
-Booster is a software conference for the entire team. That means if you’re a developer, project manager, architect, UX professional, tester or security professional, we have something for you!
-
-Our goal is that you come back from the conference with real knowledge you can use. That’s why interactive, hands-on workshops fill up most of the hours of the conference. We also have lightning talks, a few short talks, a couple of keynotes and open spaces.
-
-[Original Talk Link](https://2019.boosterconf.no/talks/1296)
-
-https://stareast.techwell.com/program/concurrent-sessions/visual-regression-testing-critical-part-mobile-testing-strategy-stareast-2019
+[Original Talk Link](https://stareast.techwell.com/program/concurrent-sessions/visual-regression-testing-critical-part-mobile-testing-strategy-stareast-2019)
