@@ -3,8 +3,8 @@ category: 'talk'
 cover: './cover.jpg'
 title: 'Kindness Engineering: Focusing on What Matters'
 description: 'In this talk, we discuss how to bring kindness to the enterprise and open-source.'
-date: '2019-01-01'
-tags: ['wellness','work-life balance']
+date: '2019-06-06'
+tags: ['wellness','devrel']
 published: true
 ---
 ![kindness](./cover.jpg)
@@ -12,6 +12,14 @@ published: true
 **Elevator Pitch (~300 words)**
 
 With continuous changes in how people communicate, we often face anger, irritation, and selfishness. In this talk, we discuss how to bring kindness to the enterprise and open-source while ensuring that these “kind practices” are successfully adopted by the teams of any size.
+
+**Presented at**
+
+<br>
+
+- [DevRelCon - San Francisco: 2019]()
+
+<br>
 
 **Abstract**
  

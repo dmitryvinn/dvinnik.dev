@@ -16,9 +16,14 @@ In this talk, we dive into platform-specific Selenium solutions like Protractor,
 **Presented at**
 
 <br>
+
+- [VoxxedDays Bucharest: 2019]()
+- [GeeCon - Poland: 2019]()
+- [NDC Minnesota]()
 - [DevFestMN: 2019]()
 - [c`twebdev: 2019]()
 - [TestCon - Vilnius: 2018]()
+- 
 <br>
 
 **Abstract**
@@ -47,7 +52,35 @@ In this talk, we dive into test solutions evolved from Selenium like Protractor,
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/c0LcuPRBFvo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+*[NDC Minnesota: 2019]()*
 <br>
+
+<br>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1m2AcmiEdpI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+*[GeeCon - Poland: 2019]()*
+
+<br>
+
+<br>
+
+
+<iframe src="https://player.vimeo.com/video/339718328?h=e2d03b77dc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/339718328">Modern Web Testing: Going Beyond Selenium - Dmitry Vinnik - MiXiT 2019</a> from <a href="https://vimeo.com/mixitconf">MiXiT</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+*[MIXIT - France: 2019]()*
+
+<br>
+
+<br>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/05ZprOn7s4w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+*[VoxxedDays - Luxembourg: 2019]()*
+
+<br>
+
 
 **Slide Deck**
 

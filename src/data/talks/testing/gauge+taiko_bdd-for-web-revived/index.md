@@ -13,6 +13,13 @@ published: true
 
 In this talk, we discuss making Behavior Driven Development successful in your team with Gauge and Taiko. We dive deep into these two tools to have an adequate web testing infrastructure and a communication channel within the organization.
 
+**Presented at**
+
+<br>
+
+- [Nordic Testing Days: 2019]()
+
+<br>
 
 **Abstract**
  

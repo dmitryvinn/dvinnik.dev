@@ -18,6 +18,7 @@ In this talk, we discuss how to get started and be successful with visual testin
 
 <br>
 
+- [Quest Conference: 2019]()
 - [StarEast: 2019]()
 - [SauceCon: 2018]()
 - [SeleniumConf India: 2018]()
