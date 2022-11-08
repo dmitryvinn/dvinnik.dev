@@ -13,6 +13,14 @@ published: true
 
 In this talk, we discuss how to break away from standard bad development practices and how to address major gaps in your legacy and current codebases. We look at ways to change your development focus towards higher quality practices on both team and organizational levels.
 
+**Presented at**
+
+<br>
+
+- [Booster Conf: 2019]()
+- [STPCon: 2018]()
+
+<br>
 
 **Abstract**
  

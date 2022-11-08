@@ -4,7 +4,7 @@ cover: './cover.jpg'
 title: 'GeeCon - Prague'
 description: 'Largest Java Conference in Czech Republic'
 date: '2018-10-18'
-tags: ['java']
+tags: ['wellness']
 published: true
 ---
 ![cover](./cover.jpg)

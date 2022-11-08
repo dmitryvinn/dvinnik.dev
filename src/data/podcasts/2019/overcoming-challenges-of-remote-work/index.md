@@ -62,3 +62,5 @@ In this talk, we discuss how knowledge of your company's domain (aka, the focus 
 <br>
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/5DhAFgH8bDPJ5x" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/DmitryVinnik1/domain-driven-testing-know-what-youre-doing" title="Domain Driven Testing: Know What You’re Doing" target="_blank">Domain Driven Testing: Know What You’re Doing</a> </strong> from <strong><a href="https://www.slideshare.net/DmitryVinnik1" target="_blank">Dmitry Vinnik</a></strong> </div>
+
+https://www.stickyminds.com/interview/overcoming-challenges-facing-remote-employees-interview-dmitry-vinnick

@@ -4,7 +4,7 @@ cover: './cover.jpg'
 title: 'Stress Driven Development, and How to Avoid It'
 description: 'In this talk, we discuss how to manage your day and avoid the daily stressors of any engineering team.'
 date: '2019-01-01'
-tags: ['wellness','work-life balance']
+tags: ['wellness']
 published: true
 ---
 ![German Shepherd](./cover.jpg)
@@ -17,8 +17,9 @@ In this talk, we discuss how to manage your day and avoid the daily stressors of
 
 <br>
 
+- [AgentConf: 2019]()
 - [GeeCon Prague: 2018]()
-
+- 
 <br>
 
 **Abstract**

@@ -15,6 +15,20 @@ Concurrency is hard! It is especially true for those who have only ever used Thr
 
 In this talk, we explore concurrency programming and how developer-friendly it has become with the latest advantages of the Java language.
 
+**Presented at**
+
+<br>
+
+- [Javaland: 2019]()
+- [JVMCon: 2018]()
+- [VoxxedDays Vienna: 2018]()
+- [Devoxx Poland: 2018]()
+- [JDK.io: 2018]()
+- [JCon: 2018]()
+- [MakeIT: 2018]()
+
+<br>
+
 **Abstract**
  
 Callback hell is a known way to give any JavaScript developer nightmares. However, Java developers are not much better off since anything concurrency and multithreading related give us cold sweats.
@@ -32,19 +46,6 @@ Fear no more! The world of concurrency in Java has changed since JDK8 and contin
 3. Asynchronous development with CompletableFuture post-JDK8
 
    
-<br>
-
-**Presented at**
-
-<br>
-
-- [JVMCon: 2018]()
-- [VoxxedDays Vienna: 2018]()
-- [Devoxx Poland: 2018]()
-- [JDK.io: 2018]()
-- [JCon: 2018]()
-- [MakeIT: 2018]()
-
 <br>
 
 **Recording**

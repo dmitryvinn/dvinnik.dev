@@ -13,7 +13,6 @@ import * as Styled from './styles';
 const Event = ({ data, pageContext }) => {
   const event = data.markdownRemark;
   const { previous, next } = pageContext;
-
   return (
     <Layout>
       <SEO title={event.frontmatter.title} />

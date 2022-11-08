@@ -4,7 +4,7 @@ cover: './cover.jpg'
 title: 'Modern Web Testing: Going Beyond Selenium'
 description: 'In this talk, we dive into platform-specific Selenium solutions, and non-Selenium based testing products'
 date: '2019-01-01'
-tags: ['testing', 'ui', 'web']
+tags: ['testing']
 published: true
 ---
 ![Web](./cover.jpg)
@@ -12,6 +12,14 @@ published: true
 **Elevator Pitch (~300 words)**
 
 In this talk, we dive into platform-specific Selenium solutions like Protractor, and discuss non-Selenium frameworks like TestCafe and Cypress.io.
+
+**Presented at**
+
+<br>
+- [DevFestMN: 2019]()
+- [c`twebdev: 2019]()
+- [TestCon - Vilnius: 2018]()
+<br>
 
 **Abstract**
  

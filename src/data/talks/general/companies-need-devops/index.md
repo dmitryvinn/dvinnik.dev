@@ -1,8 +1,8 @@
 ---
 category: 'talk'
 cover: './cover.jpg'
-title: 'Companies Which Need DevOps But Don't Know About It'
-description: 'In this talk, we will explore that everyone can find something to apply their DevOps skills at, and improve a process in their company.'
+title: 'Companies Which Need DevOps But Don`t Know About It'
+description: 'In this talk, we will explore that everyone can find a way to apply their DevOps skills at their company.'
 date: '2017-03-31'
 tags: ['devops']
 published: true

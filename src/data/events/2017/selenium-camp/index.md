@@ -12,6 +12,7 @@ published: true
 **Presence**
 
 [Building tests to build websites]() 
+[Selenium/WebDriver Q&A panel](ttps://seleniumcamp.com/talk/seleniumwebdriver-qa-panel/))
 
 **Location**
 
@@ -19,7 +20,7 @@ Kyiv, Ukraine
 
 **Event Information**
 
-Devopsdays is a worldwide series of technical conferences covering topics of software development, IT infrastructure operations, and the intersection between them. Each event is run by volunteers from the local area.
+Selenium Camp has been founded in 2011 as the first international conference completely devoted to Selenium/WebDriver. Now it is leading test automation conference in Eastern Europe with 2 days full of conference talks and master-classes running in 3+ parallel tracks. In addition to web testing with Selenium/WebDriver wide spectrum of additional topics is covered every year: visual testing, test automation metrics and dashboards, reliable test infrastructure, scaling solutions and practices, testing of legacy systems, desktop and mobile applications, microservices, design patterns and best practices... Selenium Camp is equally interesting for beginners and professionals, because it is 2 days of pure knowledge, sharing experience and fun. Join us to move forward in your career!
 
 [Original Talk Link](https://seleniumcamp.com/talk/building-tests-to-build-websites/)
 

@@ -3,7 +3,7 @@ category: 'article'
 cover: './cover.jpg'
 title: 'Fixing broken windows: How to deal with legacy systems'
 description: 'Working with old code? Here’s everything you need to know about managing and improving legacy systems.'
-date: '2021-03-01'
+date: '2022-11-05'
 tags: ['leadership', 'legacy-systems']
 published: true
 canonicalUrl: 'https://leaddev.com/legacy-technical-debt-migrations/fixing-broken-windows-how-deal-legacy-systems'
