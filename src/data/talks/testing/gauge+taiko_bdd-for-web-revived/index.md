@@ -17,7 +17,9 @@ In this talk, we discuss making Behavior Driven Development successful in your t
 
 <br>
 
+- [Devoxx Poland: 2019]()
 - [Nordic Testing Days: 2019]()
+- [Agile Testing Days - USA: 2019]()
 
 <br>
 
@@ -39,9 +41,6 @@ In this talk, we discuss BDD principles and how Gauge+Taiko can take your team t
 1. Guide into Behavior Driven Development
 2. Common mistakes of BDD on organizational and team levels
 3. Deep dive into Gauge and Taiko
-
-
-
    
 <br>
 
