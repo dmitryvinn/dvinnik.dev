@@ -16,7 +16,7 @@ published: true
 
 **Location**
 
-Lugano, Switzerland
+Bucharest, Romania
 
 **Event Information**
 

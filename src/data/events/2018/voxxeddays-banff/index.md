@@ -15,7 +15,7 @@ published: true
 
 **Location**
 
-Lugano, Switzerland
+Banff, AB, Canada
 
 **Event Information**
 

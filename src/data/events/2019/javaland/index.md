@@ -4,7 +4,7 @@ cover: './cover.jpg'
 title: 'Javaland'
 description: 'Two eventful days packed with presentations, and community activities.'
 date: '2019-03-18'
-tags: ['testing']
+tags: ['java']
 published: true
 ---
 ![cover](./cover.jpg)

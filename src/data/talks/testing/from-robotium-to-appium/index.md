@@ -17,6 +17,7 @@ In this talk, the speaker will attempt to take his audience on a journey of UI t
 
 <br>
 
+- [All Things Open: 2019]()
 - [Quest Conference: 2019]()
 - [Nordic Tesing Days: 2018]()
 

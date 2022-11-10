@@ -19,7 +19,9 @@ In this talk, we discuss how to manage your day and avoid the daily stressors of
 
 - [AgentConf: 2019]()
 - [GeeCon Prague: 2018]()
-- 
+- [Devoxx Poland: 2019]()
+- [Target Quality: 2019]()
+
 <br>
 
 **Abstract**

@@ -17,13 +17,15 @@ In this talk, we dive into platform-specific Selenium solutions like Protractor,
 
 <br>
 
+- [Oracle Code One: 2019]()
+- [IndyPy Python Web Conf]()
 - [VoxxedDays Bucharest: 2019]()
 - [GeeCon - Poland: 2019]()
 - [NDC Minnesota]()
 - [DevFestMN: 2019]()
 - [c`twebdev: 2019]()
 - [TestCon - Vilnius: 2018]()
-- 
+
 <br>
 
 **Abstract**
@@ -79,6 +81,13 @@ In this talk, we dive into test solutions evolved from Selenium like Protractor,
 
 *[VoxxedDays - Luxembourg: 2019]()*
 
+<br>
+
+<br>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2thHXWjhQko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+*[IndyPy Python Web Conf]()*
 <br>
 
 
