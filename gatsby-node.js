@@ -187,12 +187,12 @@ exports.createPages = async ({ graphql, actions }) => {
   });
 
 
-  const podcastTemplate = path.resolve(`src/templates/Podcast/index.js`);
+  const conversationTemplate = path.resolve(`src/templates/Conversation/index.js`);
 
-  const podcastRes = await graphql(`
+  const conversationRes = await graphql(`
     query {
       allMarkdownRemark(
-        filter: { frontmatter: { category: { eq: "podcast" } } }
+        filter: { frontmatter: { category: { eq: "conversation" } } }
         sort: { fields: frontmatter___date, order: DESC }
       ) {
         edges {
@@ -209,17 +209,17 @@ exports.createPages = async ({ graphql, actions }) => {
     }
   `);
 
-  const podcasts = podcastRes.data.allMarkdownRemark.edges;
+  const conversations = conversationRes.data.allMarkdownRemark.edges;
 
-  podcasts.forEach((podcast, index) => {
-    const previous = index === podcasts.length - 1 ? null : podcasts[index + 1].node;
-    const next = index === 0 ? null : podcasts[index - 1].node;
+  conversations.forEach((conversation, index) => {
+    const previous = index === conversations.length - 1 ? null : conversations[index + 1].node;
+    const next = index === 0 ? null : conversations[index - 1].node;
 
     createPage({
-      path: `${podcast.node.fields.slug}`,
-      component: podcastTemplate,
+      path: `${conversation.node.fields.slug}`,
+      component: conversationTemplate,
       context: {
-        slug: `${podcast.node.fields.slug}`,
+        slug: `${conversation.node.fields.slug}`,
         previous,
         next
       }

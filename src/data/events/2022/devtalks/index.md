@@ -23,7 +23,6 @@ The largest expo conference for software developers and IT professionals in Roma
 
 [Original Talk Link](https://www.devtalks.ro/speakers/15-dmitry-vinnik)
 
-
 **Recording**
 
 <br>
@@ -35,3 +34,5 @@ The largest expo conference for software developers and IT professionals in Roma
 **Press Mentions**
 
 - [The Recursive](https://therecursive.com/devtalks-2022-the-largest-it-conference-in-romania-to-focus-on-ai/)
+
+- [The Hipo](https://www.hipo.ro/locuri-de-munca/vizualizareArticol/3351/DevTalks-revine-%C3%AEn-perioada-8-10-iunie%3A-Acum-te-po%C8%9Bi-pre%C3%AEnregistra-gratuit-pentru-a-avea-acces-la-conferin%C8%9Bele-online)

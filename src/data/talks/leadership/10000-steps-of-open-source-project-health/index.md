@@ -86,4 +86,6 @@ In this talk, we will look at the approach that the Meta Open Source team takes 
 
 - [The Recursive: DevTalks 2022](https://therecursive.com/devtalks-2022-the-largest-it-conference-in-romania-to-focus-on-ai/)
 
+- [The Hipo: DevTalks 2022](https://www.hipo.ro/locuri-de-munca/vizualizareArticol/3351/DevTalks-revine-%C3%AEn-perioada-8-10-iunie%3A-Acum-te-po%C8%9Bi-pre%C3%AEnregistra-gratuit-pentru-a-avea-acces-la-conferin%C8%9Bele-online)
+
 - [The 10,000 Steps of Open Source Project Health: Dmitry Vinnik [Testμ 2022]](https://www.lambdatest.com/blog/steps-of-open-source-project-health/)

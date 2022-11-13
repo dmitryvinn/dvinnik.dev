@@ -10,16 +10,16 @@ import FormatHtml from 'components/utils/FormatHtml';
 
 import * as Styled from './styles';
 
-const Podcast = ({ data, pageContext }) => {
-  const podcast = data.markdownRemark;
+const Conversation = ({ data, pageContext }) => {
+  const conversation = data.markdownRemark;
   const { previous, next } = pageContext;
 
   return (
     <Layout>
-      <SEO title={podcast.frontmatter.title} />
+      <SEO title={conversation.frontmatter.title} />
       <Container section>
-        <TitleSection title={podcast.frontmatter.date} subtitle={podcast.frontmatter.title} />
-        <FormatHtml content={podcast.html} />
+        <TitleSection title={conversation.frontmatter.date} subtitle={conversation.frontmatter.title} />
+        <FormatHtml content={conversation.html} />
         <Styled.Links>
           <span>
             {previous && (
@@ -41,10 +41,10 @@ const Podcast = ({ data, pageContext }) => {
   );
 };
 
-export default Podcast;
+export default Conversation;
 
 export const query = graphql`
-  query PodcastBySlug($slug: String!) {
+  query ConversationBySlug($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
       frontmatter {

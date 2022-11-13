@@ -3,7 +3,7 @@ category: 'event'
 cover: './cover.jpg'
 title: 'QA Global Summit'
 description: 'Community based event for the professional growth of QAs and Testers from all around the world'
-date: '2019-04-07'
+date: '2021-04-07'
 tags: ['testing']
 published: true
 ---
@@ -11,9 +11,10 @@ published: true
 
 **Presence**
 
-Career Path and Development in Testing
+[Career Path and Development in Testing]()
 
 **Location**
+
 Virtual
 
 **Event Information**

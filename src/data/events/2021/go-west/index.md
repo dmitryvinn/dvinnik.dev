@@ -1,17 +1,17 @@
 ---
 category: 'event'
 cover: './cover.jpg'
-title: 'JCon'
-description: 'International Java community conference organized by the Java User Group Oberpfalz in cooperation with JAVAPRO Magazine'
-date: '2021-10-05'
-tags: ['java']
+title: 'Go West'
+description: 'Hybrid conference the for Rocky Mountain West communities'
+date: '2021-10-22'
+tags: ['golang']
 published: true
 ---
 ![cover](./cover.jpg)
 
 **Presence**
 
-[Back to the CompletableFuture: Concurrency in Action]()
+[Ent: Making Data Easy in Go]()
 
 **Location**
 
@@ -19,13 +19,16 @@ Virtual
 
 **Event Information**
 
-JCON-ONLINE 2022 is the big international Java community conference organized by the Java User Group Oberpfalz in cooperation with JAVAPRO Magazine. Java is our profession and JCON is our passion and a lot of fun. We love to provide Java developers with a spectacular 100% live conference that is open to the entire Java- User-Group communities world-wide.
+The GoWest conference is a hybrid conference the for Rocky Mountain West communities (Arizona, Utah, Colorado, Idaho).
+It has two main goals:
 
-Last year, more than 2,500 participants from 77 countries and six continents had joined the JCON-ONLINE 2021.
+To highlight the local talent and expertise in engineering with the Go programming language
 
-The 6th JCON edition is presented as an online live conference for the thrid time. All sessions will be streamed live and recorded.
+​To bring world-renowned Go speakers to the area.
 
-[Original Talk Link](https://jcon.sched.com/speaker/dmitryvinn?iframe=no&w=100%&sidebar=yes&bg=no)
+We love having international participation. Everyone is welcome to attend and join in celebrating the communities that make Go great.
+
+[Original Talk Link](https://hopin.com/events/gowest-conference-2021#speakers)
 
 **Recording**
 

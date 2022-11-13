@@ -9,17 +9,17 @@ import TitleSection from 'components/ui/TitleSection';
 
 import * as Styled from './styles';
 
-const Podcasts = () => {
+const Conversations = () => {
   const { markdownRemark, allMarkdownRemark } = useStaticQuery(graphql`
     query {
-      markdownRemark(frontmatter: { category: { eq: "podcasts section" } }) {
+      markdownRemark(frontmatter: { category: { eq: "conversations section" } }) {
         frontmatter {
           title
           subtitle
         }
       }
       allMarkdownRemark(
-        filter: { frontmatter: { category: { eq: "podcast" }, published: { eq: true } } }
+        filter: { frontmatter: { category: { eq: "conversation" }, published: { eq: true } } }
         sort: { fields: frontmatter___date, order: DESC }
       ) {
         edges {
@@ -49,13 +49,13 @@ const Podcasts = () => {
   `);
 
   const sectionTitle = markdownRemark.frontmatter;
-  const podcasts = allMarkdownRemark.edges;
+  const conversations = allMarkdownRemark.edges;
 
   return (
     <Container section>
       <TitleSection title={sectionTitle.title} subtitle={sectionTitle.subtitle} center />
-      <Styled.Podcasts>
-        {podcasts.map((item) => {
+      <Styled.Conversations>
+        {conversations.map((item) => {
           const {
             id,
             fields: { slug },
@@ -63,7 +63,7 @@ const Podcasts = () => {
           } = item.node;
 
           return (
-            <Styled.Podcasts key={id}>
+            <Styled.Conversations key={id}>
               <Link to={slug}>
                 <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 1 }}>
                   <Styled.Card>
@@ -83,12 +83,12 @@ const Podcasts = () => {
                   </Styled.Card>
                 </motion.div>
               </Link>
-            </Styled.Podcasts>
+            </Styled.Conversations>
           );
         })}
-      </Styled.Podcasts>
+      </Styled.Conversations>
     </Container>
   );
 };
 
-export default Podcasts;
+export default Conversations;

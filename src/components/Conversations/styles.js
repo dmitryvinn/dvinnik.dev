@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import tw from 'tailwind.macro';
 
-export const Podcasts = styled.div`
+export const Conversations = styled.div`
   ${tw`w-full flex flex-wrap`};
 `;
 

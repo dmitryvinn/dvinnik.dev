@@ -20,8 +20,8 @@ const mainNavItems = [
     slug: '/events/'
   },
   {
-    title: 'Podcasts',
-    slug: '/podcasts/'
+    title: 'Conversations',
+    slug: '/conversation/'
   },
   {
     title: 'Talks',

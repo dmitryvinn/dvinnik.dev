@@ -35,6 +35,13 @@ In this session, we explore React Native and its main concepts. Then, we will bu
 
 <br>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9tXktXR9iJk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+*[All Things Open : 2021]()*
+
+<br>
+<br>
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3J4hlbpczY8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 *[Porto Tech Hub: 2021]()*

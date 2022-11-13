@@ -15,8 +15,7 @@ const ContentPage: React.FC = () => (
           <li>Articles</li>
           <li>Videos</li>
           <li>Events</li>
-          <li>Podcasts</li>
-          <li>Press Mentions</li>
+          <li>Conversations</li>
         </ul>
       </p>
     </Container>
