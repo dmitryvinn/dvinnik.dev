@@ -1,9 +1,9 @@
 ---
 category: 'event'
 cover: './cover.jpg'
-title: 'Conf42 - Enterprise Software'
+title: 'Conf42 - JavaScript'
 description: 'Polyglot technology Conference'
-date: '2021-03-25'
+date: '2021-10-26'
 tags: ['java']
 published: true
 ---
@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-[Back to the CompletableFuture: Concurrency in Action]()
+[Modern Web Testing: Going Beyond Selenium]()
 
 **Location**
 
@@ -28,6 +28,6 @@ We are passionate about technology and use the cutting edge to deliver better ev
 
 <br>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/it0Zo5QhlQk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lVYO1_IEpxI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br>

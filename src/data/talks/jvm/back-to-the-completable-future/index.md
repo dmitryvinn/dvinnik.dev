@@ -19,6 +19,7 @@ In this talk, we explore concurrency programming and how developer-friendly it h
 
 <br>
 
+- [JCon: 2021]()
 - [Conf42 - Enterprise Software: 2021]()
 - [Kansas City Developer Conference: 2019]()
 - [Javaland: 2019]()
@@ -52,14 +53,11 @@ Fear no more! The world of concurrency in Java has changed since JDK8 and contin
 
 **Recording**
 
-
-<br>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/husm8xMJ2So" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 <br>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xm_ROh6X_Cg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+*[VoxxedDays Vienna: 2018]()*
 
 <br>
 
@@ -87,6 +85,13 @@ Fear no more! The world of concurrency in Java has changed since JDK8 and contin
 
 <br>
 
+<br>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JR0STPMcD5U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+*[JCon: 2021]()*
+
+<br>
 
 **Slide Deck**
 

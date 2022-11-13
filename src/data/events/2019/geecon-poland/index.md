@@ -30,3 +30,7 @@ Java and JVM based technologies, dynamic languages, enterprise architectures, pa
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1m2AcmiEdpI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br>
+
+**Press Mentions**
+
+- [Software Testing Magazine](https://www.softwaretestingmagazine.com/videos/modern-web-testing-going-beyond-selenium/)

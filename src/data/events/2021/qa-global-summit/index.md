@@ -4,7 +4,7 @@ cover: './cover.jpg'
 title: 'QA Global Summit'
 description: 'Community based event for the professional growth of QAs and Testers from all around the world'
 date: '2019-04-07'
-tags: ['java']
+tags: ['testing']
 published: true
 ---
 ![cover](./cover.jpg)

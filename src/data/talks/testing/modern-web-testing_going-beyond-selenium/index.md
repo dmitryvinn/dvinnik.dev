@@ -52,6 +52,14 @@ In this talk, we dive into test solutions evolved from Selenium like Protractor,
 
 <br>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lVYO1_IEpxI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+*[Conf42 - JavaScript: 2021]()*
+
+<br>
+
+<br>
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/c0LcuPRBFvo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 *[NDC Minnesota: 2019]()*
@@ -66,7 +74,6 @@ In this talk, we dive into test solutions evolved from Selenium like Protractor,
 <br>
 
 <br>
-
 
 <iframe src="https://player.vimeo.com/video/339718328?h=e2d03b77dc&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 <p><a href="https://vimeo.com/339718328">Modern Web Testing: Going Beyond Selenium - Dmitry Vinnik - MiXiT 2019</a> from <a href="https://vimeo.com/mixitconf">MiXiT</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
@@ -87,7 +94,7 @@ In this talk, we dive into test solutions evolved from Selenium like Protractor,
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2thHXWjhQko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-*[IndyPy Python Web Conf]()*
+*[IndyPy Python Web Conf: 2019]()*
 <br>
 
 
@@ -96,3 +103,9 @@ In this talk, we dive into test solutions evolved from Selenium like Protractor,
 <br>
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/2yok6JV6Wwy0ck" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/DmitryVinnik1/modern-web-testing-going-beyond-selenium" title="Modern Web Testing: Going Beyond Selenium " target="_blank">Modern Web Testing: Going Beyond Selenium </a> </strong> from <strong><a href="https://www.slideshare.net/DmitryVinnik1" target="_blank">Dmitry Vinnik</a></strong> </div>
+
+<br>
+
+**Press Mentions**
+
+- [Software Testing Magazine](https://www.softwaretestingmagazine.com/videos/modern-web-testing-going-beyond-selenium/)

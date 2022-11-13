@@ -19,6 +19,7 @@ In this talk, we explore how to become a remote employee successfully, how to ma
 
 <br>
 
+- [HackConf: 2019]()
 - [VoxxedDays Banff: 2019]()
 
 <br>

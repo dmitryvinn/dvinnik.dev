@@ -17,6 +17,9 @@ In this talk, we discuss how to manage your day and avoid the daily stressors of
 
 <br>
 
+- [Craft Conference: 2021]()
+- [iSAQB Software Architecture Gathering]()
+- [Azure Community Conference: 2021]()
 - [AgentConf: 2019]()
 - [GeeCon Prague: 2018]()
 - [Devoxx Poland: 2019]()
@@ -46,9 +49,18 @@ What if I were to say that it does not have to be this way? In this talk, we dis
 <br>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nRisoHAnhnA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-*[]*
+
+*[GeeCon Prague: 2018]*
+
 <br>
 
+<br>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ShF8mEzlsEI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+*[Craft Conference: 2019]*
+
+<br>
 **Slide Deck**
 
 <br>

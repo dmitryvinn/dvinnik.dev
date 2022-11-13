@@ -4,7 +4,7 @@ cover: './cover.jpg'
 title: 'Developer Week'
 description: 'One of the largest developer conference & event series.'
 date: '2022-02-07'
-tags: ['java']
+tags: ['oss']
 published: true
 ---
 ![cover](./cover.jpg)

@@ -17,6 +17,7 @@ We will see how Kotlin by limiting verbosity, by using private data classes, ext
 
 <br>
 
+- [TechBash: 2021]()
 - [DevFest Live: 2021]()
   
 <br>
@@ -29,6 +30,8 @@ Despite this abstraction of styling and duplication detection, we, as Software E
 In this talk, we will look at Kotlin as a way to enforce best Software Engineering practices on the language-level. 
 
 We will see how Kotlin by limiting verbosity, by using private data classes, extension functions and many other functionalities, allow for more flexible and maintainable codebase. The main goal of this talk is to convince you that Kotlin is a great way to bring years of experience of using best practices to a first-year university student, or to a long-time Java veteran.
+
+<br>
 
 **Slide Deck**
 
