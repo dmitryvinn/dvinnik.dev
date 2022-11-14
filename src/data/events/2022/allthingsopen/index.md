@@ -3,15 +3,15 @@ category: 'event'
 cover: './cover.jpg'
 title: 'All Things Open'
 description: 'Polyglot technology conference focusing on the tools, processes and people making open source possible.'
-date: '2021-10-21'
-tags: ['mobile']
+date: '2022-11-01'
+tags: ['open source']
 published: true
 ---
 ![cover](./cover.jpg)
 
 **Presence**
 
-[Hands-on React Native: From Zero to Hero]()
+[The 10,000 Steps of Open Source Project Health]()
 
 **Location**
 
@@ -23,12 +23,4 @@ For more than 8 years we’ve followed these beliefs and created events and plat
 
 And throughout it all, our focus on access, diversity, and inclusion and a commitment to helping others have remained steadfast.  We strongly believe you can do business differently and still be successful, which is why we worked hard to earn a Certified B Corp certification in 2018.
 
-[Original Talk Link](https://2021.allthingsopen.org/speakers/dmitry-vinnik/)
-
-**Recording**
-
-<br>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9tXktXR9iJk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<br>
+[Original Talk Link](https://2022.allthingsopen.org/speakers/dmitry-vinnik/)

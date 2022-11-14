@@ -17,6 +17,7 @@ In this talk, we will look at the approach that the Meta Open Source team takes 
 
 <br>
 
+- [All Things Open: 2021]()
 - [Python Web Conf: 2022]()
 - [Open Source Summit - North America: 2022]()
 - [Open Source Festival: 2022]()

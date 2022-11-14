@@ -4,7 +4,7 @@ cover: './cover.jpg'
 title: 'Documentation Made Easy with Docusaurus'
 description: 'In this session, we will walk through getting started with Docusaurus, its architecture and MDX support.'
 date: '2020-06-15'
-tags: ['oss']
+tags: ['open source', 'productivity']
 published: true
 ---
 ![cover](./cover.jpg)
@@ -37,4 +37,4 @@ In this session, we will walk through getting started with Docusaurus, its archi
 
 <br>
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/hXGFmDRDYaEy0P" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/DmitryVinnik1/ent-making-data-easy-in-go" title="Ent: Making Data Easy in Go" target="_blank">Ent: Making Data Easy in Go</a> </strong> from <strong><a href="//www.slideshare.net/DmitryVinnik1" target="_blank">Dmitry Vinnik</a></strong> </div>
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/8m1hxUdQhH03x1" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/DmitryVinnik1/documentation-made-easy-with-docusaurus" title="Documentation Made Easy with Docusaurus" target="_blank">Documentation Made Easy with Docusaurus</a> </strong> from <strong><a href="//www.slideshare.net/DmitryVinnik1" target="_blank">Dmitry Vinnik</a></strong> </div>

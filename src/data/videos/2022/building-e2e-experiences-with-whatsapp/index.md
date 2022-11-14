@@ -4,7 +4,7 @@ cover: './cover.jpg'
 title: 'Building End-to-End Experiences with the WhatsApp Business Platform'
 description: 'In this webinar you’ll learn to see how quickly you can get started with the WhatsApp Business Platform Cloud API.'
 date: '2022-10-19'
-tags: ['mobile']
+tags: ['business messaging']
 published: true
 ---
 ![cover](./cover.jpg)

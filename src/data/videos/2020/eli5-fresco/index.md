@@ -1,10 +1,10 @@
 ---
 category: 'video'
 cover: './cover.jpg'
-title: 'Explain Like I'm 5: Fresco'
-description: 'Introducing a new series of short videos about Facebook open source projects.'
-date: '2020-10-21'
-tags: ['oss']
+title: 'Explain Like I`m 5: Fresco'
+description: 'In this video, Facebook Open Source Developer Advocate Dmitry explains Fresco, an Android image library'
+date: '2020-10-28'
+tags: ['open source', 'mobile', 'eli5']
 published: true
 ---
 ![cover](./cover.jpg)
@@ -21,7 +21,7 @@ Explain Like I'm 5: Fresco
 
 **Video Information**
 
-In this video, Dmitry Vinnik, Developer Advocate for Facebook Open Source, introduces a new series of short videos about Facebook open source projects. A style in which this series is done is commonly known as ELI5: Explain Like I'm 5, but we apply it to the Facebook OSS.
+In this video, Facebook Open Source Developer Advocate Dmitry explains Fresco, an Android image library, in 60 seconds.
 
 [Relevant Article Link]()
 
