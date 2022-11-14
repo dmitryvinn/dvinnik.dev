@@ -2,9 +2,9 @@
 category: 'event'
 cover: './cover.jpg'
 title: 'Conf42 - JavaScript'
-description: 'Polyglot technology Conference'
+description: 'Polyglot Technology Conference'
 date: '2021-10-26'
-tags: ['java']
+tags: ['testing']
 published: true
 ---
 ![cover](./cover.jpg)

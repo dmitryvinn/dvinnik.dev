@@ -20,3 +20,6 @@ Virtual
 **Event Information**
 
 WeAreDevelopers Live is a free virtual event series with tech talks, coding sessions and workshops about building great software - delivered by proven experts and developers from the community.
+
+**Recording**
+[Link](https://www.wearedevelopers.com/en/videos/measuring-project-health-in-open-source)

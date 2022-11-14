@@ -2,7 +2,7 @@
 category: 'event'
 cover: './cover.jpg'
 title: 'Conf42 - Enterprise Software'
-description: 'Polyglot technology Conference'
+description: 'Polyglot Technology Conference'
 date: '2021-06-24'
 tags: ['golang']
 published: true

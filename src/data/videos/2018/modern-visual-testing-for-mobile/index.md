@@ -2,32 +2,35 @@
 category: 'video'
 cover: './cover.jpg'
 title: 'Mobile Visual Testing: Uphill Battle of Mobile Visual Regression'
-description: 'Polyglot technology conference focusing on the tools, processes and people making open source possible.'
-date: '2021-10-21'
+description: 'Webinar for Software Testing Professionals network on visual testing for mobile devices.'
+date: '2018-07-11'
 tags: ['mobile']
 published: true
 ---
 ![cover](./cover.jpg)
 
-
 **Title**
 
-Building End-to-End Experiences with the WhatsApp Business Platform
+Mobile Visual Testing: Uphill Battle of Mobile Visual Regression
 
 **Recording**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KP6_BUw3i0U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8YEDtyXQMAw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br>
 
 **Video Information**
 
-In this webinar you’ll learn to see how quickly you can get started with the WhatsApp Business Platform Cloud API. In this session, Developer Advocate Dmitry Vinnik covers building an end-to-end messaging experience. He details both sending and receiving messages with customers. 
+There are many types of testing companies need to perform in order to have confidence in their product: security testing, integration testing, system testing, performance testing, and more. Often, mobile developers focus on ensuring that main end-to-end flows of their applications work by relying on frameworks like Appium or Robotium. 
 
-If you're looking for ways to connect with your customers using the messaging apps they’re already using with their friends and family – watch today.
+However, in the mobile domain, visual testing is essential as mobile devices differ drastically in capabilities, display dimensions, and even operating systems. Visual regression testing targets specific areas of visual concepts like layouts, responsive design, graphics, and CSS. 
 
-00:00 Introduction
-03:06 Getting Started with WhatsApp Business Platform and Cloud API
-11:05 Creating an App with WhatsApp Business API
-21:04 Facilitating Customer Interactions with Webhooks
-32:27 Q&A
+Because modern mobile applications are built as hybrid and native applications, there is no way to scale this sort of testing using manual resources; hence, visual test automation should be a crucial piece of the testing stack. 
+
+In this talk, the audience will learn about major visual testing frameworks targeting both responsive web applications and native mobile applications.
+
+[Original Talk Link]()
+
+**Press Mentions/Articles**
+
+- [Software Test Pro: Mobile Visual Testing: Uphill Battle of Mobile Visual Regression](https://www.softwaretestpro.com/mobile-visual-testing-uphill-battle-of-mobile-visual-regression/)
