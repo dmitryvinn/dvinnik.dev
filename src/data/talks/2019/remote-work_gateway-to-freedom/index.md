@@ -4,7 +4,7 @@ cover: './cover.jpg'
 title: 'Remote Work: Gateway to Freedom'
 description: 'In this talk, we explore how to become a remote employee successfully, how to manage a remote team, and what mistakes to avoid in the process.'
 date: '2019-01-01'
-tags: ['testing']
+tags: ['wellness', 'leadership']
 published: true
 ---
 ![cover](./cover.jpg)

@@ -42,11 +42,3 @@ Virtual
 **About the Engagement**
 
 What We Talk About When We Talk About Tech is a podcast about tech storytelling. Jennifer Riggins and Rich Gall explore the way words and narratives shape the technology landscape with the people who define, explain, and sell it.
-
-**Recording**
-
-<br>
-
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/6CkzG0tDo8uJ0L7LGSHLTW?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-<br>

@@ -1,7 +1,7 @@
 ---
 category: 'event'
 cover: './cover.jpg'
-title: 'Targeting Quality'
+title: 'Target Quality'
 description: 'Software Quality conference based in Canada'
 date: '2018-09-25'
 tags: ['testing']

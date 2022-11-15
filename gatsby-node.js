@@ -226,47 +226,6 @@ exports.createPages = async ({ graphql, actions }) => {
     });
   });
 
-
-  const pressMentionTemplate = path.resolve(`src/templates/PressMention/index.js`);
-
-  const pressMentionRes = await graphql(`
-    query {
-      allMarkdownRemark(
-        filter: { frontmatter: { category: { eq: "press-mention" } } }
-        sort: { fields: frontmatter___date, order: DESC }
-      ) {
-        edges {
-          node {
-            fields {
-              slug
-            }
-            frontmatter {
-              title
-            }
-          }
-        }
-      }
-    }
-  `);
-
-  const pressMentions = pressMentionRes.data.allMarkdownRemark.edges;
-
-  pressMentions.forEach((pressMention, index) => {
-    const previous = index === pressMentions.length - 1 ? null : pressMentions[index + 1].node;
-    const next = index === 0 ? null : pressMentions[index - 1].node;
-
-    createPage({
-      path: `${pressMention.node.fields.slug}`,
-      component: pressMentionsTemplate,
-      context: {
-        slug: `${pressMention.node.fields.slug}`,
-        previous,
-        next
-      }
-    });
-  });
-
-
   const videoTemplate = path.resolve(`src/templates/Video/index.js`);
 
   const videoRes = await graphql(`

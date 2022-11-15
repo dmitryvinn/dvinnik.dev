@@ -4,7 +4,7 @@ cover: './cover.jpg'
 title: "Cross-Platform CSS (Yes, it's Possible!) with Yoga"
 description: "In this talk, we learn about Yoga's main concepts and use-cases"
 date: '2021-01-01'
-tags: ['cross-platform', 'mobile', 'react-native', 'front-end']
+tags: ['cross-platform', 'mobile', 'web']
 published: true
 ---
 ![yoga-mats](./cover.jpg)

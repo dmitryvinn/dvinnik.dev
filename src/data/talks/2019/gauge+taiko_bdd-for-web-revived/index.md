@@ -4,7 +4,7 @@ cover: './cover.jpg'
 title: 'Gauge + Taiko: BDD for Web Revived'
 description: 'In this talk, we discuss making Behavior Driven Development successful in your team with Gauge and Taiko.'
 date: '2019-01-01'
-tags: ['testing', 'ui', 'web', 'bdd']
+tags: ['testing', 'web']
 published: true
 ---
 ![Gauge](./cover.jpg)

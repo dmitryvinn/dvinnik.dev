@@ -4,7 +4,7 @@ cover: './cover.jpg'
 title: 'Impostor Syndrome: How to Overcome Your Inner Roadblock'
 description: 'In this talk, we discuss how to identify and overcome these self-imposed roadblocks to allow you to appreciate yourself and your voice.'
 date: '2019-01-01'
-tags: ['wellness','work-life balance', 'devrel']
+tags: ['wellness', 'devrel']
 published: true
 ---
 ![among us](./cover.jpg)

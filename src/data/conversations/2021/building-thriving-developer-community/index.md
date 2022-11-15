@@ -17,7 +17,8 @@ How To Build A Thriving Developer Community
 
 <br>
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/6CkzG0tDo8uJ0L7LGSHLTW?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe src="https://player.vimeo.com/video/564373209?h=d114aa26a7" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/564373209">How To Build A Thriving Developer Community - Vol I</a> from <a href="https://vimeo.com/bevyhq">Bevy</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 <br>
 
@@ -49,12 +50,3 @@ Jennifer Sable Lopez: Senior Director, Community & Advocacy at OutSystems
 Tessa Mero: Senior Developer Advocate/MDE Program Lead at Cloudinary
 
 Dmitry Vinnik: Developer Advocate at Facebook, Open Source Developer, ex-Tech Lead at Salesforce
-
-**Recording**
-
-<br>
-
-<iframe src="https://player.vimeo.com/video/564373209?h=d114aa26a7" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-<p><a href="https://vimeo.com/564373209">How To Build A Thriving Developer Community - Vol I</a> from <a href="https://vimeo.com/bevyhq">Bevy</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-
-<br>

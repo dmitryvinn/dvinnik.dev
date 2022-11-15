@@ -3,8 +3,8 @@ category: 'talk'
 cover: './cover.jpg'
 title: 'The 10,000 Steps of Open Source Project Health'
 description: 'In this talk, we will look at the approach that the Meta Open Source team takes to measure the current state of Meta open source projects.'
-date: '2021-0-01'
-tags: ['testing']
+date: '2021-01-01'
+tags: ['open source']
 published: true
 ---
 ![cover](./cover.jpg)
