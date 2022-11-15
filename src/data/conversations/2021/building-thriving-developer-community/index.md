@@ -3,7 +3,7 @@ category: 'conversation'
 cover: './cover.jpg'
 title: 'How To Build A Thriving Developer Community'
 description: 'Discussion between DevRel and OSS experts '
-date: '2021-05-12'
+date: '2021-06-17'
 tags: ['devrel','oss']
 published: true
 ---

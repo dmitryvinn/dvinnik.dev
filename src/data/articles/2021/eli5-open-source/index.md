@@ -4,7 +4,7 @@ cover: './cover.jpg'
 title: 'ELI5: Open Source'
 description: 'In this blog post, we give a brief overview of what open source is, and why companies engage in it.'
 date: '2021-11-15'
-tags: ['open source,'eli5']
+tags: ['open source','eli5']
 published: true
 canonicalUrl: 'https://developers.facebook.com/blog/post/2021/11/15/eli5-open-source/'
 ---

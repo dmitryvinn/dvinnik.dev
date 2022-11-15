@@ -2,7 +2,7 @@
 category: 'article'
 cover: './cover.jpg'
 title: 'Visual Regression Testing: A Critical Part of a Mobile Testing Strategy'
-description: 'Despite our best efforts to replicate customers' behavior in our test automation suites, teams often forget about nonfunctional requirements. Visual regression testing can fill a significant gap in user experience expectations.'
+description: 'Despite our best efforts to replicate customers` behavior in our test automation suites, teams often forget about nonfunctional requirements.'
 date: '2019-04-15'
 tags: ['ui','testing']
 published: true

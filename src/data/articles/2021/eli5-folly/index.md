@@ -4,7 +4,7 @@ cover: './cover.jpg'
 title: 'ELI5: Folly - Battle-Tested C++ Library'
 description: 'In this post, we explain Buck, a high-performance build tool.'
 date: '2021-05-24'
-tags: ['open source,'eli5']
+tags: ['open source','eli5']
 published: true
 canonicalUrl: 'https://developers.facebook.com/blog/post/2021/05/24/eli5-folly-battle-tested-c-plus-plus-library/'
 ---

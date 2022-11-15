@@ -4,7 +4,7 @@ cover: './cover.jpg'
 title: 'ELI5: Buck - Modular Build System'
 description: 'In this post, we explain Buck, a high-performance build tool.'
 date: '2021-03-29'
-tags: ['open source,'eli5']
+tags: ['open source','eli5']
 published: true
 canonicalUrl: 'https://developers.facebook.com/blog/post/2021/03/29/eli5-buck-modular-build-system/'
 ---

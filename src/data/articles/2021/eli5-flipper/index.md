@@ -4,7 +4,7 @@ cover: './cover.jpg'
 title: 'ELI5: Flipper - Cross-Platform Debugger'
 description: 'In this post, we explain Buck, a high-performance build tool.'
 date: '2021-06-08'
-tags: ['open source,'eli5']
+tags: ['open source','eli5']
 published: true
 canonicalUrl: 'https://developers.facebook.com/blog/post/2021/06/08/eli5-flipper-cross-platform-debugger/'
 ---

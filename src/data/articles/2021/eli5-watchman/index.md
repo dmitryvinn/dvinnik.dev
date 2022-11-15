@@ -4,7 +4,7 @@ cover: './cover.jpg'
 title: 'ELI5: Watchman - Watching for Changes to Build Faster'
 description: 'In this post, we talk about a project called Watchman, a file watching service.'
 date: '2021-03-15'
-tags: ['open source,'eli5']
+tags: ['open source','eli5']
 published: true
 canonicalUrl: 'https://developers.facebook.com/blog/post/2021/03/15/eli5-watchman-watching-changes-build-faster/'
 ---
