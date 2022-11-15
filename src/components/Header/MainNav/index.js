@@ -21,7 +21,7 @@ const mainNavItems = [
   },
   {
     title: 'Conversations',
-    slug: '/conversation/'
+    slug: '/conversations/'
   },
   {
     title: 'Talks',

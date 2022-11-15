@@ -3,7 +3,7 @@ category: 'talk'
 cover: './cover.jpg'
 title: 'Ent: Making Data Easy in Go'
 description: 'In this talk, we will learn how to use Ent when dealing with data schemas, including types, relations and constraints.'
-date: '2021-06-08'
+date: '2021-01-08'
 tags: ['golang']
 published: true
 ---
