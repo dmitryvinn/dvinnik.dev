@@ -28,7 +28,6 @@ const SEO = ({ description, lang, meta, title , canonicalUrl}) => {
       lang
     }}
     title={title}
-    image={image}
     titleTemplate={`%s | ${site.siteMetadata.title}`}
     link = {[
       { rel : 'canonical', href : canonicalUrl  }
