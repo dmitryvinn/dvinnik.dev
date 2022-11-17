@@ -67,6 +67,10 @@ const SEO = ({ description, lang, meta, title , canonicalUrl}) => {
         content: imageContent
       },
       {
+        name: `twitter:image`,
+        content: imageContent
+      },
+      {
         name: `twitter:description`,
         content: metaDescription
       }
