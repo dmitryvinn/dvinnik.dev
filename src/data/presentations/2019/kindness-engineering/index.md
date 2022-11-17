@@ -2,7 +2,7 @@
 category: 'presentation'
 cover: './cover.jpg'
 title: 'Kindness Engineering: Focusing on What Matters'
-description: 'In this talk, we discuss how to bring kindness to the enterprise and open-source.'
+description: 'In this talk, we discuss how to bring kindness to the enterprise and open-source while ensuring that these “kind practices” are successfully adopted by the teams of any size.'
 date: '2019-06-06'
 tags: ['wellness','devrel']
 published: true

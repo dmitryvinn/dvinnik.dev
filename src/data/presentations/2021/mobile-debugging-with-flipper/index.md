@@ -2,7 +2,7 @@
 category: 'presentation'
 cover: './cover.jpg'
 title: 'Mobile Debugging Made Easy with Flipper'
-description: 'In this talk, we learn how to debug Android, iOS, and React Native apps with Flipper.'
+description: 'In this talk, we learn how to debug Android, iOS, and React Native apps with Flipper. Then, we will build a new plugin for Flipper to show how flexible the platform is.'
 date: '2021-01-01'
 tags: ['cross-platform', 'mobile', 'debugging']
 published: true

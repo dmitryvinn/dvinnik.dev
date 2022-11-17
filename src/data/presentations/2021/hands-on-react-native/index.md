@@ -2,7 +2,7 @@
 category: 'presentation'
 cover: './cover.jpg'
 title: 'Hands-on React Native: From Zero to Hero'
-description: 'In this session, we explore React Native and its main concepts'
+description: 'In this session, we explore React Native and its main concepts. Then, we build a demo app from scratch for Android and iOS to show the power of cross-platform that the framework brings to the table!'
 date: '2021-01-01'
 tags: ['cross-platform', 'mobile', 'react-native']
 published: true

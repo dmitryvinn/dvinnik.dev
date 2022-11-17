@@ -2,7 +2,7 @@
 category: 'presentation'
 cover: './cover.jpg'
 title: 'Engineer in Test: Bridging the Gap'
-description: 'In this talk, we discuss situations when the quantity of our tests takes over their quality.'
+description: 'In this talk, we discuss situations when the quantity of our tests takes over their quality. We answer how this tendency of writing many unnecessary tests creates more significant issues like wasted cycles on fixing test-only failures. '
 date: '2018-01-01'
 tags: ['testing', 'leadership']
 published: true
