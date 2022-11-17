@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-[Documentation Made Easy with Docusaurus]()
+[Documentation Made Easy with Docusaurus](https://dvinnik.dev/presentations/2020/documentation-made-easy-with-docusaurus)
 
 **Location**
 

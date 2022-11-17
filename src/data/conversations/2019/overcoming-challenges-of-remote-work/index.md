@@ -35,7 +35,7 @@ Orlando, FL, USA
 
 TechWell Corporation is the leader in software conferences, training, and certification covering Agile, DevOps, Test/QA, Requirements, and more.
 
-Read more [here]().
+Read more [here](https://dvinnik.dev/events/2019/stareast/).
 
 **Recording**
 

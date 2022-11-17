@@ -1,5 +1,5 @@
 ---
-category: 'talk'
+category: 'presentation'
 cover: './cover.jpg'
 title: 'Better Start: Enforcing Best Engineering Practices with Kotlin'
 description: 'In this talk, we will look at Kotlin as a way to enforce best Software Engineering practices on the language-level.'
@@ -17,8 +17,8 @@ We will see how Kotlin by limiting verbosity, by using private data classes, ext
 
 <br>
 
-- [TechBash: 2021](http://dvinnik.dev/events/2021/techbash)
-- [DevFest Live: 2021](http://dvinnik.dev/events/2021/devfest-live)
+- [TechBash: 2021](https://dvinnik.dev/events/2021/techbash)
+- [DevFest Live: 2021](https://dvinnik.dev/events/2021/devfest-live)
   
 <br>
 

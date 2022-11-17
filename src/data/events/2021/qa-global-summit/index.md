@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-[Career Path and Development in Testing]()
+[Career Path and Development in Testing](https://dvinnik.dev/conversations/2019/career-path-and-dev-in-testing)
 
 **Location**
 

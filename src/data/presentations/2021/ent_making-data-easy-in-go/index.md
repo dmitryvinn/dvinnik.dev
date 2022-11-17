@@ -1,5 +1,5 @@
 ---
-category: 'talk'
+category: 'presentation'
 cover: './cover.jpg'
 title: 'Ent: Making Data Easy in Go'
 description: 'In this talk, we will learn how to use Ent when dealing with data schemas, including types, relations and constraints.'
@@ -13,6 +13,15 @@ published: true
 
 In this talk, we will learn how to use Ent when dealing with data schemas, including types, relations and constraints. It’s a hands-on talk, so get ready to follow along!
 
+**Presented at**
+
+<br>
+
+- [Conf42 - Golang: 2021](https://dvinnik.dev/events/2021/conf42-golang)
+- [Go West: 2021](https://dvinnik.dev/events/2021/go-west)
+
+<br>
+
 **Abstract**
  
 What do most applications do these days? They interact with data in one way or another. As your app’s scale increases, it becomes more challenging to manage databases, schemas, queries, and constraints. These challenges are why a technique called Object-Relational Mapping, or ORM, was created.
@@ -23,15 +32,6 @@ Ent is an entity framework built for Go programming language. This framework pro
 
 In this talk, we will learn how to use Ent when dealing with data schemas, including types, relations and constraints. It’s a hands-on talk, so get ready to follow along!
 
-
-**Presented at**
-
-<br>
-
-- [Conf42 - Golang: 2021](https://dvinnik.dev/events/2021/conf42-golang)
-- [Go West: 2021](https://dvinnik.dev/events/2021/go-west)
-
-<br>
 
 **Recording**
 

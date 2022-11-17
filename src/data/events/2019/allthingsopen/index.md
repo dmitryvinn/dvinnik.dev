@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-[From Robotium to Appium: Choose Your Journey]()
+[From Robotium to Appium: Choose Your Journey](https://dvinnik.dev/presentations/2018/from-robotium-to-appium)
 
 **Location**
 

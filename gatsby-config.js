@@ -50,7 +50,7 @@ Dmitry also regularly shares DevRel resources on his site and shares regular upd
         name: `gatsby-personal-website-starter`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#4C6E94`,
+        background_color: `#ç`,
         theme_color: `#4C6E94`,
         display: `minimal-ui`,
         icon: `src/assets/images/gatsby-icon.png`

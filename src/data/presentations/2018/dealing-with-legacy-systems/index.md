@@ -1,5 +1,5 @@
 ---
-category: 'talk'
+category: 'presentation'
 cover: './cover.jpg'
 title: 'Fixing Broken Windows: Dealing with Legacy Systems, Poor Quality and Gaps'
 description: 'In this talk, we discuss how to break away from standard bad development practices and how to address major gaps in your legacy and current codebases.'

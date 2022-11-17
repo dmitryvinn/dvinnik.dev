@@ -2,7 +2,7 @@
 category: 'event'
 cover: './cover.jpg'
 title: 'JDK.io'
-description: 'Software Development Conference in Denmark'
+description: 'Software Development Conference in Denmark focused on All Things Groovy and Java, with DevOps, Microservices and Frontend Technologies sprinkled in.'
 date: '2018-08-27'
 tags: ['java']
 published: true
@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-[Back to the CompletableFuture: Concurrency in Action]() 
+[Back to the CompletableFuture: Concurrency in Action](https://dvinnik.dev/presentations/2018/back-to-the-completable-future) 
 
 **Location**
 

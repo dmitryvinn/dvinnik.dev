@@ -2,7 +2,7 @@
 category: 'event'
 cover: './cover.jpg'
 title: 'JavaDay Istanbul'
-description: 'Software Developer Conference in Turkey'
+description: 'One of the most effective international community driven software conference of Turkey supported by Istanbul Java User Group.'
 date: '2018-05-22'
 tags: ['java']
 published: true
@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-[Domain Driven Testing: Know What You’re Doing]() 
+[Domain Driven Testing: Know What You’re Doing](https://dvinnik.dev/presentations/2018/domain-driven-testing) 
 
 **Location**
 

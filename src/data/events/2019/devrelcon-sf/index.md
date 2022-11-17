@@ -2,7 +2,7 @@
 category: 'event'
 cover: './cover.jpg'
 title: 'DevRelCon - San Francisco'
-description: 'DevRelCon San Francisco: developer experience, developer relations and developer marketing.'
+description: 'DevRelCon San Francisco: developer experience, developer relations and developer marketing, coming together with expert practitioners from across the world to join the conversation about developer experience.'
 date: '2019-06-06'
 tags: ['devrel']
 published: true
@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-[Kindness Engineering: Focusing on What Matters]() 
+[Kindness Engineering: Focusing on What Matters](https://dvinnik.dev/presentations/2019/kindness-engineering) 
 
 **Location**
 

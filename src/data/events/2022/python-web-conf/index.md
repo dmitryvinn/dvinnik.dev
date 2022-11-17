@@ -2,7 +2,7 @@
 category: 'event'
 cover: './cover.jpg'
 title: 'Python Web Conf'
-description: 'The most in-depth Python conference for web developers.'
+description: 'The most in-depth Python conference for web developers designed to promote best practices for hard web production problems'
 date: '2022-03-21'
 tags: ['oss']
 published: true
@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-[The 10,000 Steps of Open Source Project Health]()
+[The 10,000 Steps of Open Source Project Health](https://dvinnik.dev/presentations/2021/10000-steps-of-open-source-project-health)
 
 **Location**
 

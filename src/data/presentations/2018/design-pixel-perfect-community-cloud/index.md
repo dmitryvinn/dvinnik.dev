@@ -1,5 +1,5 @@
 ---
-category: 'talk'
+category: 'presentation'
 cover: './cover.jpg'
 title: 'Design Pixel-Perfect User Experiences with Community Cloud'
 description: 'In this talk, we walk through how theme packaging help you create engaging digital experiences with Community Cloud.'
@@ -17,7 +17,7 @@ In this session we'll walk through how external design systems, pre-built themes
 
 <br>
 
-- [Dreamforce: 2018](http://dvinnik.dev/events/2018/dreamforce/)
+- [Dreamforce: 2018](https://dvinnik.dev/events/2018/dreamforce/)
 
 <br>
 
@@ -31,6 +31,6 @@ In this session we'll walk through how external design systems, pre-built themes
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4tEwBSetNUM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-*[Dreamforce: 2018](http://dvinnik.dev/events/2018/dreamforce/)*
+*[Dreamforce: 2018](https://dvinnik.dev/events/2018/dreamforce/)*
 
 <br>

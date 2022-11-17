@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-[Speaking Panel: Innovating Through Automation, Innersource and Cultural Shifts]()
+[Speaking Panel: Innovating Through Automation, Innersource and Cultural Shifts](https://dvinnik.dev/conversations/2022/innovating-through-innersource)
 
 **Location**
 

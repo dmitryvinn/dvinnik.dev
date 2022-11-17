@@ -2,7 +2,7 @@
 category: 'event'
 cover: './cover.jpg'
 title: 'MakeIT'
-description: 'Largest Java/Oracle conference in Slovenia'
+description: 'Largest Java/Oracle conference in Slovenia focused on database, java, Big Data, cloud, containers, business analytics and more.'
 date: '2018-10-15'
 tags: ['java']
 published: true
@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-[Back to the CompletableFuture: Concurrency in Action]() 
+[Back to the CompletableFuture: Concurrency in Action](https://dvinnik.dev/presentations/2018/back-to-the-completable-future) 
 
 **Location**
 

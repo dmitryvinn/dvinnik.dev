@@ -2,7 +2,7 @@
 category: 'event'
 cover: './cover.jpg'
 title: 'Open Source Summit - North America'
-description: 'Premier event for open source developers, technologists, and community leaders.'
+description: 'Premier event for open source developers, technologists, and community leaders to collaborate, share information, solve problems, and gain knowledge.'
 date: '2022-06-21'
 tags: ['oss']
 published: true
@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-[The 10,000 Steps of Open Source Project Health]()
+[The 10,000 Steps of Open Source Project Health](https://dvinnik.dev/presentations/2021/10000-steps-of-open-source-project-health)
 
 **Location**
 

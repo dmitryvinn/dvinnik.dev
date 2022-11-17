@@ -2,7 +2,7 @@
 category: 'event'
 cover: './cover.jpg'
 title: 'JavaCro'
-description: 'Largest Java Conference in Croatia'
+description: 'Largest Java Conference in Croatia with a focus on trends and future of Java, business technologies and case studies.'
 date: '2018-05-09'
 tags: ['java']
 published: true
@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-[Back to the CompletableFuture: Concurrency in Action]() 
+[Back to the CompletableFuture: Concurrency in Action](https://dvinnik.dev/presentations/2018/back-to-the-completable-future) 
 
 **Location**
 

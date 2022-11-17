@@ -2,7 +2,7 @@
 category: 'event'
 cover: './cover.jpg'
 title: 'GDG DevFest UK & Ireland'
-description: 'One of the largest developer conference & event series.'
+description: 'DevFest is one of the larger scale community-driven tech conferences in the UK & Ireland, carefully crafted for you by the Google Developer Group (GDG) community.'
 date: '2022-01-29'
 tags: ['oss']
 published: true
@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-[The 10,000 Steps of Open Source Project Health]()
+[The 10,000 Steps of Open Source Project Health](https://dvinnik.dev/presentations/2021/10000-steps-of-open-source-project-health)
 
 **Location**
 

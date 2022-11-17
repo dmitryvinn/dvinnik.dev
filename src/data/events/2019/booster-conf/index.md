@@ -2,7 +2,7 @@
 category: 'event'
 cover: './cover.jpg'
 title: 'Booster Conf'
-description: 'Software Conference for the whole team - based in Norway'
+description: 'Software Conference for the whole team with a focus on developers, project managers, architects, UX professionals, testers or security professionals.'
 date: '2019-03-12'
 tags: ['testing']
 published: true
@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-[Fixing Broken Windows: Dealing with Legacy Systems, Poor Quality and Gaps]() 
+[Fixing Broken Windows: Dealing with Legacy Systems, Poor Quality and Gaps](https://dvinnik.dev/presentations/2018/dealing-with-legacy-systems) 
 
 **Location**
 

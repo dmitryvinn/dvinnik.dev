@@ -1,5 +1,5 @@
 ---
-category: 'talk'
+category: 'presentation'
 cover: './cover.jpg'
 title: 'Gauge + Taiko: BDD for Web Revived'
 description: 'In this talk, we discuss making Behavior Driven Development successful in your team with Gauge and Taiko.'

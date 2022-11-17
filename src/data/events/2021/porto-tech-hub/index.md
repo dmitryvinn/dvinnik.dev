@@ -2,7 +2,7 @@
 category: 'event'
 cover: './cover.jpg'
 title: 'Porto Tech Hub'
-description: 'The conference featured speakers from different areas & sectors.'
+description: 'The conference featured speakers from different areas & sectors with theme that was all about tech and bringing professionals together for knowledge sharing and an amazing networking experience'
 date: '2021-10-18'
 tags: ['web', 'mobile']
 published: true
@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-[Hands-on React Native: From Zero to Hero]()
+[Hands-on React Native: From Zero to Hero](https://dvinnik.dev/presentations/2021/hands-on-react-native)
 
 **Location**
 

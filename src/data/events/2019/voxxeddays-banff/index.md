@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-[Remote Work: Gateway to Freedom]() 
+[Remote Work: Gateway to Freedom](https://dvinnik.dev/presentations/2019/remote-work_gateway-to-freedom/) 
 
 **Location**
 

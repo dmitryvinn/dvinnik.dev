@@ -2,7 +2,7 @@
 category: 'event'
 cover: './cover.jpg'
 title: 'GitHub Universe'
-description: 'Cnference about cloud, AI, software security, and the open source developer community.'
+description: 'Conference about cloud, AI, software security, and the open source developer community run by GitHub.'
 date: '2022-11-10'
 tags: ['testing']
 published: true
@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-[Fireside Chat: Open Source at Meta]()
+[Fireside Chat: Open Source at Meta](https://dvinnik.dev/conversations/2022/open-source-at-meta)
 
 **Location**
 

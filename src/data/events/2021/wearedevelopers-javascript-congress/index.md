@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-[The 10,000 Steps of Open Source Project Health]()
+[The 10,000 Steps of Open Source Project Health](https://dvinnik.dev/presentations/2021/10000-steps-of-open-source-project-health)
 
 **Location**
 
@@ -22,4 +22,5 @@ Virtual
 WeAreDevelopers Live is a free virtual event series with tech talks, coding sessions and workshops about building great software - delivered by proven experts and developers from the community.
 
 **Recording**
+
 [Link](https://www.wearedevelopers.com/en/videos/measuring-project-health-in-open-source)

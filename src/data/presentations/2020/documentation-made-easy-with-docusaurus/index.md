@@ -1,5 +1,5 @@
 ---
-category: 'talk'
+category: 'presentation'
 cover: './cover.jpg'
 title: 'Documentation Made Easy with Docusaurus'
 description: 'In this session, we will walk through getting started with Docusaurus, its architecture and MDX support.'
@@ -23,7 +23,7 @@ In this session, we will walk through getting started with Docusaurus, its archi
 **Presented at**
 <br>
 
-- [Algolia Community Party: 2020](http://dvinnik.dev/events/2020/algolia-community-party)
+- [Algolia Community Party: 2020](https://dvinnik.dev/events/2020/algolia-community-party)
 
 **Recording**
 
@@ -31,7 +31,7 @@ In this session, we will walk through getting started with Docusaurus, its archi
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Hl_4Le_0LOc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-*[Algolia Community Party: 2020](http://dvinnik.dev/events/2020/algolia-community-party)*
+*[Algolia Community Party: 2020](https://dvinnik.dev/events/2020/algolia-community-party)*
 
 <br>
 

@@ -1,5 +1,5 @@
 ---
-category: 'talk'
+category: 'presentation'
 cover: './cover.jpg'
 title: 'Hybrid Model Teams: Failure and Success'
 description: 'In this talk, we look at successful and failed examples of companies transitioning into using the Hybrid Model.'

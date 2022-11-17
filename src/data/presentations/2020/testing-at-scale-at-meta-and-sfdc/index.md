@@ -1,5 +1,5 @@
 ---
-category: 'talk'
+category: 'presentation'
 cover: './cover.jpg'
 title: 'Testing at Scale at Meta and Salesforce'
 description: 'In this session, we will discuss how the most basic testing skills and tools we use daily are transferable to any company.'
@@ -24,8 +24,8 @@ Worry no more! This talk will look at how testing is done at companies with the 
 
 <br>
 
-- [Future of Testing Webinar: 2022](http://dvinnik.dev/videos/2020/testing-at-scale)
-- [Future of Testing Forum: 2022](http://dvinnik.dev/events/2022/future-of-testing-forum)
+- [Future of Testing Webinar: 2022](https://dvinnik.dev/videos/2020/testing-at-scale)
+- [Future of Testing Forum: 2022](https://dvinnik.dev/events/2022/future-of-testing-forum)
 
 **Recording**
 
@@ -33,7 +33,7 @@ Worry no more! This talk will look at how testing is done at companies with the 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Hl_4Le_0LOc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-*[Future of Testing Webinar: 2022](http://dvinnik.dev/videos/2020/testing-at-scale)*
+*[Future of Testing Webinar: 2022](https://dvinnik.dev/videos/2020/testing-at-scale)*
 
 <br>
 

@@ -1,5 +1,5 @@
 ---
-category: 'talk'
+category: 'presentation'
 cover: './cover.jpg'
 title: 'Tips and Tricks for Developing Components for Communities'
 description: 'In this talk, we will explore tips and tricks for developing Lightning Components for communities.'
@@ -17,7 +17,7 @@ In this talk, we will explore tips and tricks for developing Lightning Component
 
 <br>
 
-- [Dreamforce: 2017](http://dvinnik.dev/events/2017/dreamforce/)
+- [Dreamforce: 2017](https://dvinnik.dev/events/2017/dreamforce/)
 
 <br>
 

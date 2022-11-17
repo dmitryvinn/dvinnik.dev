@@ -39,4 +39,4 @@ Virtual
 
 Grow your business alongside industry experts during GitHub InFocus. Enjoy curated sessions on the most top-of-mind business questions for enterprises, along with a special broadcast featuring GitHub CEO, Thomas Dohmke. Join us as we focus on accelerating, securing, and operationally improving the way your software development teams work—for good.
 
-Read more [here]().
+Read more [here](https://dvinnik.dev/events/2022/in-focus-github)

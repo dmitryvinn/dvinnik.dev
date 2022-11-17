@@ -1,5 +1,5 @@
 ---
-category: 'talk'
+category: 'presentation'
 cover: './cover.jpg'
 title: 'Aspect Oriented Programming: Hidden Toolkit That You Already Have'
 description: 'In this talk, we show a real power of AOP with focus on how it is already used in the industry.'
@@ -13,6 +13,14 @@ published: true
 
 This talk’s main goal is to show a real power of AOP with focus on how it is already used in the industry, and how any engineer can write their own AOP application, or Java Agent. As a part of this talk, the speaker will cover common Open Source Java Agents such as JaCoCo and JMH, and touch based on paid-base Java Agents such as JRebel or AppDynamics.
 
+**Presented at**
+
+<br>
+
+- [JEEConf: 2017](https://dvinnik.dev/events/2017/jeeconf/)
+
+<br>
+
 **Abstract**
  
 Any developer that worked on a software projects, considered at one point few things like how fast his/her function is, how much test coverage do they have, or if there is a better way to recompile their code without a need to restart JVM. All of these questions can be answered by Aspect Oriented Programming.
@@ -21,13 +29,6 @@ Aspect Oriented Programming (AOP) is a cross-cutting concern of writing code acr
 
 This talk’s main goal is to show a real power of AOP with focus on how it is already used in the industry, and how any engineer can write their own AOP application, or Java Agent. As a part of this talk, the speaker will cover common Open Source Java Agents such as JaCoCo and JMH, and touch based on paid-base Java Agents such as JRebel or AppDynamics.
 
-**Presented at**
-
-<br>
-
-- [JEEConf: 2017](http://dvinnik.dev/events/2017/jeeconf/)
-
-<br>
 
 **Recording**
 

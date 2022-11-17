@@ -1,5 +1,5 @@
 ---
-category: 'talk'
+category: 'presentation'
 cover: './cover.jpg'
 title: 'Do you even Function? Guiding Through Functional Interfaces'
 description: 'In this talk, default Functional Interfaces will be explained along with how they can be customized.'
@@ -18,7 +18,7 @@ In this talk, default Functional Interfaces will be explained along with how the
 
 <br>
 
-- [ConFoo: 2017](http://dvinnik.dev/events/2017/confoo/)
+- [ConFoo: 2017](https://dvinnik.dev/events/2017/confoo/)
 
 <br>
 

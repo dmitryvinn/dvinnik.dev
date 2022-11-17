@@ -1,5 +1,5 @@
 ---
-category: 'talk'
+category: 'presentation'
 cover: './cover.jpg'
 title: 'Building Tests to Build Websites'
 description: 'In this talk, we will explore how multi-frame platform can be directly mapped to POM for Selenium Webdriver, and how client side code is developed to support this pattern.'
@@ -13,14 +13,6 @@ published: true
 
 In this talk, we will explore how multi-frame platform can be directly mapped to POM for Selenium Webdriver, and how client side code is developed to support this pattern.
 
-**Abstract**
- 
-Technologies like Squarespace, Salesforce, WordPress, or WIX are extremely popular for those who want to create a working website without necessary developer knowledge. In this talk, I would explore how Salesforce uses Page Object Model patterns to test its Communities platform which is used to develop websites for Salesforce users.
-
-Throughout the talk, we will explore how multi-frame platform can be directly mapped to POM for Selenium Webdriver, and how client side code is developed to support this pattern.
-
-The importance and complexity of these test framework is that it needs to be applicable for both platform and produced websites.
-
 **Presented at**
 
 <br>
@@ -29,6 +21,14 @@ The importance and complexity of these test framework is that it needs to be app
 - [DevOpsDays YVR: 2017](https://dvinnik.dev/events/2017/devopsdays-vancouver/)
 
 <br>
+
+**Abstract**
+ 
+Technologies like Squarespace, Salesforce, WordPress, or WIX are extremely popular for those who want to create a working website without necessary developer knowledge. In this talk, I would explore how Salesforce uses Page Object Model patterns to test its Communities platform which is used to develop websites for Salesforce users.
+
+Throughout the talk, we will explore how multi-frame platform can be directly mapped to POM for Selenium Webdriver, and how client side code is developed to support this pattern.
+
+The importance and complexity of these test framework is that it needs to be applicable for both platform and produced websites.
 
 **Recording**
 

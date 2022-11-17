@@ -1,5 +1,5 @@
 ---
-category: 'talk'
+category: 'presentation'
 cover: './cover.jpg'
 title: 'Streamline Your iOS Testing with idb'
 description: 'In this session, we talk about the challenges in testing that iOS developers encounter and how to simplify the workflow with the idb.'

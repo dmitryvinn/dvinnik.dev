@@ -1,5 +1,5 @@
 ---
-category: 'talk'
+category: 'presentation'
 cover: './cover.jpg'
 title: 'From Robotium to Appium: Choose Your Journey'
 description: 'In this talk, we take the audience on a journey of UI testing starting with introduction of Robotium and its main principals.'

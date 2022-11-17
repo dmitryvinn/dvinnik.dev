@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-[Hands-on React Native: From Zero to Hero]()
+[Hands-on React Native: From Zero to Hero](https://dvinnik.dev/presentations/2021/hands-on-react-native)
 
 **Location**
 

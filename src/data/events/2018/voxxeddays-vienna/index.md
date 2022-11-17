@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-[Back to the CompletableFuture Concurrency in Action]() 
+[Back to the CompletableFuture Concurrency in Action](https://dvinnik.dev/presentations/2018/back-to-the-completable-future) 
 
 **Location**
 

@@ -1,5 +1,5 @@
 ---
-category: 'talk'
+category: 'presentation'
 cover: './cover.jpg'
 title: 'Back to the CompletableFuture: Concurrency in Action'
 description: 'In this talk, we explore concurrency programming and how developer-friendly it has become with the latest advantages of the Java language.'

@@ -2,7 +2,7 @@
 category: 'event'
 cover: './cover.jpg'
 title: 'STPCon'
-description: 'Annual conference hosted by Software Test Professionals.'
+description: 'Leading event where test leadership, management, and strategy converge. The hottest topics in the industry are covered including agile testing, performance testing, and test automation.'
 date: '2018-10-25'
 tags: ['testing']
 published: true
@@ -11,14 +11,12 @@ published: true
 
 **Presence**
 
-[Fixing Broken Windows: Dealing with Legacy Systems, Poor Quality and Gaps]()
+[Fixing Broken Windows: Dealing with Legacy Systems, Poor Quality and Gaps](https://dvinnik.dev/presentations/2018/dealing-with-legacy-systems)
 
 **Location**
 
-Raleigh, NC, USA
+Arlignton, VA, USA
 
 **Event Information**
 
-For more than 8 years we’ve followed these beliefs and created events and platforms that have hosted tens of thousands from all over the world.  Just a few include All Things Open, the largest open-source event on the U.S. east coast, the Open Source 101 series, the Open Source Research Triangle Park (RTP) meetup, the Open Source South Carolina meetup, OpenSourceJobs.com, OpenSourceScore. com, and many more.
-
-And throughout it all, our focus on access, diversity, and inclusion and a commitment to helping others have remained steadfast.  We strongly believe you can do business differently and still be successful, which is why we worked hard to earn a Certified B Corp certification in 2018.
+The Software Test Professionals Conference is the leading event where test leadership, management, and strategy converge. The hottest topics in the industry are covered including agile testing, performance testing, test automation, AI, machine learning, mobile application testing, and test team leadership and management. Attending this conference will help you meet your professional career goals and give you the opportunity to improve your software testing techniques; find the latest tools; discover emerging trends; develop new or improve existing processes; network and gather with other high-level professionals, and gain industry insight you won’t find anywhere else.

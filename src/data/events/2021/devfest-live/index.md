@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-[Better Start: Enforcing Best Engineering Practices with Kotlin]()
+[Better Start: Enforcing Best Engineering Practices with Kotlin](https://dvinnik.dev/presentations/2019/enforcing-best-practices-with-kotlin)
 
 **Location**
 

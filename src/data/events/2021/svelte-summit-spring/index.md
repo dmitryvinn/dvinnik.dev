@@ -2,7 +2,7 @@
 category: 'event'
 cover: './cover.jpg'
 title: 'Svelte Summit Spring'
-description: 'Event dedicated to Svelte and everything that is happening in the community'
+description: 'Event dedicated to Svelte and everything that is happening in the community covering testing, hot trends, and more.'
 date: '2019-04-25'
 tags: ['testing']
 published: true
@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-[Testing Svelte with Jest: Validate Your Components Quickly!]()
+[Testing Svelte with Jest: Validate Your Components Quickly!](https://dvinnik.dev/presentations/2021/testing-svelte-with-jest)
 
 **Location**
 

@@ -2,7 +2,7 @@
 category: 'event'
 cover: './cover.jpg'
 title: 'TestMasters Online'
-description: 'Virtual event for testers focused on the whole team quality'
+description: 'Virtual event for testers focused on the whole team quality, leadership, test automation trends and hybrid engineering.'
 date: '2018-10-22'
 tags: ['testing']
 published: true
@@ -11,11 +11,11 @@ published: true
 
 **Presence**
 
-Speaking Panel: Whole Team Quality
+[Speaking Panel: Whole Team Quality](https://dvinnik.dev/conversations/2018/whole-team-quality)
 
 **Location**
 
-Online
+Virtual
 
 **Event Information**
 

@@ -1,5 +1,5 @@
 ---
-category: 'talk'
+category: 'presentation'
 cover: './cover.jpg'
 title: 'Kindness Engineering: Focusing on What Matters'
 description: 'In this talk, we discuss how to bring kindness to the enterprise and open-source.'

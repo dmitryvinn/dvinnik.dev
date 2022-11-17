@@ -2,7 +2,7 @@
 category: 'event'
 cover: './cover.jpg'
 title: 'Go West'
-description: 'Hybrid conference the for Rocky Mountain West communities'
+description: 'Hybrid conference the for Rocky Mountain West communities (Arizona, Utah, Colorado, Idaho) with a goal to highlight the local talent and expertise in engineering with the Go programming language'
 date: '2021-10-22'
 tags: ['golang']
 published: true
@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-[Ent: Making Data Easy in Go]()
+[Ent: Making Data Easy in Go](https://dvinnik.dev/presentations/2021/ent_making-data-easy-in-go)
 
 **Location**
 

@@ -2,7 +2,7 @@
 category: 'event'
 cover: './cover.jpg'
 title: 'Open Source Festival'
-description: 'One of the largest developer conference & event series.'
+description: 'Open source conference with a community aimed at creating and supporting the open source movement within Africa'
 date: '2022-03-25'
 tags: ['oss']
 published: true
@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-[The 10,000 Steps of Open Source Project Health]()
+[The 10,000 Steps of Open Source Project Health](https://dvinnik.dev/presentations/2021/10000-steps-of-open-source-project-health)
 
 **Location**
 

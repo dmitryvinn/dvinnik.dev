@@ -1,5 +1,5 @@
 ---
-category: 'talk'
+category: 'presentation'
 cover: './cover.jpg'
 title: "Cross-Platform CSS (Yes, it's Possible!) with Yoga"
 description: "In this talk, we learn about Yoga's main concepts and use-cases"

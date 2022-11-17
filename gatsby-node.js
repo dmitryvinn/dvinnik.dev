@@ -95,7 +95,7 @@ exports.createPages = async ({ graphql, actions }) => {
 
     createPage({
       path: `${presentation.node.fields.slug}`,
-      component: presentationTemplate,
+      component: presentationsTemplate,
       context: {
         slug: `${presentation.node.fields.slug}`,
         previous,

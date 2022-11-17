@@ -2,7 +2,7 @@
 category: 'event'
 cover: './cover.jpg'
 title: 'AgentConf'
-description: 'One of the largest Web conferences in Germany'
+description: 'One of the largest Web conferences in Germany where participants talked a lot with each other and especially with the speakers during the breaks'
 date: '2019-02-21'
 tags: ['wellness']
 published: true
@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-[Stress Driven Development, and How to Avoid It]() 
+[Stress Driven Development, and How to Avoid It](https://dvinnik.dev/presentations/2018/stress-driven-development) 
 
 **Location**
 

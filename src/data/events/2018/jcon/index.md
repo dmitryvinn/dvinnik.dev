@@ -2,7 +2,7 @@
 category: 'event'
 cover: './cover.jpg'
 title: 'JCon'
-description: 'One of the largest Java conferences in Germany'
+description: 'In-person Java community conference in Germany organized by the Java User Group Oberpfalz in cooperation with JAVAPRO Magazine.'
 date: '2018-10-09'
 tags: ['java']
 published: true
@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-[Back to the CompletableFuture: Concurrency in Action]() 
+[Back to the CompletableFuture: Concurrency in Action](https://dvinnik.dev/presentations/2018/back-to-the-completable-future) 
 
 **Location**
 

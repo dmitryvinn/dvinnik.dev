@@ -1,5 +1,5 @@
 ---
-category: 'talk'
+category: 'presentation'
 cover: './cover.jpg'
 title: 'Hands-on React Native: From Zero to Hero'
 description: 'In this session, we explore React Native and its main concepts'

@@ -2,7 +2,7 @@
 category: 'event'
 cover: './cover.jpg'
 title: 'FullStack London'
-description: 'The Conference on JavaScript, Node & Internet of Things'
+description: 'Conference on the go-to JavaScript, Node, Angular and IoT conference in London along with other topics like Web-Animation, ES6, CSS3, Machine Learning, Functional Programming.'
 date: '2019-07-10'
 tags: ['testing']
 published: true
@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-[Uphill Battle of Mobile Visual Regression]()
+[Uphill Battle of Mobile Visual Regression](https://dvinnik.dev/presentations/2018/uphill-battle-of-mobile-testing)
 
 **Location**
 

@@ -11,8 +11,8 @@ published: true
 
 **Presence**
 
-- [Uphill Battle of Mobile Visual Regression]() 
-- [Modern Web Testing: Going Beyond Selenium]()
+- [Uphill Battle of Mobile Visual Regression](https://dvinnik.dev/presentations/2018/uphill-battle-of-mobile-testing) 
+- [Modern Web Testing: Going Beyond Selenium](https://dvinnik.dev/presentations/2018/modern-web-testing_going-beyond-selenium)
 
 **Location**
 

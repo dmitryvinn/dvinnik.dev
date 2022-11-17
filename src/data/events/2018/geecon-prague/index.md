@@ -2,7 +2,7 @@
 category: 'event'
 cover: './cover.jpg'
 title: 'GeeCon - Prague'
-description: 'Largest Java Conference in Czech Republic'
+description: 'Largest Java Conference in Czech Republic with a focus on Java and JVM based technologies, dynamic languages, enterprise architectures, and patterns.'
 date: '2018-10-18'
 tags: ['wellness']
 published: true
@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-[Stress Driven Development, and How to Avoid It]() 
+[Stress Driven Development, and How to Avoid It](https://dvinnik.dev/presentations/2018/stress-driven-development) 
 
 **Location**
 

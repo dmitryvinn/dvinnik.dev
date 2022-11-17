@@ -1,5 +1,5 @@
 ---
-category: 'talk'
+category: 'presentation'
 cover: './cover.jpg'
 title: 'Scalable Image Management with Fresco on Android'
 description: 'In this talk, we learn how to use Fresco and build a demo app to show how images can be progressively shown on the device.'

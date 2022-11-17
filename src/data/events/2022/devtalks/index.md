@@ -2,7 +2,7 @@
 category: 'event'
 cover: './cover.jpg'
 title: 'DevTalks'
-description: 'The largest expo conference for software developers and IT professionals in Romania.'
+description: 'The largest expo conference for software developers and IT professionals in Romania, gathering over 8000 participants from all over the world.'
 date: '2022-06-08'
 tags: ['oss']
 published: true
@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-[The 10,000 Steps of Open Source Project Health]()
+[The 10,000 Steps of Open Source Project Health](https://dvinnik.dev/presentations/2021/10000-steps-of-open-source-project-health/)
 
 **Location**
 

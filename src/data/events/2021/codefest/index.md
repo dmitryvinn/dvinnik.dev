@@ -2,7 +2,7 @@
 category: 'event'
 cover: './cover.jpg'
 title: 'Codefest'
-description: 'One of the largest software conferences in Russia'
+description: 'One of the largest software conferences which gathers 1,500 attendees from all over the Russia.'
 date: '2021-05-29'
 tags: ['testing']
 published: true
@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-[Testing React with Jest: Validate Your Components Quickly!]()
+[Testing React with Jest: Validate Your Components Quickly!](https://dvinnik.dev/presentations/2021/testing-react-with-jest)
 
 **Location**
 

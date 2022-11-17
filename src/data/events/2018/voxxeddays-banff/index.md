@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-[Domain Driven Testing: Know What You're Doing]() 
+[Domain Driven Testing: Know What You're Doing](https://dvinnik.dev/presentations/2018/domain-driven-testing) 
 
 **Location**
 

@@ -1,5 +1,5 @@
 ---
-category: 'talk'
+category: 'presentation'
 cover: './cover.jpg'
 title: 'Testing Svelte with Jest: Validate Your Components Quickly!'
 description: 'In this talk, we look at how React apps are tested E2E and why Jest stands out compared to other test frameworks.'

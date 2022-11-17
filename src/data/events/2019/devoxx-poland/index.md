@@ -11,8 +11,8 @@ published: true
 
 **Presence**
 
-- [Gauge + Taiko: BDD for Web Revived]() 
-- [Stress Driven Development, and How to Avoid It]()
+- [Gauge + Taiko: BDD for Web Revived](https://dvinnik.dev/presentations/2019/gauge+taiko_bdd-for-web-revived) 
+- [Stress Driven Development, and How to Avoid It](https://dvinnik.dev/presentations/2018/stress-driven-development)
 
 **Location**
 
@@ -30,13 +30,13 @@ Devoxx is the biggest Java conference in Poland and is a great way to learn abou
 
 <<iframe width="560" height="315" src="https://www.youtube.com/embed/eTUSYiJYL1s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-*[Gauge + Taiko: BDD for Web Revived]()*
+*[Gauge + Taiko: BDD for Web Revived](https://dvinnik.dev/presentations/2019/gauge+taiko_bdd-for-web-revived) *
 <br>
 
 <br>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8vCXE4MH9K8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-*[Stress Driven Development, and How to Avoid It]()*
+*[Stress Driven Development, and How to Avoid It](https://dvinnik.dev/presentations/2018/stress-driven-development)*
 
 <br>

@@ -1,5 +1,5 @@
 ---
-category: 'talk'
+category: 'presentation'
 cover: './cover.jpg'
 title: 'Impostor Syndrome: How to Overcome Your Inner Roadblock'
 description: 'In this talk, we discuss how to identify and overcome these self-imposed roadblocks to allow you to appreciate yourself and your voice.'
@@ -17,7 +17,7 @@ Do you ever wonder if you are good enough? Wonder whether you are an expert ever
 
 <br>
 
-- [HackConf: 2019](http://dvinnik.dev/events/2019/hackconf)
+- [HackConf: 2019](https://dvinnik.dev/events/2019/hackconf)
 
 <br>
 
@@ -45,6 +45,6 @@ In this talk, we discuss the ups and downs of world-renowned experts to see what
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IN3F3vfNgOM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-*[HackConf: 2019](http://dvinnik.dev/events/2019/hackconf)*
+*[HackConf: 2019](https://dvinnik.dev/events/2019/hackconf)*
 
 <br>

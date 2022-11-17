@@ -2,7 +2,7 @@
 category: 'event'
 cover: './cover.jpg'
 title: 'Target Quality'
-description: 'Software Quality conference based in Canada'
+description: 'Software Quality conference based in Canada run by an organization dedicated to the professional development of software testing and quality assurance practices'
 date: '2018-09-25'
 tags: ['testing']
 published: true
@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-[Domain Driven Testing: Know What You Are Doing]() 
+[Domain Driven Testing: Know What You Are Doing](https://dvinnik.dev/presentations/2018/domain-driven-testing) 
 
 **Location**
 

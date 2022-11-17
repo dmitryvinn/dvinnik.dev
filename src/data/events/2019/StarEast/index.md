@@ -2,7 +2,7 @@
 category: 'event'
 cover: './cover.jpg'
 title: 'StarEast'
-description: 'Software Conference for the whole team - based in Norway'
+description: 'TechWell conference that delivers training, support, research, and publications to software managers, developers, test professionals, and quality engineers worldwide.'
 date: '2019-04-28'
 tags: ['testing']
 published: true
@@ -11,8 +11,8 @@ published: true
 
 **Presence**
 
-- [Uphill Battle of Mobile Visual Regression]() 
-- [Interview: Overcoming the Challenges Facing Remote Employees: An Interview with Dmitry Vinnik]()
+- [Uphill Battle of Mobile Visual Regression](https://dvinnik.dev/presentations/2018/uphill-battle-of-mobile-testing) 
+- [Interview: Overcoming the Challenges Facing Remote Employees: An Interview with Dmitry Vinnik](https://dvinnik.dev/conversations/2019/overcoming-challenges-of-remote-work)
 
 **Location**
 

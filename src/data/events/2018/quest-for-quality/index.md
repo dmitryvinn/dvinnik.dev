@@ -2,7 +2,8 @@
 category: 'event'
 cover: './cover.jpg'
 title: 'Quest for Quality'
-description: 'One of the largest software quality conferences in Europe'
+description: 'Cutting-edge software testing conference that will focus on the challenges that Quality
+Assurance in the IT industry faces within the digital transformation'
 date: '2018-10-04'
 tags: ['testing']
 published: true
@@ -11,7 +12,7 @@ published: true
 
 **Presence**
 
-[Domain Driven Testing: Know What You Are Doing]() 
+[Domain Driven Testing: Know What You Are Doing](https://dvinnik.dev/presentations/2018/domain-driven-testing) 
 
 **Location**
 

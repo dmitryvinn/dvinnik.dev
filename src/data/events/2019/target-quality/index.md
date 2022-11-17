@@ -2,7 +2,7 @@
 category: 'event'
 cover: './cover.jpg'
 title: 'Target Quality'
-description: 'Testing conference based in Canada'
+description: 'Testing conference based in Canada run by an organization dedicated to the professional development of software testing and quality assurance practices'
 date: '2019-09-24'
 tags: ['wellness']
 published: true
@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-[Stress Driven Development, and How to Avoid It]() 
+[Stress Driven Development, and How to Avoid It](https://dvinnik.dev/presentations/2018/stress-driven-development) 
 
 **Location**
 

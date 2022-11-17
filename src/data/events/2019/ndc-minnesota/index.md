@@ -2,7 +2,7 @@
 category: 'event'
 cover: './cover.jpg'
 title: 'NDC Minnesota'
-description: 'Conference for Software Developers'
+description: 'Conference for Software Developers focusing on hands-on workshops, inspirational keynotes and evening events.'
 date: '2019-05-07'
 tags: ['testing']
 published: true
@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-- [Modern Web Testing: Going Beyond Selenium]() 
+[Modern Web Testing: Going Beyond Selenium](https://dvinnik.dev/presentations/2018/modern-web-testing_going-beyond-selenium) 
 
 **Location**
 

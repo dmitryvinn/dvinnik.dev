@@ -2,7 +2,7 @@
 category: 'event'
 cover: './cover.jpg'
 title: 'Future of Testing Forum'
-description: 'Local meetup dedicated to testing and software quality.'
+description: 'Local meetup dedicated to testing and software quality with focus on test automation, leadership and more.'
 date: '2022-09-15'
 tags: ['testing']
 published: true
@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-[Testing at Scale at Meta and Salesforce]()
+[Testing at Scale at Meta and Salesforce](https://dvinnik.dev/presentations/2020/testing-at-scale-at-meta-and-sfdc)
 
 **Location**
 

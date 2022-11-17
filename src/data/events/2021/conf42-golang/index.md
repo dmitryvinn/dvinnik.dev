@@ -2,7 +2,7 @@
 category: 'event'
 cover: './cover.jpg'
 title: 'Conf42 - Enterprise Software'
-description: 'Polyglot Technology Conference'
+description: 'Polyglot Technology Conference run by a team passionate about technology and use the cutting edge to deliver better events across the globe.e'
 date: '2021-06-24'
 tags: ['golang']
 published: true
@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-[Ent: Making Data Easy in Go]()
+[Ent: Making Data Easy in Go](https://dvinnik.dev/presentations/2021/ent_making-data-easy-in-go)
 
 **Location**
 

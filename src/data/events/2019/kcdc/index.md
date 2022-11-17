@@ -2,7 +2,7 @@
 category: 'event'
 cover: './cover.jpg'
 title: 'Kansas City Developer Conference'
-description: 'Large conference with a focus on new and experienced Developers, Architects, UI/UX Designers'
+description: 'Large conference with a focus on new and experienced Developers, Architects, UI/UX Designers based in Kansas City.'
 date: '2019-07-18'
 tags: ['java']
 published: true
@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-[Back to the CompletableFuture: Concurrency in Action]()
+[Back to the CompletableFuture: Concurrency in Action](https://dvinnik.dev/presentations/2018/back-to-the-completable-future)
 
 **Location**
 

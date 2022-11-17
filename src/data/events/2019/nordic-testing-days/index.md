@@ -2,7 +2,7 @@
 category: 'event'
 cover: './cover.jpg'
 title: 'Nordic Testing Days'
-description: 'Nordic Testing Days is an annual conference primarily aimed at software testers'
+description: 'Nordic Testing Days is an annual conference primarily aimed at software testers and also welcome others ranging from programmers to UX specialists, project managers to designers.'
 date: '2019-05-30'
 tags: ['testing']
 published: true
@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-[Gauge + Taiko: BDD for Web Revived]() 
+[Gauge + Taiko: BDD for Web Revived](https://dvinnik.dev/presentations/2019/gauge+taiko_bdd-for-web-revived) 
 
 **Location**
 

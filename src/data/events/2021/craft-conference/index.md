@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-[Stress Driven Development, and How to Avoid It]()
+[Stress Driven Development, and How to Avoid It](https://dvinnik.dev/presentations/2018/stress-driven-development)
 
 **Location**
 

@@ -1,5 +1,5 @@
 ---
-category: 'talk'
+category: 'presentation'
 cover: './cover.jpg'
 title: 'Remote Work: Gateway to Freedom'
 description: 'In this talk, we explore how to become a remote employee successfully, how to manage a remote team, and what mistakes to avoid in the process.'
@@ -19,7 +19,7 @@ In this talk, we explore how to become a remote employee successfully, how to ma
 
 <br>
 
-- [VoxxedDays Banff: 2019](http://dvinnik.dev/events/2019/voxxeddays-banff)
+- [VoxxedDays Banff: 2019](https://dvinnik.dev/events/2019/voxxeddays-banff)
 
 <br>
 
@@ -45,7 +45,7 @@ In this talk, we discuss how you can use remote work as the way to free yourself
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/INs_FyL-F8M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-*[VoxxedDays Banff: 2019](http://dvinnik.dev/events/2019/voxxeddays-banff)*
+*[VoxxedDays Banff: 2019](httsp://dvinnik.dev/events/2019/voxxeddays-banff)*
 
 <br>
 

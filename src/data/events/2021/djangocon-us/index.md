@@ -2,7 +2,7 @@
 category: 'event'
 cover: './cover.jpg'
 title: 'DjangoCon US'
-description: 'Virtual event focused on building mobile and web applications.'
+description: 'Virtual event focused on building mobile and web applications covering rom tutorials on building mobile applications and rapid prototyping to talks about data visualization and accessibility.'
 date: '2021-10-23'
 tags: ['testing']
 published: true
@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-[Modern Web Testing: Going Beyond Selenium]()
+[Modern Web Testing: Going Beyond Selenium](https://dvinnik.dev/presentations/2018/modern-web-testing_going-beyond-selenium)
 
 **Location**
 

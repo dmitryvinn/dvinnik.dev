@@ -1,5 +1,5 @@
 ---
-category: 'talk'
+category: 'presentation'
 cover: './cover.jpg'
 title: 'Mobile Debugging Made Easy with Flipper'
 description: 'In this talk, we learn how to debug Android, iOS, and React Native apps with Flipper.'

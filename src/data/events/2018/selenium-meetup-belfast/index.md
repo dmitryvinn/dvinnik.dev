@@ -2,7 +2,7 @@
 category: 'event'
 cover: './cover.jpg'
 title: 'Selenium Meetup - Belfast'
-description: 'Belfast Selenium group focuses on a wide variety of testing topics.'
+description: 'Belfast Selenium group focuses on a wide variety of testing topics ran by the Belfast Selenium group - all things testing and anything related!'
 date: '2018-10-08'
 tags: ['testing']
 published: true
@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-[Domain Driven Testing: Know What You Doing]()
+[Domain Driven Testing: Know What You Doing](https://dvinnik.dev/presentations/2018/domain-driven-testing)
 
 **Location**
 

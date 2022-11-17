@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-- [Modern Web Testing: Going Beyond Selenium]() 
+[Modern Web Testing: Going Beyond Selenium](https://dvinnik.dev/presentations/2018/modern-web-testing_going-beyond-selenium) 
 
 **Location**
 

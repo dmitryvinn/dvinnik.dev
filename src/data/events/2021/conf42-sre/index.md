@@ -1,8 +1,8 @@
 ---
 category: 'event'
 cover: './cover.jpg'
-title: 'Conf42 - SRE'
-description: 'Polyglot Technology Conference'
+title: 'Conf42 - Site Reliability Engineering'
+description: 'Polyglot Technology Conference run by a team passionate about technology and use the cutting edge to deliver better events across the globe.'
 date: '2021-09-30'
 tags: ['architecture']
 published: true
@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-[Fixing Broken Windows: Dealing with Legacy Systems, Poor Quality and Gaps]()
+[Fixing Broken Windows: Dealing with Legacy Systems, Poor Quality and Gaps](https://dvinnik.dev/presentations/2018/dealing-with-legacy-systems)
 
 **Location**
 

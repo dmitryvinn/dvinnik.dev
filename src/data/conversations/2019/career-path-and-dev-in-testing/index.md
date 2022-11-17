@@ -33,4 +33,4 @@ Virtual
 
 Geekle has the unique experience to gather huge tech summits with 5'000+ attendees in different tech domains. Now we hope to make something the world has never seen before for the QA Community.
 
-Read more [here]().
+Read more [here](https://dvinnik.dev/events/2021/qa-global-summit).

@@ -2,7 +2,7 @@
 category: 'event'
 cover: './cover.jpg'
 title: 'HackConf'
-description: 'A software development conference for developers, by developers'
+description: 'A software development conference for developers, by developers, Bulgaria`s premier software development conference, happening in Sofia.'
 date: '2019-10-11'
 tags: ['leadership', 'wellness']
 published: true
@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-[Remote Work: Gateway to Freedom]()
+[Remote Work: Gateway to Freedom](https://dvinnik.dev/presentations/2019/remote-work_gateway-to-freedom)
 
 **Location**
 

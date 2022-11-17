@@ -2,7 +2,7 @@
 category: 'event'
 cover: './cover.jpg'
 title: 'GeekCamp Singapore'
-description: 'A one-stop event to get acquainted and grow your tech network in Singapore.'
+description: 'A one-stop event to get acquainted and grow your tech network in Singapore: a hybrid online + in-person GeekcampSG.'
 date: '2021-11-06'
 tags: ['oss']
 published: true
@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-[The 10,000 Steps of Open Source Project Health]()
+[The 10,000 Steps of Open Source Project Health](https://dvinnik.dev/presentations/2021/10000-steps-of-open-source-project-health)
 
 **Location**
 

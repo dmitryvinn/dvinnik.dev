@@ -2,7 +2,7 @@
 category: 'event'
 cover: './cover.jpg'
 title: 'iSAQB Software Architecture Gathering'
-description: 'The Leading International Conference for Software Architecture.'
+description: 'International conference highlight for all those working on solution structures in IT projects: primarily software architects, developers and professionals in quality assurance.'
 date: '2021-10-14'
 tags: ['wellness']
 published: true
@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-[Stress Driven Development, and How to Avoid It]()
+[Stress Driven Development, and How to Avoid It](https://dvinnik.dev/presentations/2018/stress-driven-development)
 
 **Location**
 

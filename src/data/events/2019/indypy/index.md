@@ -2,7 +2,7 @@
 category: 'event'
 cover: './cover.jpg'
 title: 'IndyPy Python Web Conf'
-description: 'Virtual Python event that features international tech experts presenting'
+description: 'Virtual event that features international tech experts presenting on 24 topics such as microservices, identity management, machine learning and CI/CD.'
 date: '2019-08-23'
 tags: ['testing']
 published: true
@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-[Modern Web Testing: Going Beyond Selenium]()
+[Modern Web Testing: Going Beyond Selenium](https://dvinnik.dev/presentations/2018/modern-web-testing_going-beyond-selenium)
 
 **Location**
 

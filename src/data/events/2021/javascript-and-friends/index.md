@@ -2,7 +2,7 @@
 category: 'event'
 cover: './cover.jpg'
 title: 'JavaScript and Friends'
-description: 'Web Conference based in Columbus'
+description: 'Web Conference based in Columbus with a mission to bring a diverse group of around 200 JavaScript developers and friends to learn new skills and concepts and to network and develop new relationships.'
 date: '2021-08-19'
 tags: ['oss']
 published: true
@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-[The 10,000 Steps of Open Source Project Health]()
+[The 10,000 Steps of Open Source Project Health](https://dvinnik.dev/presentations/2021/10000-steps-of-open-source-project-health)
 
 **Location**
 

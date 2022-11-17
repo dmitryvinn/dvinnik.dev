@@ -2,7 +2,7 @@
 category: 'event'
 cover: './cover.jpg'
 title: 'GeeCon - Poland'
-description: 'Largest Java Conference in Czech Republic'
+description: 'Largest Java Conference in Czech Republic focused on Java and JVM based technologies, dynamic languages, enterprise architectures, patterns, distributed computing, software craftsmanship, mobile and much more.'
 date: '2019-05-15'
 tags: ['testing']
 published: true
@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-[Modern Web Testing: Going Beyond Selenium]() 
+[Modern Web Testing: Going Beyond Selenium](https://dvinnik.dev/presentations/2018/modern-web-testing_going-beyond-selenium) 
 
 **Location**
 

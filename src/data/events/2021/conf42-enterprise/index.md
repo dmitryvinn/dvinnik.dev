@@ -2,7 +2,7 @@
 category: 'event'
 cover: './cover.jpg'
 title: 'Conf42 - Enterprise Software'
-description: 'Polyglot Technology Conference'
+description: 'Polyglot Technology Conference run by a team passionate about technology and use the cutting edge to deliver better events across the globe.'
 date: '2021-03-25'
 tags: ['java']
 published: true
@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-[Back to the CompletableFuture: Concurrency in Action]()
+[Back to the CompletableFuture: Concurrency in Action](https://dvinnik.dev/presentations/2018/back-to-the-completable-future)
 
 **Location**
 

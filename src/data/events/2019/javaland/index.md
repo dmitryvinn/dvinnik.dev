@@ -2,7 +2,7 @@
 category: 'event'
 cover: './cover.jpg'
 title: 'Javaland'
-description: 'Two eventful days packed with presentations, and community activities.'
+description: 'Two eventful days packed with presentations, community activities, an accompanying exhibition, workshops, exchange and networking with a unique amusement park flair.'
 date: '2019-03-18'
 tags: ['java']
 published: true
@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-[Back to the CompletableFuture: Concurrency in Action]()
+[Back to the CompletableFuture: Concurrency in Action](https://dvinnik.dev/presentations/2018/back-to-the-completable-future)
 
 **Location**
 

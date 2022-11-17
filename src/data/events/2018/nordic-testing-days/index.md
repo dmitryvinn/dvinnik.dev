@@ -2,7 +2,7 @@
 category: 'event'
 cover: './cover.jpg'
 title: 'Nordic Testing Days'
-description: 'Nordic Testing Days is an annual conference primarily aimed at software testers'
+description: 'Nordic Testing Days is an annual conference primarily aimed at software testers and also welcome others ranging from programmers to UX specialists, project managers to designers.'
 date: '2018-06-21'
 tags: ['testing']
 published: true
@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-[From Robotium to Appium: Choose Your Journey]() 
+[From Robotium to Appium: Choose Your Journey](https://dvinnik.dev/presentations/2018/from-robotium-to-appium) 
 
 **Location**
 

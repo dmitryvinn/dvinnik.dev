@@ -1,5 +1,5 @@
 ---
-category: 'talk'
+category: 'presentation'
 cover: './cover.jpg'
 title: 'Lead by Example Towards Productivity: Science of Lost Time'
 description: 'In this talk, we discuss how, as a leader, you should lead by example towards a more productive workflow.'

@@ -34,4 +34,4 @@ San Francisco, CA, USA
 
 Fifteen years ago, the first line of code was committed to build GitHub. Since then, our purpose has been to equip developers with everything they need to be their best. This mission has remained the same through every iteration of the GitHub platform. But as software continues to advance in all aspects of our work and life, running, maintaining, and building software for a global population creates immense complexity for developers.
 
-Read more [here]().
+Read more [here](https://dvinnik.dev/events/2022/github-universe).

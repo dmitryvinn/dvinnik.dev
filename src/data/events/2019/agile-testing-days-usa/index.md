@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-- [Gauge + Taiko: BDD for Web Revived]() 
+[Gauge + Taiko: BDD for Web Revived](https://dvinnik.dev/presentations/2019/gauge+taiko_bdd-for-web-revived) 
 
 **Location**
 

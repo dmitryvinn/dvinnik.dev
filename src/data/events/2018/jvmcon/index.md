@@ -2,7 +2,7 @@
 category: 'event'
 cover: './cover.jpg'
 title: 'JVMCon'
-description: 'The JVM (Java, Scala and all other JVM languages) conference where you create the program!'
+description: 'The JVM (Java, Scala and all other JVM languages) conference where you create the program with a wide range of subjects, from language features to flying drones, project reports or anything else that involves a JVM.'
 date: '2018-01-30'
 tags: ['java']
 published: true
@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-[Back to the CompletableFuture: Concurrency in Action]() 
+[Back to the CompletableFuture: Concurrency in Action](https://dvinnik.dev/presentations/2018/back-to-the-completable-future) 
 
 **Location**
 

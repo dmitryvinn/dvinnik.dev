@@ -2,7 +2,7 @@
 category: 'event'
 cover: './cover.jpg'
 title: 'Dreamforce'
-description: 'Dreamforce, the flagship conference from Salesforce.'
+description: 'Annual event that brings together the global Salesforce community for learning, fun, community building, and philanthropy.'
 date: '2018-11-09'
 tags: ['business']
 published: true
@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-[Design Pixel-Perfect User Experiences with Community Cloud]()
+[Design Pixel-Perfect User Experiences with Community Cloud](https://dvinnik.dev/presentations/2018/design-pixel-perfect-community-cloud)
 
 **Location**
 

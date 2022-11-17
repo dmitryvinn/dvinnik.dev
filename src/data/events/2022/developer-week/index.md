@@ -2,7 +2,7 @@
 category: 'event'
 cover: './cover.jpg'
 title: 'Developer Week'
-description: 'One of the largest developer conference & event series.'
+description: 'One of the largest developer conference & event series focused on developer technology, from blockchain and artificial intelligence to big data and quantum computing.'
 date: '2022-02-07'
 tags: ['oss']
 published: true
@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-[The 10,000 Steps of Open Source Project Health]()
+[The 10,000 Steps of Open Source Project Health](https://dvinnik.dev/presentations/2021/10000-steps-of-open-source-project-health)
 
 **Location**
 

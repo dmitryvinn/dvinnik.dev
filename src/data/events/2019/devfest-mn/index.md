@@ -2,7 +2,7 @@
 category: 'event'
 cover: './cover.jpg'
 title: 'DevFestMN'
-description: 'Web conference organized by the Google Developer Group: Twin Cities'
+description: 'Web conference organized by the Google Developer Group: Twin Cities. Each DevFest event is crafted by its local organizers to fit the needs and interests of its local developer community.'
 date: '2019-02-02'
 tags: ['testing']
 published: true
@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-[Modern Web Testing: Going Beyond Selenium]()
+[Modern Web Testing: Going Beyond Selenium](https://dvinnik.dev/presentations/2018/modern-web-testing_going-beyond-selenium/cover.jpg)
 
 **Location**
 
