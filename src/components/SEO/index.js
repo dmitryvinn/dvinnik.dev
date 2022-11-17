@@ -21,6 +21,7 @@ const SEO = ({ description, lang, meta, title , canonicalUrl}) => {
   
     
   const metaDescription = description || site.siteMetadata.description;
+  const imageContent = site.siteMetadata.image;
   if (canonicalUrl) {
     return(
         <Helmet
@@ -60,6 +61,10 @@ const SEO = ({ description, lang, meta, title , canonicalUrl}) => {
       {
         name: `twitter:title`,
         content: title
+      },
+      {
+        name: `og:image`,
+        content: imageContent
       },
       {
         name: `twitter:description`,
