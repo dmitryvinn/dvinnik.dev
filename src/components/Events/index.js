@@ -61,7 +61,11 @@ const Events = () => {
             fields: { slug },
             frontmatter: { title, cover, description, date, tags }
           } = item.node;
+          if (!cover) {
+            console.log(title)
+            console.log(date)
 
+          }
           return (
             <Styled.Events key={id}>
               <Link to={slug}>

@@ -17,7 +17,7 @@ In this talk, we look at how React apps are tested E2E and why Jest stands out c
 
 <br>
 
-- [Svelte Summit Spring: 2021](https://dvinnik.dev/events/2021/svelte-summit-spring)
+- [CodeFest: 2021](https://dvinnik.dev/events/2021/codefest)
 
 <br>
 
@@ -42,6 +42,8 @@ In this talk, we look at how React apps are tested E2E and why Jest stands out c
 <br>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zYUsQQV3Jpk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+*[CodeFest: 2021](https://dvinnik.dev/events/2021/codefest)*
 
 <br>
 

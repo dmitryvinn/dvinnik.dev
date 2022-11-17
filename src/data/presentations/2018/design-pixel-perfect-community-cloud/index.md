@@ -31,4 +31,6 @@ In this session we'll walk through how external design systems, pre-built themes
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4tEwBSetNUM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+*[Dreamforce: 2018](http://dvinnik.dev/events/2018/dreamforce/)*
+
 <br>
