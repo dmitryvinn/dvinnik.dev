@@ -9,7 +9,11 @@ Dmitry always emphasizes a community-first approach. He applies this mindset and
 
 Dmitry also regularly shares DevRel resources on his site and shares regular updates through his DevRel Newsletter.
 `,
+image: `/gatsby-icon.png`,
+twitterUsername: `@DmitryVinnik`,
+siteUrl: `https://dvinnik.dev/`,
     author: `Dmitry Vinnik`
+    
   },
   plugins: [
     `gatsby-plugin-typescript`,
@@ -50,7 +54,7 @@ Dmitry also regularly shares DevRel resources on his site and shares regular upd
         name: `gatsby-personal-website-starter`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#ç`,
+        background_color: `#4C6E94`,
         theme_color: `#4C6E94`,
         display: `minimal-ui`,
         icon: `src/assets/images/gatsby-icon.png`
