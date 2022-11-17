@@ -2,7 +2,7 @@
 category: 'event'
 cover: './cover.jpg'
 title: 'Dreamforce'
-description: 'Dreamforce, the flagship conference from Salesforce.'
+description: 'Dreamforce is an annual event that brings together the global Salesforce community for learning, fun, community building, and philanthropy.'
 date: '2017-11-09'
 tags: ['business']
 published: true
@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-[Tips and Tricks for Developing Components for Communities]()
+[Tips and Tricks for Developing Components for Communities](https://dvinnik.dev/presentations/2017/tips-for-salesforce-communities)
 
 **Location**
 

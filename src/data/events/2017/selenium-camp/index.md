@@ -2,8 +2,8 @@
 category: 'event'
 cover: './cover.jpg'
 title: 'Selenium Camp'
-description: 'Leading test automation conference in Eastern Europe!'
-date: '2017-04-10'
+description: 'Leading test automation conference in Eastern Europe with 2 days full of conference talks focused on Selenium/WebDriver.'
+date: '2017-02-10'
 tags: ['testing']
 published: true
 ---
@@ -11,8 +11,8 @@ published: true
 
 **Presence**
 
-[Building tests to build websites]() 
-[Selenium/WebDriver Q&A panel](ttps://seleniumcamp.com/talk/seleniumwebdriver-qa-panel/))
+[Building tests to build websites](https://dvinnik.dev/presentations/2017/building-tests-to-build-websites/) 
+[Selenium/WebDriver Q&A panel](https://dvinnik.dev/conversations/2017/selenium-qa-panel)
 
 **Location**
 

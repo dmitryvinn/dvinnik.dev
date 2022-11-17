@@ -2,7 +2,7 @@
 category: 'event'
 cover: './cover.jpg'
 title: 'JEEConf'
-description: 'Java Eastern Europe Conference in the heart of Ukraine.'
+description: 'Java Eastern Europe Conference in the heart of Ukraine that emphasis  practical experience and development of real projects.'
 date: '2017-05-26'
 tags: ['java']
 published: true
@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-[Aspect Oriented Programming: Hidden Toolkit That You Already Have]()
+[Aspect Oriented Programming: Hidden Toolkit That You Already Have](https://dvinnik.dev/presentations/2017/aspect-oriented-programming)
 
 **Location**
 

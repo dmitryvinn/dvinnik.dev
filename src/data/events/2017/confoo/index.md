@@ -2,7 +2,7 @@
 category: 'event'
 cover: './cover.jpg'
 title: 'ConFoo'
-description: 'Multi-technology conference for web developers.'
+description: 'Multi-technology conference for web developers based in Canada with locations in Vancouver and Montreal.'
 date: '2017-12-04'
 tags: ['java']
 published: true
@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-[Do you even Function? Guiding Through Functional Interfaces](guiding-through-functional-interfaces)
+[Do you even Function? Guiding Through Functional Interfaces](https://dvinnik.dev/presentations/2017/guiding-through-functional-interfaces)
 
 **Location**
 

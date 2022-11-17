@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-[Building Tests to Build Websites](https://dvinnik.dev/talks/testing/building-tests-to-build-websites/)
+[Building Tests to Build Websites](https://dvinnik.dev/presentations/2017/building-tests-to-build-websites/)
 
 **Location**
 

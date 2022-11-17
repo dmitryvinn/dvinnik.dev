@@ -2,7 +2,7 @@
 category: 'conversation'
 cover: './cover.jpg'
 title: 'Open Source Developer Advocacy at Facebook with Dmitry Vinnik'
-description: 'Dmitry Vinnik, an Open Source Developer Advocate at Facebook, talks about how he helps to enable developers around the world make use of the social media company's hundreds of open source projects'
+description: 'Dmitry Vinnik, an Open Source Developer Advocate at Facebook, talks about how he helps to enable developers around the world make use of the social media company`s hundreds of open source projects'
 date: '2021-05-12'
 tags: ['leadership','oss']
 published: true

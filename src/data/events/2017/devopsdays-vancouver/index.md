@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-[Companies Which Need DevOps But Don’t Know About It]()
+[Companies Which Need DevOps But Don’t Know About It](https://dvinnik.dev/presentations/2017/companies-need-devops)
 
 **Location**
 

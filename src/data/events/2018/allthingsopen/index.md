@@ -11,7 +11,7 @@ published: true
 
 **Presence**
 
-[Uphill Battle Of Mobile Visual Regression]()
+[Uphill Battle Of Mobile Visual Regression](https://dvinnik.dev/presentations/2019/uphill-battle-of-mobile-testing)
 
 **Location**
 
