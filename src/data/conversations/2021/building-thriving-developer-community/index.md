@@ -2,7 +2,7 @@
 category: 'conversation'
 cover: './cover.jpg'
 title: 'How To Build A Thriving Developer Community'
-description: 'Discussion between DevRel and OSS experts '
+description: 'Discussion between DevRel and OSS experts, answering Wwat makes a strong developer community? How can we create authentic experiences?'
 date: '2021-06-17'
 tags: ['devrel','oss']
 published: true

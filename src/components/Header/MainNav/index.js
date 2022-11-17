@@ -24,8 +24,8 @@ const mainNavItems = [
     slug: '/conversations/'
   },
   {
-    title: 'Talks',
-    slug: '/talks/'
+    title: 'Presentations',
+    slug: '/presentations/'
   },
   {
     title: 'DevRel Resources',

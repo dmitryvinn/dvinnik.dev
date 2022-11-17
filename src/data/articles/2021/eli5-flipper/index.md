@@ -2,7 +2,7 @@
 category: 'article'
 cover: './cover.jpg'
 title: 'ELI5: Flipper - Cross-Platform Debugger'
-description: 'In this post, we explain Buck, a high-performance build tool.'
+description: 'In this blog post, we briefly look at a popular open source project called Flipper, an extensible mobile app debugger for iOS, Android and React Native.'
 date: '2021-06-08'
 tags: ['open source','eli5']
 published: true

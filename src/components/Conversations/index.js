@@ -83,6 +83,7 @@ const Conversations = () => {
                   </Styled.Card>
                 </motion.div>
               </Link>
+              <br></br>
             </Styled.Conversations>
           );
         })}

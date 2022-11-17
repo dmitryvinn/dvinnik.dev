@@ -2,7 +2,7 @@
 category: 'article'
 cover: './cover.jpg'
 title: 'ELI5: Folly - Battle-Tested C++ Library'
-description: 'In this post, we explain Buck, a high-performance build tool.'
+description: 'In this blog post, we explore a popular open source project called Folly, a C++ library that provides core components used extensively at Meta.'
 date: '2021-05-24'
 tags: ['open source','eli5']
 published: true
@@ -15,7 +15,7 @@ canonicalUrl: 'https://developers.facebook.com/blog/post/2021/05/24/eli5-folly-b
 
 *Originally posted [here](https://developers.facebook.com/blog/post/2021/05/24/eli5-folly-battle-tested-c-plus-plus-library/).*
 
-In this blog post, we explore a popular open source project called Folly, a C++ library that provides core components used extensively at Facebook. We cover this open source project using the [ELI5](https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.dictionary.com%2Fe%2Fslang%2Feli5%2F&h=AT3wBm10bvEy4EvretqtyIxLo6BN4wBiD1ch2udnyxSaQ2tsa96onz_7IFZAKfg4n3I1sm2g-Ubd3xjw0yM_pqGjsIawV3X_ho_bRhZYD_R5CSpCDE6jThrlllJgy8OR1NzDf-_nkJ4gZSYKHhsmDFdl38Vr6xLYiliAd3XZ0yo) style of explaining things in simple terms in the shortest amount of time.
+In this blog post, we explore a popular open source project called Folly, a C++ library that provides core components used extensively at Meta. We cover this open source project using the [ELI5](https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.dictionary.com%2Fe%2Fslang%2Feli5%2F&h=AT3wBm10bvEy4EvretqtyIxLo6BN4wBiD1ch2udnyxSaQ2tsa96onz_7IFZAKfg4n3I1sm2g-Ubd3xjw0yM_pqGjsIawV3X_ho_bRhZYD_R5CSpCDE6jThrlllJgy8OR1NzDf-_nkJ4gZSYKHhsmDFdl38Vr6xLYiliAd3XZ0yo) style of explaining things in simple terms in the shortest amount of time.
 
 If you prefer to learn by watching, we also have an accompanying [video about Folly](https://l.facebook.com/l.php?u=https%3A%2F%2Fyoutu.be%2FWr_IfOICYSs&h=AT0pA9-VQa-BLIdUiB3YBJZepZnTT0rY7xykXG3S0jMHmsh7eEKNj5jBhBPI9vZywUfWJjbfm2EtLUk1jA4xISRIKzk_BYL1qC2O6klS0GoLp_wFt33ie6FUqkkB-yn8qeqBPVmo5djqKLL-yHwQHSEPP8OFvmIx9ZzIGvOhwNk) on our [Facebook Open Source YouTube channel](https://www.youtube.com/c/FacebookOpenSource).
 

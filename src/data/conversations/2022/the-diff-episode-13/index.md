@@ -2,7 +2,7 @@
 category: 'conversation'
 cover: './cover.jpg'
 title: 'The Diff: From Linux to React Native with Nicola Corti'
-description: 'Hosting a Meta Open Source podcast called the Diff'
+description: 'Dmitry Vinnik, a Developer Advocate at Meta Open Source, chats Meta Software Developer Nicola Corti about his journey to mobile development.'
 date: '2022-06-20'
 tags: ['oss']
 published: true

@@ -83,6 +83,7 @@ const Events = () => {
                   </Styled.Card>
                 </motion.div>
               </Link>
+              <br></br>
             </Styled.Events>
           );
         })}

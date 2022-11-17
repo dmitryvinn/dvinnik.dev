@@ -2,7 +2,7 @@
 category: 'article'
 cover: './cover.jpg'
 title: 'ELI5: Buck - Modular Build System'
-description: 'In this post, we explain Buck, a high-performance build tool.'
+description: 'In this post, we explain Buck, a high-performance build tool, in a way that is super simple to understand (or as it's commonly known online, ELI5).'
 date: '2021-03-29'
 tags: ['open source','eli5']
 published: true

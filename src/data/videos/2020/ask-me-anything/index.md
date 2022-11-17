@@ -2,7 +2,7 @@
 category: 'video'
 cover: './cover.jpg'
 title: '"Ask me Anything" with Dmitry Vinnik'
-description: 'Dmitry Vinnik answers your questions in this AMA about his journey to Developer Advocacy.'
+description: 'In his premiere video, Dmitry Vinnik answers your questions in this AMA about his journey to Developer Advocacy, tips on work-life balance, and more!'
 date: '2020-04-28'
 tags: ['devrel']
 published: true

@@ -2,7 +2,7 @@
 category: 'article'
 cover: './cover.jpg'
 title: 'ELI5: Flow - Static Type Checker for JavaScript'
-description: 'In this post, we explain Flow, a static type checker for JavaScript.'
+description: 'In this post, we explain Flow, a static type checker for JavaScript. Flow provides real-time feedback right in your editor and lets you write JavaScript your way.'
 date: '2020-12-14'
 tags: ['open source','eli5']
 published: true

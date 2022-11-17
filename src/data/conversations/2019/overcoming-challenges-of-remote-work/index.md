@@ -2,7 +2,7 @@
 category: 'conversation'
 cover: './cover.jpg'
 title: 'Overcoming the Challenges Facing Remote Employees'
-description: 'Interview with TechWell'
+description: 'In this interview, Dmitry Vinnik, lead software engineer at Salesforce, discusses the value of attending conferences in person as opposed to just taking advantage of the online presentations.'
 date: '2019-04-28'
 tags: ['leadership','remote']
 published: true

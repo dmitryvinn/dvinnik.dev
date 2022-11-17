@@ -66,6 +66,12 @@ Dmitry also regularly shares DevRel resources on his site and shares regular upd
         tailwind: true,
         purgeOnly: [`src/assets/styles/global.css`]
       }
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-131185434-1"
+      }
     }
   ]
 };

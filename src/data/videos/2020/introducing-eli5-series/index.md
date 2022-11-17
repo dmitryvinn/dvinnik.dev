@@ -2,7 +2,7 @@
 category: 'video'
 cover: './cover.jpg'
 title: 'Introducing ELI5: Explain Like I`m 5 @FB Open Source'
-description: 'Introducing a new series of short videos about Facebook open source projects.'
+description: 'In this video, Dmitry Vinnik, Developer Advocate for Facebook Open Source, introduces a new series of short videos about Facebook open source projects.'
 date: '2020-10-21'
 tags: ['open source', 'eli5']
 published: true

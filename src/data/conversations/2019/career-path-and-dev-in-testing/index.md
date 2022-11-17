@@ -2,7 +2,7 @@
 category: 'conversation'
 cover: './cover.jpg'
 title: 'Career Path and Development in Testing'
-description: 'Speaking Panel at a Geekly event'
+description: 'In this speaking panel, we discuss future of testing, shifting left approach and how to grow as a testing professional in tech.'
 date: '2021-04-07'
 tags: ['testing']
 published: true

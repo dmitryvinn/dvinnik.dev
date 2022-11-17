@@ -2,7 +2,7 @@
 category: 'conversation'
 cover: './cover.jpg'
 title: 'Open source at Facebook with Dmitry Vinnik'
-description: 'Podcast for PodRocket (by LogRocket)'
+description: 'Listen to this episode of PodRocket to hear Dmitry Vinnick, a Developer Advocate at Facebook Open Source, talk about what it means to be open source at Facebook.'
 date: '2021-05-11'
 tags: ['leadership','oss']
 published: true

@@ -2,7 +2,7 @@
 category: 'article'
 cover: './cover.jpg'
 title: 'ELI5: Yoga - Cross-Platform Layout Engine'
-description: 'In this post, we will discuss Yoga, an open source, cross-platform layout engine.'
+description: 'In this post, we will discuss Yoga, an open source, cross-platform layout engine that manages user interfaces across platforms by reusing CSS layouts.'
 date: '2021-02-01'
 tags: ['open source', 'eli5']
 published: true

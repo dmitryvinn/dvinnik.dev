@@ -2,7 +2,7 @@
 category: 'conversation'
 cover: './cover.jpg'
 title: 'Fireside Chat: Open Source at Meta'
-description: 'Speaking at GitHub Universe about open source'
+description: 'In a conversation with GitHub, Meta’s Lead Developer Advocate, Dmitry, will share their learnings on open source at Meta.'
 date: '2022-11-10'
 tags: ['leadership','oss']
 published: true

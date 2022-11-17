@@ -2,7 +2,7 @@
 category: 'article'
 cover: './cover.jpg'
 title: 'ELI5: Watchman - Watching for Changes to Build Faster'
-description: 'In this post, we talk about a project called Watchman, a file watching service.'
+description: 'In this post, we talk about a project called Watchman, a file watching service with clients for a command line, NodeJS and more.'
 date: '2021-03-15'
 tags: ['open source','eli5']
 published: true

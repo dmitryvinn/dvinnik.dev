@@ -2,7 +2,7 @@
 category: 'video'
 cover: './cover.jpg'
 title: 'Mobile Visual Testing: Uphill Battle of Mobile Visual Regression'
-description: 'Webinar for Software Testing Professionals network on visual testing for mobile devices.'
+description: 'In this webinar, the audience will learn about major visual testing frameworks targeting both responsive web applications and native mobile applications.'
 date: '2018-07-11'
 tags: ['mobile']
 published: true

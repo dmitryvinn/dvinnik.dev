@@ -2,7 +2,7 @@
 category: 'conversation'
 cover: './cover.jpg'
 title: 'Innovating Through Automation, Innersource and Cultural Shifts'
-description: 'Speaking Panel at GitHub:InFocus'
+description: 'Speaking Panel at GitHub:InFocus where we discuss how to leverage innersource to encourage strong collaboration and deliver high-quality code.'
 date: '2022-04-29'
 tags: ['leadership','oss']
 published: true

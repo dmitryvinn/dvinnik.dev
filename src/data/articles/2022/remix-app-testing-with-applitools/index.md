@@ -2,7 +2,7 @@
 category: 'article'
 cover: './cover.jpg'
 title: 'How to Visually Test a Remix App with Applitools and Cypress'
-description: 'Is Remix too new to be visually tested? Let’s find out with Applitools and Cypress.'
+description: 'In this blog post, we answer a single question: how to best visually test a Remix-based app? We walk through Remix and build a demo app to best showcase the framework.'
 date: '2022-03-22'
 tags: ['ui','testing']
 published: true

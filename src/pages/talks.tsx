@@ -2,15 +2,15 @@ import React from 'react';
 
 import Layout from 'components/Layout';
 import SEO from 'components/SEO';
-import Talks from 'components/Talks';
+import Presentations from 'components/Presentations';
 
-const TalksPage: React.FC = () => {
+const PresentationsPage: React.FC = () => {
   return (
     <Layout>
-      <SEO title="Talks" />
-      <Talks />
+      <SEO title="Presentations" />
+      <Presentations />
     </Layout>
   );
 };
 
-export default TalksPage;
+export default PresentationsPage;

@@ -83,6 +83,7 @@ const Videos = () => {
                   </Styled.Card>
                 </motion.div>
               </Link>
+              <br></br>
             </Styled.Videos>
           );
         })}

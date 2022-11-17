@@ -2,7 +2,7 @@
 category: 'conversation'
 cover: './cover.jpg'
 title: 'The Diff: Talking about All Things React with Rachel Nabors'
-description: 'Hosting a Meta Open Source podcast called the Diff'
+description: 'Dmitry Vinnik, a Developer Advocate at Meta Open Source, chats with Meta Documentation Engineer Rachel Nabors about their journey to front-end development.'
 date: '2022-04-14'
 tags: ['oss']
 published: true

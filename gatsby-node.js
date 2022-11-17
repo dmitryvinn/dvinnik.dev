@@ -65,12 +65,12 @@ exports.createPages = async ({ graphql, actions }) => {
 
 
 
-  const talkTemplate = path.resolve(`src/templates/Talk/index.js`);
+  const presentationsTemplate = path.resolve(`src/templates/Presentation/index.js`);
 
-  const talkRes = await graphql(`
+  const presentationRes = await graphql(`
     query {
       allMarkdownRemark(
-        filter: { frontmatter: { category: { eq: "talk" } } }
+        filter: { frontmatter: { category: { eq: "presentation" } } }
         sort: { fields: frontmatter___date, order: DESC }
       ) {
         edges {
@@ -87,17 +87,17 @@ exports.createPages = async ({ graphql, actions }) => {
     }
   `);
 
-  const talks = talkRes.data.allMarkdownRemark.edges;
+  const presentations = presentationRes.data.allMarkdownRemark.edges;
 
-  talks.forEach((talk, index) => {
-    const previous = index === talks.length - 1 ? null : talks[index + 1].node;
-    const next = index === 0 ? null : talks[index - 1].node;
+  presentations.forEach((presentation, index) => {
+    const previous = index === presentations.length - 1 ? null : presentations[index + 1].node;
+    const next = index === 0 ? null : presentations[index - 1].node;
 
     createPage({
-      path: `${talk.node.fields.slug}`,
-      component: talkTemplate,
+      path: `${presentation.node.fields.slug}`,
+      component: presentationTemplate,
       context: {
-        slug: `${talk.node.fields.slug}`,
+        slug: `${presentation.node.fields.slug}`,
         previous,
         next
       }
