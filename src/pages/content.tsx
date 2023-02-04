@@ -16,6 +16,7 @@ const ContentPage: React.FC = () => (
           <li>Videos</li>
           <li>Events</li>
           <li>Conversations</li>
+          <li>Courses</li>
         </ul>
       </p>
     </Container>

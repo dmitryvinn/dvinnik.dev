@@ -226,6 +226,46 @@ exports.createPages = async ({ graphql, actions }) => {
     });
   });
 
+
+  const courseTemplate = path.resolve(`src/templates/Course/index.js`);
+
+  const courseRes = await graphql(`
+    query {
+      allMarkdownRemark(
+        filter: { frontmatter: { category: { eq: "course" } } }
+        sort: { fields: frontmatter___date, order: DESC }
+      ) {
+        edges {
+          node {
+            fields {
+              slug
+            }
+            frontmatter {
+              title
+            }
+          }
+        }
+      }
+    }
+  `);
+
+  const courses = courseRes.data.allMarkdownRemark.edges;
+
+  courses.forEach((course, index) => {
+    const previous = index === courses.length - 1 ? null : courses[index + 1].node;
+    const next = index === 0 ? null : courses[index - 1].node;
+
+    createPage({
+      path: `${course.node.fields.slug}`,
+      component: courseTemplate,
+      context: {
+        slug: `${course.node.fields.slug}`,
+        previous,
+        next
+      }
+    });
+  });
+
   const videoTemplate = path.resolve(`src/templates/Video/index.js`);
 
   const videoRes = await graphql(`

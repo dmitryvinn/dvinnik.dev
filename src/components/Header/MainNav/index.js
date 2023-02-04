@@ -20,6 +20,10 @@ const mainNavItems = [
     slug: '/events/'
   },
   {
+    title: 'Courses',
+    slug: '/courses/'
+  },
+  {
     title: 'Conversations',
     slug: '/conversations/'
   },
