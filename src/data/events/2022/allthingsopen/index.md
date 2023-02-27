@@ -24,3 +24,11 @@ For more than 8 years we’ve followed these beliefs and created events and plat
 And throughout it all, our focus on access, diversity, and inclusion and a commitment to helping others have remained steadfast.  We strongly believe you can do business differently and still be successful, which is why we worked hard to earn a Certified B Corp certification in 2018.
 
 [Original Talk Link](https://2022.allthingsopen.org/speakers/dmitry-vinnik/)
+
+**Recording**
+
+<br>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ogVkyYdgigA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br>
