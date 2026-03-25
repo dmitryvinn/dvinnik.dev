@@ -1,1 +1,1 @@
-Personal Website for Dmitry Vinnik
+Personal Website for Dmitry Vinnik.
