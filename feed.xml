@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dmitry Vinnik — Articles &amp; Videos</title>
+    <link>https://dvinnik.dev</link>
+    <description>Latest articles and videos by Dmitry Vinnik, Lead Developer Advocate. Covering open source, testing, mobile development, and developer advocacy.</description>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 23 Feb 2023 12:00:00 GMT</lastBuildDate>
+    <atom:link href="https://dvinnik.dev/feed.xml" rel="self" type="application/rss+xml" />
+    <image>
+      <url>https://d2xsxph8kpxj0f.cloudfront.net/310519663407462879/97p7vQ5meEpw7kiKUeHkXx/profile_c72f6f18.jpg</url>
+      <title>Dmitry Vinnik</title>
+      <link>https://dvinnik.dev</link>
+    </image>
+    <item>
+      <title>Lightning Fast Testing for Salesforce with Applitools and TestZeus</title>
+      <link>https://dvinnik.dev/articles/2023/lightning-fast-testing-for-salesforce-with-applitools-and-testzeus</link>
+      <guid isPermaLink="true">https://dvinnik.dev/articles/2023/lightning-fast-testing-for-salesforce-with-applitools-and-testzeus</guid>
+      <pubDate>Thu, 23 Feb 2023 12:00:00 GMT</pubDate>
+      <description>This post looks at how TestZeus, a test automation library for Salesforce apps, and Applitools Visual AI can provide us with an optimized way to automate our customer scenarios by writing less code.</description>
+      <author>dmitry@dvinnik.dev (Dmitry Vinnik)</author>
+      <category>testing</category>
+    </item>
+    <item>
+      <title>Meta Open Source: 2022 Year in Review</title>
+      <link>https://dvinnik.dev/articles/2023/open-source-year-in-review-2022</link>
+      <guid isPermaLink="true">https://dvinnik.dev/articles/2023/open-source-year-in-review-2022</guid>
+      <pubDate>Tue, 17 Jan 2023 12:00:00 GMT</pubDate>
+      <description>This post explores highlights from Meta Open Source and how Meta helped to build open source community in 2022.</description>
+      <author>dmitry@dvinnik.dev (Dmitry Vinnik)</author>
+      <category>open-source</category>
+    </item>
+    <item>
+      <title>Explain Like I’m 5: MMF</title>
+      <link>https://dvinnik.dev/videos/2022/eli5-mmf</link>
+      <guid isPermaLink="true">https://dvinnik.dev/videos/2022/eli5-mmf</guid>
+      <pubDate>Thu, 17 Nov 2022 12:00:00 GMT</pubDate>
+      <description>In this video, Meta Open Source Developer Advocate Dmitry explains MMF, Meta AI’s go-to deep learning framework for vision and language multimodal research.</description>
+      <author>dmitry@dvinnik.dev (Dmitry Vinnik)</author>
+      <category>open source</category>
+      <category>AI-ML</category>
+      <category>eli5</category>
+    </item>
+    <item>
+      <title>Adding WhatsApp to Your Java Projects</title>
+      <link>https://dvinnik.dev/articles/2022/whatsapp-api-with-java</link>
+      <guid isPermaLink="true">https://dvinnik.dev/articles/2022/whatsapp-api-with-java</guid>
+      <pubDate>Mon, 07 Nov 2022 12:00:00 GMT</pubDate>
+      <description>This article describes how you can integrate the Cloud API, hosted by Meta, Meta’s integration of the WhatsApp Business Platform, into a Java application to enable sending and managing WhatsApp messages.</description>
+      <author>dmitry@dvinnik.dev (Dmitry Vinnik)</author>
+      <category>business-messaging</category>
+    </item>
+    <item>
+      <title>Fixing broken windows: How to deal with legacy systems</title>
+      <link>https://dvinnik.dev/articles/2022/fixing-legacy-systems</link>
+      <guid isPermaLink="true">https://dvinnik.dev/articles/2022/fixing-legacy-systems</guid>
+      <pubDate>Sat, 05 Nov 2022 12:00:00 GMT</pubDate>
+      <description>Working with old code? Here’s everything you need to know about managing and improving legacy systems.</description>
+      <author>dmitry@dvinnik.dev (Dmitry Vinnik)</author>
+      <category>leadership</category>
+      <category>legacy-systems</category>
+    </item>
+    <item>
+      <title>Sending Messages via WhatsApp in Your Node.js Application</title>
+      <link>https://dvinnik.dev/articles/2022/whatsapp-api-with-nodejs</link>
+      <guid isPermaLink="true">https://dvinnik.dev/articles/2022/whatsapp-api-with-nodejs</guid>
+      <pubDate>Mon, 31 Oct 2022 12:00:00 GMT</pubDate>
+      <description>This article describes how you can integrate the Cloud API, hosted by Meta, into a Node.js application to enable sending and managing WhatsApp messages.</description>
+      <author>dmitry@dvinnik.dev (Dmitry Vinnik)</author>
+      <category>business-messaging</category>
+    </item>
+    <item>
+      <title>Sending Messages with WhatsApp in Your Python Applications</title>
+      <link>https://dvinnik.dev/articles/2022/whatsapp-api-with-python</link>
+      <guid isPermaLink="true">https://dvinnik.dev/articles/2022/whatsapp-api-with-python</guid>
+      <pubDate>Mon, 24 Oct 2022 12:00:00 GMT</pubDate>
+      <description>This article describes how you can integrate the Cloud API, hosted by Meta, Meta’s integration of the WhatsApp Business Platform, into a Python application to enable sending and managing WhatsApp messages.</description>
+      <author>dmitry@dvinnik.dev (Dmitry Vinnik)</author>
+      <category>business-messaging</category>
+    </item>
+    <item>
+      <title>Building End-to-End Experiences with the WhatsApp Business Platform</title>
+      <link>https://dvinnik.dev/videos/2022/building-e2e-experiences-with-whatsapp</link>
+      <guid isPermaLink="true">https://dvinnik.dev/videos/2022/building-e2e-experiences-with-whatsapp</guid>
+      <pubDate>Wed, 19 Oct 2022 12:00:00 GMT</pubDate>
+      <description>In this webinar you’ll learn to see how quickly you can get started with the WhatsApp Business Platform Cloud API.</description>
+      <author>dmitry@dvinnik.dev (Dmitry Vinnik)</author>
+      <category>business messaging</category>
+    </item>
+    <item>
+      <title>Explain Like I’m 5: Haxl</title>
+      <link>https://dvinnik.dev/videos/2022/eli5-cachelib</link>
+      <guid isPermaLink="true">https://dvinnik.dev/videos/2022/eli5-cachelib</guid>
+      <pubDate>Wed, 12 Oct 2022 12:00:00 GMT</pubDate>
+      <description>In this video, Meta Open Source Developer Advocate Dmitry explains Haxl, a Haskell library for efficient data access ranging from databases to web-based services.</description>
+      <author>dmitry@dvinnik.dev (Dmitry Vinnik)</author>
+      <category>open source</category>
+      <category>infra</category>
+      <category>eli5</category>
+    </item>
+    <item>
+      <title>Explain Like I’m 5: CacheLib</title>
+      <link>https://dvinnik.dev/videos/2022/eli5-haxl</link>
+      <guid isPermaLink="true">https://dvinnik.dev/videos/2022/eli5-haxl</guid>
+      <pubDate>Tue, 04 Oct 2022 12:00:00 GMT</pubDate>
+      <description>In this video, Meta Open Source Developer Advocate Dmitry Vinnik explains CacheLib, an open source, pluggable in-process caching engine.</description>
+      <author>dmitry@dvinnik.dev (Dmitry Vinnik)</author>
+      <category>open source</category>
+      <category>infra</category>
+      <category>eli5</category>
+    </item>
+    <item>
+      <title>The 10,000 Steps of Open Source Project Health: Dmitry Vinnik [Testμ 2022]</title>
+      <link>https://dvinnik.dev/articles/2022/steps-of-open-source-project-health</link>
+      <guid isPermaLink="true">https://dvinnik.dev/articles/2022/steps-of-open-source-project-health</guid>
+      <pubDate>Thu, 01 Sep 2022 12:00:00 GMT</pubDate>
+      <description>The session starts with Dmitry explaining what open-source is. It is a process of making technology available for other folks to use and improve.</description>
+      <author>dmitry@dvinnik.dev (Dmitry Vinnik)</author>
+      <category>open source</category>
+    </item>
+    <item>
+      <title>Sending WhatsApp Media Messages From An App</title>
+      <link>https://dvinnik.dev/articles/2022/media-messages-via-whatsapp</link>
+      <guid isPermaLink="true">https://dvinnik.dev/articles/2022/media-messages-via-whatsapp</guid>
+      <pubDate>Tue, 28 Jun 2022 12:00:00 GMT</pubDate>
+      <description>We’ll use this basic skeleton Node.js and Express.js server along with the necessary dependencies and skeleton functions already created.</description>
+      <author>dmitry@dvinnik.dev (Dmitry Vinnik)</author>
+      <category>business-messaging</category>
+    </item>
+    <item>
+      <title>Meet the Developers: Mobile Edition (Vadims Savjolovs)</title>
+      <link>https://dvinnik.dev/articles/2022/meet-the-developers-mobile-edition-with-vadims</link>
+      <guid isPermaLink="true">https://dvinnik.dev/articles/2022/meet-the-developers-mobile-edition-with-vadims</guid>
+      <pubDate>Mon, 13 Jun 2022 12:00:00 GMT</pubDate>
+      <description>For today`s interview, we have Vadims Savjolovs, a software engineer on the WhatsApp Commerce Team at Meta</description>
+      <author>dmitry@dvinnik.dev (Dmitry Vinnik)</author>
+      <category>open source</category>
+      <category>meet-the-developers</category>
+    </item>
+    <item>
+      <title>Managing Message Templates with the WhatsApp Business Platform</title>
+      <link>https://dvinnik.dev/articles/2022/manage-message-templates-whatsapp-business-api</link>
+      <guid isPermaLink="true">https://dvinnik.dev/articles/2022/manage-message-templates-whatsapp-business-api</guid>
+      <pubDate>Tue, 07 Jun 2022 12:00:00 GMT</pubDate>
+      <description>This hands-on tutorial will walk you through the processes of template management — including creation, deletion, and customization.</description>
+      <author>dmitry@dvinnik.dev (Dmitry Vinnik)</author>
+      <category>business-messaging</category>
+    </item>
+    <item>
+      <title>Meet the Developers: Mobile Edition (Pritesh Nandgaonkar)</title>
+      <link>https://dvinnik.dev/articles/2022/meet-the-developers-mobile-edition-with-pritesh</link>
+      <guid isPermaLink="true">https://dvinnik.dev/articles/2022/meet-the-developers-mobile-edition-with-pritesh</guid>
+      <pubDate>Mon, 23 May 2022 12:00:00 GMT</pubDate>
+      <description>For today’s interview, we have Pritesh Nandgaonkar, who works on the WhatsApp Apple Companion Team</description>
+      <author>dmitry@dvinnik.dev (Dmitry Vinnik)</author>
+      <category>open source</category>
+      <category>meet-the-developers</category>
+    </item>
+    <item>
+      <title>Implementing Webhooks From The WhatsApp Business Platform</title>
+      <link>https://dvinnik.dev/articles/2022/implementing-webhooks-for-whatsapp</link>
+      <guid isPermaLink="true">https://dvinnik.dev/articles/2022/implementing-webhooks-for-whatsapp</guid>
+      <pubDate>Thu, 19 May 2022 12:00:00 GMT</pubDate>
+      <description>In this article, we’ll walk through a tutorial that demonstrates how to set up an application that receives messages and stores them in a database.</description>
+      <author>dmitry@dvinnik.dev (Dmitry Vinnik)</author>
+      <category>business-messaging</category>
+    </item>
+    <item>
+      <title>Meet the Developers: Mobile Edition (Derick Zhang)</title>
+      <link>https://dvinnik.dev/articles/2022/meet-the-developers-mobile-edition-with-derick</link>
+      <guid isPermaLink="true">https://dvinnik.dev/articles/2022/meet-the-developers-mobile-edition-with-derick</guid>
+      <pubDate>Tue, 10 May 2022 12:00:00 GMT</pubDate>
+      <description>For today`s interview, we have Derick Zhang, a software engineer at Meta, working on the Remote Presence Co-Experience Team.</description>
+      <author>dmitry@dvinnik.dev (Dmitry Vinnik)</author>
+      <category>open source</category>
+      <category>meet-the-developers</category>
+    </item>
+    <item>
+      <title>Meet the Developers: Mobile Edition (Aleksandr Sergeev)</title>
+      <link>https://dvinnik.dev/articles/2022/meet-the-developers-mobile-edition-with-aleksandr</link>
+      <guid isPermaLink="true">https://dvinnik.dev/articles/2022/meet-the-developers-mobile-edition-with-aleksandr</guid>
+      <pubDate>Thu, 21 Apr 2022 12:00:00 GMT</pubDate>
+      <description>For today`s interview, we have Aleksandr Sergeev, a software engineer on the Facebook iOS Reliability Team</description>
+      <author>dmitry@dvinnik.dev (Dmitry Vinnik)</author>
+      <category>open source</category>
+      <category>meet-the-developers</category>
+    </item>
+    <item>
+      <title>Explain Like I’m 5: PPL Bench</title>
+      <link>https://dvinnik.dev/videos/2022/eli5-pplbench</link>
+      <guid isPermaLink="true">https://dvinnik.dev/videos/2022/eli5-pplbench</guid>
+      <pubDate>Wed, 23 Mar 2022 12:00:00 GMT</pubDate>
+      <description>In this video, Meta Open Source Developer Advocate Dmitry explains PPL Bench, an evaluation framework for probabilistic programming languages.</description>
+      <author>dmitry@dvinnik.dev (Dmitry Vinnik)</author>
+      <category>open source</category>
+      <category>AI-ML</category>
+      <category>eli5</category>
+    </item>
+    <item>
+      <title>How to Visually Test a Remix App with Applitools and Cypress</title>
+      <link>https://dvinnik.dev/articles/2022/remix-app-testing-with-applitools</link>
+      <guid isPermaLink="true">https://dvinnik.dev/articles/2022/remix-app-testing-with-applitools</guid>
+      <pubDate>Tue, 22 Mar 2022 12:00:00 GMT</pubDate>
+      <description>In this blog post, we answer a single question: how to best visually test a Remix-based app? We walk through Remix and build a demo app to best showcase the framework.</description>
+      <author>dmitry@dvinnik.dev (Dmitry Vinnik)</author>
+      <category>ui</category>
+      <category>testing</category>
+    </item>
+    <item>
+      <title>Explain Like I’m 5: Create React App</title>
+      <link>https://dvinnik.dev/videos/2022/eli5-create-react-app</link>
+      <guid isPermaLink="true">https://dvinnik.dev/videos/2022/eli5-create-react-app</guid>
+      <pubDate>Wed, 16 Mar 2022 12:00:00 GMT</pubDate>
+      <description>In this video, Meta Open Source Developer Advocate Dmitry Vinnik explains Create React App, an open source project that lets you set up a React web app by running just one command.</description>
+      <author>dmitry@dvinnik.dev (Dmitry Vinnik)</author>
+      <category>open source</category>
+      <category>web</category>
+      <category>eli5</category>
+    </item>
+    <item>
+      <title>Explain Like I’m 5: Glean</title>
+      <link>https://dvinnik.dev/videos/2022/eli5-glean</link>
+      <guid isPermaLink="true">https://dvinnik.dev/videos/2022/eli5-glean</guid>
+      <pubDate>Wed, 09 Mar 2022 12:00:00 GMT</pubDate>
+      <description>In this video, Meta Open Source Developer Advocate Dmitry Vinnik explains Glean, an open source system for collecting, deriving and querying facts about source code.</description>
+      <author>dmitry@dvinnik.dev (Dmitry Vinnik)</author>
+      <category>open source</category>
+      <category>infra</category>
+      <category>eli5</category>
+    </item>
+    <item>
+      <title>Explain Like I’m 5: Bean Machine</title>
+      <link>https://dvinnik.dev/videos/2022/eli5-bean-machine</link>
+      <guid isPermaLink="true">https://dvinnik.dev/videos/2022/eli5-bean-machine</guid>
+      <pubDate>Wed, 23 Feb 2022 12:00:00 GMT</pubDate>
+      <description>In this video, Meta Open Source Developer Advocate Dmitry Vinnik explains Bean Machine, a universal probabilistic programming language that enables fast and accurate Bayesian analysis.</description>
+      <author>dmitry@dvinnik.dev (Dmitry Vinnik)</author>
+      <category>open source</category>
+      <category>AI-ML</category>
+      <category>eli5</category>
+    </item>
+    <item>
+      <title>Explain Like I’m 5: ComponentKit for UI Code Generation on iOS</title>
+      <link>https://dvinnik.dev/videos/2022/eli5-componentkit</link>
+      <guid isPermaLink="true">https://dvinnik.dev/videos/2022/eli5-componentkit</guid>
+      <pubDate>Wed, 16 Feb 2022 12:00:00 GMT</pubDate>
+      <description>In this video, Meta Open Source Developer Advocate Dmitry Vinnik explains ComponentKit, a declarative UI framework for iOS.</description>
+      <author>dmitry@dvinnik.dev (Dmitry Vinnik)</author>
+      <category>open source</category>
+      <category>mobile</category>
+      <category>eli5</category>
+    </item>
+    <item>
+      <title>Explain Like I`m 5: React DevTools</title>
+      <link>https://dvinnik.dev/videos/2022/eli5-react-devtools</link>
+      <guid isPermaLink="true">https://dvinnik.dev/videos/2022/eli5-react-devtools</guid>
+      <pubDate>Wed, 09 Feb 2022 12:00:00 GMT</pubDate>
+      <description>In this video, Meta Open Source Developer Advocate Dmitry Vinnik explains React DevTools, browser extensions for Meta’s open source JavaScript library for UI.</description>
+      <author>dmitry@dvinnik.dev (Dmitry Vinnik)</author>
+      <category>open source</category>
+      <category>web</category>
+      <category>eli5</category>
+    </item>
+    <item>
+      <title>Explain Like I`m 5: Stetho</title>
+      <link>https://dvinnik.dev/videos/2022/eli5-stetho</link>
+      <guid isPermaLink="true">https://dvinnik.dev/videos/2022/eli5-stetho</guid>
+      <pubDate>Wed, 02 Feb 2022 12:00:00 GMT</pubDate>
+      <description>In this video, Meta Open Source Developer Advocate Dmitry Vinnik explains Stetho, a debug bridge for Android applications.</description>
+      <author>dmitry@dvinnik.dev (Dmitry Vinnik)</author>
+      <category>open source</category>
+      <category>mobile</category>
+      <category>eli5</category>
+    </item>
+    <item>
+      <title>Explain Like I`m 5: Recoil</title>
+      <link>https://dvinnik.dev/videos/2022/eli5-recoil</link>
+      <guid isPermaLink="true">https://dvinnik.dev/videos/2022/eli5-recoil</guid>
+      <pubDate>Wed, 26 Jan 2022 12:00:00 GMT</pubDate>
+      <description>In this video, Meta Open Source Developer Advocate Dmitry Vinnik explains Recoil, an experimental state management library for React apps.</description>
+      <author>dmitry@dvinnik.dev (Dmitry Vinnik)</author>
+      <category>open source</category>
+      <category>web</category>
+      <category>eli5</category>
+    </item>
+    <item>
+      <title>Open Source Year in Review: 2021</title>
+      <link>https://dvinnik.dev/articles/2022/open-source-year-in-review-2021</link>
+      <guid isPermaLink="true">https://dvinnik.dev/articles/2022/open-source-year-in-review-2021</guid>
+      <pubDate>Mon, 24 Jan 2022 12:00:00 GMT</pubDate>
+      <description>A look back at some of our biggest open source releases and projects from 2021, with 837 active public projects and 231 new launches.</description>
+      <author>dmitry@dvinnik.dev (Dmitry Vinnik)</author>
+      <category>open source</category>
+    </item>
+    <item>
+      <title>Explain Like I`m 5: Relay</title>
+      <link>https://dvinnik.dev/videos/2021/eli5-relay</link>
+      <guid isPermaLink="true">https://dvinnik.dev/videos/2021/eli5-relay</guid>
+      <pubDate>Wed, 08 Dec 2021 12:00:00 GMT</pubDate>
+      <description>In this video, Meta Open Source Developer Advocate Dimitri Vinnik, explains Relay, Meta’s GraphQL client built to scale.</description>
+      <author>dmitry@dvinnik.dev (Dmitry Vinnik)</author>
+      <category>open source</category>
+      <category>web</category>
+      <category>eli5</category>
+    </item>
+    <item>
+      <title>ELI5: Spectrum - Towards Better Mobile Image Production</title>
+      <link>https://dvinnik.dev/articles/2021/eli5-spectrum</link>
+      <guid isPermaLink="true">https://dvinnik.dev/articles/2021/eli5-spectrum</guid>
+      <pubDate>Mon, 29 Nov 2021 12:00:00 GMT</pubDate>
+      <description>In this blog post, we explore a popular open source project called Spectrum, a cross-platform image processing library.</description>
+      <author>dmitry@dvinnik.dev (Dmitry Vinnik)</author>
+      <category>open source</category>
+      <category>eli5</category>
+    </item>
+    <item>
+      <title>ELI5: Open Source</title>
+      <link>https://dvinnik.dev/articles/2021/eli5-open-source</link>
+      <guid isPermaLink="true">https://dvinnik.dev/articles/2021/eli5-open-source</guid>
+      <pubDate>Mon, 15 Nov 2021 12:00:00 GMT</pubDate>
+      <description>In this blog post, we give a brief overview of what open source is, and why companies engage in it.</description>
+      <author>dmitry@dvinnik.dev (Dmitry Vinnik)</author>
+      <category>open source</category>
+      <category>eli5</category>
+    </item>
+    <item>
+      <title>ELI5: Metro - JavaScript Bundler for React Native</title>
+      <link>https://dvinnik.dev/articles/2021/eli5-metro</link>
+      <guid isPermaLink="true">https://dvinnik.dev/articles/2021/eli5-metro</guid>
+      <pubDate>Mon, 01 Nov 2021 12:00:00 GMT</pubDate>
+      <description>This blog post explores an open source project called Metro that acts as the JavaScript bundler for React Native.</description>
+      <author>dmitry@dvinnik.dev (Dmitry Vinnik)</author>
+      <category>open source</category>
+      <category>eli5</category>
+    </item>
+    <item>
+      <title>ELI5: IGListKit - Building Flexible Collection Views for iOS</title>
+      <link>https://dvinnik.dev/articles/2021/eli5-iglistkit</link>
+      <guid isPermaLink="true">https://dvinnik.dev/articles/2021/eli5-iglistkit</guid>
+      <pubDate>Mon, 18 Oct 2021 12:00:00 GMT</pubDate>
+      <description>This blog post covers a popular open source project called IGListKit, a data-driven UICollectionView framework for building fast and flexible lists in iOS.</description>
+      <author>dmitry@dvinnik.dev (Dmitry Vinnik)</author>
+      <category>open source</category>
+      <category>eli5</category>
+    </item>
+    <item>
+      <title>Explain Like I`m 5: React</title>
+      <link>https://dvinnik.dev/videos/2021/eli5-react</link>
+      <guid isPermaLink="true">https://dvinnik.dev/videos/2021/eli5-react</guid>
+      <pubDate>Wed, 13 Oct 2021 12:00:00 GMT</pubDate>
+      <description>In this video, Facebook Open Source Developer Advocate Dmitry explains React, Facebook’s open-source JavaScript library used for building interactive user interfaces on websites or apps.</description>
+      <author>dmitry@dvinnik.dev (Dmitry Vinnik)</author>
+      <category>open source</category>
+      <category>web</category>
+      <category>eli5</category>
+    </item>
+    <item>
+      <title>&quot;Explain Like I`m 5&quot; Series: Season 3 Launch</title>
+      <link>https://dvinnik.dev/videos/2021/eli5-season3</link>
+      <guid isPermaLink="true">https://dvinnik.dev/videos/2021/eli5-season3</guid>
+      <pubDate>Tue, 28 Sep 2021 12:00:00 GMT</pubDate>
+      <description>In this video, Facebook Open Source Developer Advocate Dmitry announces the third season of our short-format video series, Explain Like I’m 5 (ELI5).</description>
+      <author>dmitry@dvinnik.dev (Dmitry Vinnik)</author>
+      <category>open source</category>
+      <category>eli5</category>
+    </item>
+    <item>
+      <title>CacheLib, Facebook`s open source caching engine for web-scale services</title>
+      <link>https://dvinnik.dev/articles/2021/cachelib</link>
+      <guid isPermaLink="true">https://dvinnik.dev/articles/2021/cachelib</guid>
+      <pubDate>Thu, 02 Sep 2021 12:00:00 GMT</pubDate>
+      <description>CacheLib is a pluggable in-process caching engine to build and scale high-performance services collaboratively.</description>
+      <author>dmitry@dvinnik.dev (Dmitry Vinnik)</author>
+      <category>open source</category>
+      <category>data</category>
+    </item>
+    <item>
+      <title>&quot;Explain Like I`m 5&quot; Series: Season 2 Wrap-up</title>
+      <link>https://dvinnik.dev/videos/2021/eli5-season2-end</link>
+      <guid isPermaLink="true">https://dvinnik.dev/videos/2021/eli5-season2-end</guid>
+      <pubDate>Wed, 25 Aug 2021 12:00:00 GMT</pubDate>
+      <description>In this video, Facebook Open Source Developer Advocate Dmitry Vinnik announces ending of the second season of our short-format video series, Explain Like I’m 5 (ELI5).</description>
+      <author>dmitry@dvinnik.dev (Dmitry Vinnik)</author>
+      <category>open source</category>
+      <category>eli5</category>
+    </item>
+    <item>
+      <title>Explain Like I`m 5: Magma</title>
+      <link>https://dvinnik.dev/videos/2021/eli5-magma</link>
+      <guid isPermaLink="true">https://dvinnik.dev/videos/2021/eli5-magma</guid>
+      <pubDate>Wed, 18 Aug 2021 12:00:00 GMT</pubDate>
+      <description>In this video, Facebook Open Source Developer Advocate Dmitry explains the open source Magma</description>
+      <author>dmitry@dvinnik.dev (Dmitry Vinnik)</author>
+      <category>open source</category>
+      <category>infra</category>
+      <category>eli5</category>
+    </item>
+    <item>
+      <title>Explain Like I`m 5: Spectrum</title>
+      <link>https://dvinnik.dev/videos/2021/eli5-spectrum</link>
+      <guid isPermaLink="true">https://dvinnik.dev/videos/2021/eli5-spectrum</guid>
+      <pubDate>Wed, 28 Jul 2021 12:00:00 GMT</pubDate>
+      <description>In this video, Facebook Open Source Developer Advocate Dmitry explains the open source project Spectrum.</description>
+      <author>dmitry@dvinnik.dev (Dmitry Vinnik)</author>
+      <category>open source</category>
+      <category>mobile</category>
+      <category>eli5</category>
+    </item>
+    <item>
+      <title>Explain Like I`m 5: IGListKit</title>
+      <link>https://dvinnik.dev/videos/2021/eli5-iglistkit</link>
+      <guid isPermaLink="true">https://dvinnik.dev/videos/2021/eli5-iglistkit</guid>
+      <pubDate>Wed, 21 Jul 2021 12:00:00 GMT</pubDate>
+      <description>In this video, Facebook Open Source Developer Advocate Dmitry explains the open source project IGListKit.</description>
+      <author>dmitry@dvinnik.dev (Dmitry Vinnik)</author>
+      <category>open source</category>
+      <category>mobile</category>
+      <category>eli5</category>
+    </item>
+    <item>
+      <title>Explain Like I`m 5: Metro</title>
+      <link>https://dvinnik.dev/videos/2021/eli5-metro</link>
+      <guid isPermaLink="true">https://dvinnik.dev/videos/2021/eli5-metro</guid>
+      <pubDate>Wed, 14 Jul 2021 12:00:00 GMT</pubDate>
+      <description>In this video, Facebook Open Source Developer Advocate Dmitry explains the open source project Metro in a little over a minute.</description>
+      <author>dmitry@dvinnik.dev (Dmitry Vinnik)</author>
+      <category>open source</category>
+      <category>web</category>
+      <category>eli5</category>
+    </item>
+    <item>
+      <title>ELI5: Flipper - Cross-Platform Debugger</title>
+      <link>https://dvinnik.dev/articles/2021/eli5-flipper</link>
+      <guid isPermaLink="true">https://dvinnik.dev/articles/2021/eli5-flipper</guid>
+      <pubDate>Tue, 08 Jun 2021 12:00:00 GMT</pubDate>
+      <description>In this blog post, we briefly look at a popular open source project called Flipper, an extensible mobile app debugger for iOS, Android and React Native.</description>
+      <author>dmitry@dvinnik.dev (Dmitry Vinnik)</author>
+      <category>open source</category>
+      <category>eli5</category>
+    </item>
+    <item>
+      <title>ELI5: Folly - Battle-Tested C++ Library</title>
+      <link>https://dvinnik.dev/articles/2021/eli5-folly</link>
+      <guid isPermaLink="true">https://dvinnik.dev/articles/2021/eli5-folly</guid>
+      <pubDate>Mon, 24 May 2021 12:00:00 GMT</pubDate>
+      <description>In this blog post, we explore a popular open source project called Folly, a C++ library that provides core components used extensively at Meta.</description>
+      <author>dmitry@dvinnik.dev (Dmitry Vinnik)</author>
+      <category>open source</category>
+      <category>eli5</category>
+    </item>
+    <item>
+      <title>ELI5: Ent - Schema as Code in Go</title>
+      <link>https://dvinnik.dev/articles/2021/eli5-ent</link>
+      <guid isPermaLink="true">https://dvinnik.dev/articles/2021/eli5-ent</guid>
+      <pubDate>Mon, 26 Apr 2021 12:00:00 GMT</pubDate>
+      <description>In this post, we take a closer look at an open source project called Ent, an entity framework for Go</description>
+      <author>dmitry@dvinnik.dev (Dmitry Vinnik)</author>
+      <category>open source</category>
+      <category>eli5</category>
+    </item>
+    <item>
+      <title>ELI5: Infer - Finding Bugs Before You Ship</title>
+      <link>https://dvinnik.dev/articles/2021/eli5-infer</link>
+      <guid isPermaLink="true">https://dvinnik.dev/articles/2021/eli5-infer</guid>
+      <pubDate>Thu, 15 Apr 2021 12:00:00 GMT</pubDate>
+      <description>In this post, we take a closer look at Infer, a static analysis tool for programming languages like Java and C.</description>
+      <author>dmitry@dvinnik.dev (Dmitry Vinnik)</author>
+      <category>open source</category>
+      <category>eli5</category>
+    </item>
+    <item>
+      <title>Explain Like I`m 5: Folly</title>
+      <link>https://dvinnik.dev/videos/2021/eli5-folly</link>
+      <guid isPermaLink="true">https://dvinnik.dev/videos/2021/eli5-folly</guid>
+      <pubDate>Wed, 14 Apr 2021 12:00:00 GMT</pubDate>
+      <description>In this short video, Facebook Open Source Developer Advocate Dmitry Vinnik explains the open source project Folly, an open-source C++ library developed and used at Facebook.</description>
+      <author>dmitry@dvinnik.dev (Dmitry Vinnik)</author>
+      <category>open source</category>
+      <category>infra</category>
+      <category>eli5</category>
+    </item>
+    <item>
+      <title>MLH Fellowship x Facebook Open Source Q&amp;A</title>
+      <link>https://dvinnik.dev/videos/2021/mlh-fellowship-qa</link>
+      <guid isPermaLink="true">https://dvinnik.dev/videos/2021/mlh-fellowship-qa</guid>
+      <pubDate>Tue, 30 Mar 2021 12:00:00 GMT</pubDate>
+      <description>In this video, Open Source and Developer Advocate experts answer the questions of fellows from the MLH Fellowship Spring 2021 season of the program.</description>
+      <author>dmitry@dvinnik.dev (Dmitry Vinnik)</author>
+      <category>open source</category>
+    </item>
+    <item>
+      <title>ELI5: Buck - Modular Build System</title>
+      <link>https://dvinnik.dev/articles/2021/eli5-buck</link>
+      <guid isPermaLink="true">https://dvinnik.dev/articles/2021/eli5-buck</guid>
+      <pubDate>Mon, 29 Mar 2021 12:00:00 GMT</pubDate>
+      <description>In this post, we explain Buck, a high-performance build tool, in a way that is super simple to understand (or as it`s commonly known online, ELI5).</description>
+      <author>dmitry@dvinnik.dev (Dmitry Vinnik)</author>
+      <category>open source</category>
+      <category>eli5</category>
+    </item>
+    <item>
+      <title>Announcing Season 2 of “Explain Like I’m 5” Series</title>
+      <link>https://dvinnik.dev/articles/2021/eli5-season2</link>
+      <guid isPermaLink="true">https://dvinnik.dev/articles/2021/eli5-season2</guid>
+      <pubDate>Thu, 18 Mar 2021 12:00:00 GMT</pubDate>
+      <description>Since October 2020, the Facebook Open Source team has been publishing a series of short videos ELI5.</description>
+      <author>dmitry@dvinnik.dev (Dmitry Vinnik)</author>
+      <category>open source</category>
+      <category>eli5</category>
+    </item>
+    <item>
+      <title>Explain Like I`m 5: Open Source</title>
+      <link>https://dvinnik.dev/videos/2021/eli5-open-source</link>
+      <guid isPermaLink="true">https://dvinnik.dev/videos/2021/eli5-open-source</guid>
+      <pubDate>Wed, 17 Mar 2021 12:00:00 GMT</pubDate>
+      <description>In this video, Facebook Open Source Developer Advocate Dmitry Open Source in a way that is easy to understand.</description>
+      <author>dmitry@dvinnik.dev (Dmitry Vinnik)</author>
+      <category>open source</category>
+      <category>eli5</category>
+    </item>
+  </channel>
+</rss>
