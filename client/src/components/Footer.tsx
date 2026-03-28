@@ -59,6 +59,10 @@ export default function Footer() {
               <a href="mailto:dmitry@dvinnik.dev" className="text-sm text-foreground/50 hover:text-foreground transition-colors" style={{ fontFamily: "var(--font-sans)" }}>
                 dmitry@dvinnik.dev
               </a>
+              <a href="/feed.xml" target="_blank" rel="noopener noreferrer" className="text-sm text-foreground/50 hover:text-foreground transition-colors inline-flex items-center gap-1.5" style={{ fontFamily: "var(--font-sans)" }}>
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg>
+                RSS Feed
+              </a>
             </div>
           </div>
         </div>
@@ -69,9 +73,14 @@ export default function Footer() {
           <p className="nd-meta">
             &copy; {new Date().getFullYear()} Dmitry Vinnik
           </p>
-          <p className="nd-meta">
-            dvinnik.dev
-          </p>
+          <div className="flex items-center gap-4">
+            <p className="nd-meta">
+              dvinnik.dev
+            </p>
+            <a href="/feed.xml" target="_blank" rel="noopener noreferrer" className="nd-meta hover:text-foreground transition-colors" title="Subscribe via RSS">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg>
+            </a>
+          </div>
         </div>
       </div>
     </footer>
