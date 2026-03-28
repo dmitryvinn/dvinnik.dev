@@ -3,9 +3,7 @@
  * Warm, organic, human-centered. Generous whitespace, serif headings, terracotta accents.
  * Asymmetric two-column hero, soft cards, sage/terracotta color pops.
  */
-import Navigation from "@/components/Navigation";
 import SEOHead from "@/components/SEOHead";
-import Footer from "@/components/Footer";
 import AnimatedSection from "@/components/AnimatedSection";
 import { StaggerContainer, StaggerItem } from "@/components/AnimatedSection";
 import { Link } from "wouter";
@@ -39,9 +37,7 @@ export default function Home() {
         description="Engineering leader specializing in AI/ML at Meta. Over a decade of championing open source, educating developers, and speaking at conferences worldwide."
         path="/"
       />
-      <Navigation />
-
-      <main className="flex-1">
+<main className="flex-1">
         {/* ===== HERO ===== */}
         <section className="container py-16 lg:py-28">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-center">
@@ -378,8 +374,6 @@ export default function Home() {
           </div>
         </section>
       </main>
-
-      <Footer />
-    </div>
+</div>
   );
 }

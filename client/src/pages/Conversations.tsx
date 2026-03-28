@@ -4,8 +4,6 @@
  */
 import { ArrowLeft, Mic } from "lucide-react";
 import { Link } from "wouter";
-import Navigation from "@/components/Navigation";
-import Footer from "@/components/Footer";
 import SectionHeader from "@/components/SectionHeader";
 import SEOHead from "@/components/SEOHead";
 import ContentCard from "@/components/ContentCard";
@@ -20,8 +18,7 @@ export default function Conversations() {
         description={`${conversations.length} podcast appearances, interviews, and panel discussions by Dmitry Vinnik on developer advocacy, open source, and technology.`}
         path="/conversations"
       />
-      <Navigation />
-      <main className="flex-1">
+<main className="flex-1">
         <div className="container py-12 lg:py-20">
           <Link href="/">
             <span className="nd-link text-sm inline-flex items-center gap-1 mb-8" style={{ fontFamily: "var(--font-sans)" }}>
@@ -53,7 +50,6 @@ export default function Conversations() {
           </StaggerContainer>
         </div>
       </main>
-      <Footer />
-    </div>
+</div>
   );
 }

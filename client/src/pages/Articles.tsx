@@ -5,8 +5,6 @@
 import { useState } from "react";
 import { ArrowLeft } from "lucide-react";
 import { Link } from "wouter";
-import Navigation from "@/components/Navigation";
-import Footer from "@/components/Footer";
 import SectionHeader from "@/components/SectionHeader";
 import SEOHead from "@/components/SEOHead";
 import ContentCard from "@/components/ContentCard";
@@ -26,8 +24,7 @@ export default function Articles() {
         description={`${articles.length} in-depth articles by Dmitry Vinnik on open source technologies, developer tools, and engineering best practices.`}
         path="/articles"
       />
-      <Navigation />
-      <main className="flex-1">
+<main className="flex-1">
         <div className="container py-12 lg:py-20">
           <Link href="/">
             <span className="nd-link text-sm inline-flex items-center gap-1 mb-8" style={{ fontFamily: "var(--font-sans)" }}>
@@ -76,7 +73,6 @@ export default function Articles() {
           </StaggerContainer>
         </div>
       </main>
-      <Footer />
-    </div>
+</div>
   );
 }

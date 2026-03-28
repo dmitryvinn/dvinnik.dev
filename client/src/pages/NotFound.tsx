@@ -3,8 +3,6 @@
  */
 import { ArrowLeft } from "lucide-react";
 import { Link } from "wouter";
-import Navigation from "@/components/Navigation";
-import Footer from "@/components/Footer";
 import SEOHead from "@/components/SEOHead";
 
 export default function NotFound() {
@@ -15,8 +13,7 @@ export default function NotFound() {
         description="The page you're looking for doesn't exist or has been moved."
         path="/404"
       />
-      <Navigation />
-      <div className="flex-1 flex items-center justify-center">
+<div className="flex-1 flex items-center justify-center">
         <div className="text-center px-4">
           <span className="nd-meta tracking-widest uppercase">Error 404</span>
           <h1
@@ -43,7 +40,6 @@ export default function NotFound() {
           </Link>
         </div>
       </div>
-      <Footer />
-    </div>
+</div>
   );
 }

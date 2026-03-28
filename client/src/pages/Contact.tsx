@@ -3,9 +3,7 @@
  */
 import { ArrowLeft, Mail, ExternalLink, Github, Linkedin, MessageCircle } from "lucide-react";
 import { Link } from "wouter";
-import Navigation from "@/components/Navigation";
 import SEOHead from "@/components/SEOHead";
-import Footer from "@/components/Footer";
 import SectionHeader from "@/components/SectionHeader";
 import AnimatedSection, { StaggerContainer, StaggerItem } from "@/components/AnimatedSection";
 
@@ -57,8 +55,7 @@ export default function Contact() {
         description="Get in touch with Dmitry Vinnik for speaking engagements, podcast appearances, open source collaborations, or developer advocacy conversations."
         path="/contact"
       />
-      <Navigation />
-      <main className="flex-1">
+<main className="flex-1">
         <div className="container py-12 lg:py-20">
           <Link href="/">
             <span className="nd-link text-sm inline-flex items-center gap-1 mb-8" style={{ fontFamily: "var(--font-sans)" }}>
@@ -156,7 +153,6 @@ export default function Contact() {
           </div>
         </div>
       </main>
-      <Footer />
-    </div>
+</div>
   );
 }

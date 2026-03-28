@@ -6,8 +6,6 @@
 import { useState, useMemo } from "react";
 import { useLocation, Link } from "wouter";
 import { Tag, ArrowLeft } from "lucide-react";
-import Navigation from "@/components/Navigation";
-import Footer from "@/components/Footer";
 import AnimatedSection from "@/components/AnimatedSection";
 import { StaggerContainer, StaggerItem } from "@/components/AnimatedSection";
 import SEOHead from "@/components/SEOHead";
@@ -52,8 +50,7 @@ export default function TagPage() {
   if (allResults.length === 0) {
     return (
       <div className="min-h-screen flex flex-col bg-background">
-        <Navigation />
-        <SEOHead
+<SEOHead
           title={`Tag: ${rawTag}`}
           description={`No content found for tag "${rawTag}" on Dmitry Vinnik's portfolio.`}
           path={`/tag/${encodeURIComponent(rawTag)}`}
@@ -77,8 +74,7 @@ export default function TagPage() {
             </Link>
           </AnimatedSection>
         </main>
-        <Footer />
-      </div>
+</div>
     );
   }
 
@@ -89,9 +85,7 @@ export default function TagPage() {
         description={`Browse all ${allResults.length} articles, videos, presentations, events, courses, and conversations tagged with "${matchedTag}" by Dmitry Vinnik.`}
         path={`/tag/${encodeURIComponent(matchedTag)}`}
       />
-      <Navigation />
-
-      <main className="flex-1">
+<main className="flex-1">
         {/* Header */}
         <div style={{ background: "var(--color-nd-sand)" }}>
           <div className="container py-12 lg:py-20">
@@ -193,8 +187,6 @@ export default function TagPage() {
           </AnimatedSection>
         </div>
       </main>
-
-      <Footer />
-    </div>
+</div>
   );
 }

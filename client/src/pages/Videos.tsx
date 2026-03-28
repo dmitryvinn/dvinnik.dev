@@ -3,8 +3,6 @@
  */
 import { ArrowLeft, Play } from "lucide-react";
 import { Link } from "wouter";
-import Navigation from "@/components/Navigation";
-import Footer from "@/components/Footer";
 import SectionHeader from "@/components/SectionHeader";
 import SEOHead from "@/components/SEOHead";
 import ContentCard from "@/components/ContentCard";
@@ -22,8 +20,7 @@ export default function Videos() {
         description={`${videos.length} videos by Dmitry Vinnik including the popular 'Explain Like I'm 5' series, breaking down complex Meta open source projects.`}
         path="/videos"
       />
-      <Navigation />
-      <main className="flex-1">
+<main className="flex-1">
         <div className="container py-12 lg:py-20">
           <Link href="/">
             <span className="nd-link text-sm inline-flex items-center gap-1 mb-8" style={{ fontFamily: "var(--font-sans)" }}>
@@ -121,7 +118,6 @@ export default function Videos() {
           )}
         </div>
       </main>
-      <Footer />
-    </div>
+</div>
   );
 }

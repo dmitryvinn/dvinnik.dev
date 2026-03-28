@@ -6,8 +6,6 @@
 import { useLocation } from "wouter";
 import { Link } from "wouter";
 import { ArrowLeft, ExternalLink, Calendar, Play, BookOpen, Clock } from "lucide-react";
-import Navigation from "@/components/Navigation";
-import Footer from "@/components/Footer";
 import AnimatedSection from "@/components/AnimatedSection";
 import SEOHead from "@/components/SEOHead";
 import JsonLd from "@/components/JsonLd";
@@ -112,8 +110,7 @@ export default function ContentDetail() {
   if (!item) {
     return (
       <div className="min-h-screen flex flex-col bg-background">
-        <Navigation />
-        <main className="flex-1 container py-20">
+<main className="flex-1 container py-20">
           <AnimatedSection>
             <Link href={categoryListPaths[category] || "/"}>
               <span className="inline-flex items-center gap-2 nd-link text-sm mb-8 cursor-pointer">
@@ -131,8 +128,7 @@ export default function ContentDetail() {
             </Link>
           </AnimatedSection>
         </main>
-        <Footer />
-      </div>
+</div>
     );
   }
 
@@ -150,9 +146,7 @@ export default function ContentDetail() {
         type="article"
       />
       <JsonLd item={item} category={category} />
-      <Navigation />
-
-      <main className="flex-1">
+<main className="flex-1">
         {/* Header area */}
         <div style={{ background: "var(--color-nd-sand)" }}>
           <div className="container py-12 lg:py-20">
@@ -306,9 +300,7 @@ export default function ContentDetail() {
           </Link>
         </div>
       </main>
-
-      <Footer />
-      <BackToTop />
+<BackToTop />
     </div>
   );
 }

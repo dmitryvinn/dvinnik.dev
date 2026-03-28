@@ -5,6 +5,8 @@ import { Route, Switch, useLocation } from "wouter";
 import { AnimatePresence, motion } from "framer-motion";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
+import Navigation from "./components/Navigation";
+import Footer from "./components/Footer";
 
 // Eager imports — eliminates blank flash during SPA navigation
 import Home from "./pages/Home";
@@ -87,7 +89,9 @@ function App() {
         <TooltipProvider>
           <Toaster />
           <ScrollToTop />
+          <Navigation />
           <AnimatedRoutes />
+          <Footer />
         </TooltipProvider>
       </ThemeProvider>
     </ErrorBoundary>

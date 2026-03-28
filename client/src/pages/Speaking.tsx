@@ -3,8 +3,6 @@
  */
 import { ArrowLeft } from "lucide-react";
 import { Link } from "wouter";
-import Navigation from "@/components/Navigation";
-import Footer from "@/components/Footer";
 import SectionHeader from "@/components/SectionHeader";
 import SEOHead from "@/components/SEOHead";
 import ContentCard from "@/components/ContentCard";
@@ -31,8 +29,7 @@ export default function Speaking() {
         description={`${presentations.length} presentations by Dmitry Vinnik delivered at major tech conferences worldwide, covering open source, testing, mobile development, and developer advocacy.`}
         path="/speaking"
       />
-      <Navigation />
-      <main className="flex-1">
+<main className="flex-1">
         <div className="container py-12 lg:py-20">
           <Link href="/">
             <span className="nd-link text-sm inline-flex items-center gap-1 mb-8" style={{ fontFamily: "var(--font-sans)" }}>
@@ -84,7 +81,6 @@ export default function Speaking() {
           </StaggerContainer>
         </div>
       </main>
-      <Footer />
-    </div>
+</div>
   );
 }
