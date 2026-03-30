@@ -34,7 +34,7 @@ export default function Home() {
     <div className="min-h-screen flex flex-col bg-background">
       <SEOHead
         title="Dmitry Vinnik — Lead Developer Advocate at Meta"
-        description="Engineering leader specializing in AI/ML at Meta. Over a decade of championing open source, educating developers, and speaking at conferences worldwide."
+        description=" Lead Developer Advocate at Meta. Over a decade of championing open source, educating developers, and speaking at conferences worldwide."
         path="/"
       />
 <main className="flex-1">
@@ -49,7 +49,7 @@ export default function Home() {
                   Building bridges between developers &amp; technology
                 </h1>
                 <p className="nd-body mt-6 text-lg lg:text-xl max-w-xl">
-                  Engineering leader specializing in AI/ML at Meta. Over a decade of championing open source, educating developers, and speaking at conferences worldwide.
+                  Lead Developer Advocate at Meta. Over a decade of championing open source, educating developers, and speaking at conferences worldwide.
                 </p>
                 <div className="flex flex-wrap gap-3 mt-8">
                   <Link href="/articles">
