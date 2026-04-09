@@ -14,7 +14,7 @@ interface SEOHeadProps {
 
 const BASE_URL = "https://dvinnik.dev";
 const DEFAULT_IMAGE = "https://d2xsxph8kpxj0f.cloudfront.net/310519663407462879/97p7vQ5meEpw7kiKUeHkXx/profile_c72f6f18.jpg";
-const SITE_NAME = "Dmitry Vinnik — Developer Advocate";
+const SITE_NAME = "Dmitry Vinnik — Engineering Leader";
 
 function setMetaTag(property: string, content: string) {
   let el = document.querySelector(`meta[property="${property}"]`) || document.querySelector(`meta[name="${property}"]`);
@@ -67,7 +67,7 @@ export default function SEOHead({ title, description, path = "/", image, type = 
 
     return () => {
       // Reset to defaults on unmount
-      document.title = "Dmitry Vinnik — Lead Developer Advocate at Meta";
+      document.title = "Dmitry Vinnik — Engineering Leader";
     };
   }, [title, description, path, image, type]);
 

@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { usePageView } from "./hooks/usePageView";
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { Route, Switch, useLocation } from "wouter";
@@ -10,20 +11,23 @@ import Footer from "./components/Footer";
 
 // Eager imports — eliminates blank flash during SPA navigation
 import Home from "./pages/Home";
+import About from "./pages/About";
 import Articles from "./pages/Articles";
 import Speaking from "./pages/Speaking";
 import Videos from "./pages/Videos";
 import Events from "./pages/Events";
 import Courses from "./pages/Courses";
 import Contact from "./pages/Contact";
+import Projects from "./pages/Projects";
 import Conversations from "./pages/Conversations";
 import ContentDetail from "./pages/ContentDetail";
 import NotFound from "./pages/NotFound";
 import TagPage from "./pages/TagPage";
 
-/** Scroll to top whenever the route changes */
+/** Scroll to top and track page views whenever the route changes */
 function ScrollToTop() {
   const [location] = useLocation();
+  usePageView(location);
   useEffect(() => {
     window.scrollTo({ top: 0, left: 0 });
   }, [location]);
@@ -57,11 +61,13 @@ function AnimatedRoutes() {
       >
         <Switch location={location}>
           <Route path="/" component={Home} />
+          <Route path="/about" component={About} />
           <Route path="/articles" component={Articles} />
           <Route path="/speaking" component={Speaking} />
           <Route path="/videos" component={Videos} />
           <Route path="/events" component={Events} />
           <Route path="/courses" component={Courses} />
+          <Route path="/projects" component={Projects} />
           <Route path="/contact" component={Contact} />
           <Route path="/conversations" component={Conversations} />
           {/* Tag aggregation page */}

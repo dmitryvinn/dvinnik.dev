@@ -2,14 +2,33 @@
  * Navigation — Nature Distilled
  * Warm, clean top nav: serif name, sans nav links, terracotta active indicator
  * Includes global search trigger (icon + Cmd/Ctrl+K shortcut)
+ * Content dropdown consolidates Articles, Speaking, Videos, Events, Courses
  */
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useRef } from "react";
 import { Link, useLocation } from "wouter";
-import { Menu, X, Search } from "lucide-react";
+import { Menu, X, Search, ChevronDown } from "lucide-react";
 import SearchDialog from "./SearchDialog";
 
-const navLinks = [
+const mainLinks = [
   { label: "Home", href: "/" },
+  { label: "About", href: "/about" },
+  { label: "Projects", href: "/projects" },
+  { label: "Contact", href: "/contact" },
+];
+
+const contentLinks = [
+  { label: "Articles", href: "/articles" },
+  { label: "Speaking", href: "/speaking" },
+  { label: "Videos", href: "/videos" },
+  { label: "Events", href: "/events" },
+  { label: "Courses", href: "/courses" },
+  { label: "Conversations", href: "/conversations" },
+];
+
+const allMobileLinks = [
+  { label: "Home", href: "/" },
+  { label: "About", href: "/about" },
+  { label: "Projects", href: "/projects" },
   { label: "Articles", href: "/articles" },
   { label: "Speaking", href: "/speaking" },
   { label: "Videos", href: "/videos" },
@@ -24,15 +43,31 @@ export default function Navigation() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+  const dropdownRef = useRef<HTMLDivElement>(null);
+
+  const isContentActive = contentLinks.some((link) => location === link.href || location.startsWith(link.href + "/"));
 
   useEffect(() => {
     setMobileOpen(false);
+    setDropdownOpen(false);
   }, [location]);
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 20);
     window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  // Close dropdown on click outside
+  useEffect(() => {
+    const handleClickOutside = (e: MouseEvent) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(e.target as Node)) {
+        setDropdownOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
   // Cmd/Ctrl+K shortcut
@@ -72,7 +107,7 @@ export default function Navigation() {
 
           {/* Desktop nav */}
           <nav className="hidden lg:flex items-center gap-1">
-            {navLinks.map((link) => (
+            {mainLinks.slice(0, 3).map((link) => (
               <Link key={link.href} href={link.href}>
                 <span
                   className={`relative px-3 py-2 text-sm transition-colors ${
@@ -92,6 +127,73 @@ export default function Navigation() {
                 </span>
               </Link>
             ))}
+
+            {/* Content dropdown */}
+            <div className="relative" ref={dropdownRef}>
+              <button
+                onClick={() => setDropdownOpen(!dropdownOpen)}
+                className={`relative px-3 py-2 text-sm transition-colors flex items-center gap-1 ${
+                  isContentActive
+                    ? "text-foreground font-medium"
+                    : "text-foreground/50 hover:text-foreground/80"
+                }`}
+                style={{ fontFamily: "var(--font-sans)" }}
+              >
+                Content
+                <ChevronDown className={`w-3.5 h-3.5 transition-transform duration-200 ${dropdownOpen ? "rotate-180" : ""}`} />
+                {isContentActive && (
+                  <span
+                    className="absolute bottom-0 left-3 right-3 h-0.5"
+                    style={{ background: "var(--color-nd-terracotta)", borderRadius: "1px" }}
+                  />
+                )}
+              </button>
+
+              {dropdownOpen && (
+                <div
+                  className="absolute top-full left-0 mt-1 py-2 min-w-[180px] rounded-lg shadow-lg"
+                  style={{
+                    background: "var(--color-nd-cream)",
+                    border: "1px solid oklch(0.22 0.01 55 / 8%)",
+                  }}
+                >
+                  {contentLinks.map((link) => (
+                    <Link key={link.href} href={link.href}>
+                      <span
+                        className={`block px-4 py-2 text-sm transition-colors ${
+                          location === link.href || location.startsWith(link.href + "/")
+                            ? "text-foreground font-medium"
+                            : "text-foreground/50 hover:text-foreground/80 hover:bg-black/[0.03]"
+                        }`}
+                        style={{ fontFamily: "var(--font-sans)" }}
+                      >
+                        {link.label}
+                      </span>
+                    </Link>
+                  ))}
+                </div>
+              )}
+            </div>
+
+            {/* Contact */}
+            <Link href="/contact">
+              <span
+                className={`relative px-3 py-2 text-sm transition-colors ${
+                  location === "/contact"
+                    ? "text-foreground font-medium"
+                    : "text-foreground/50 hover:text-foreground/80"
+                }`}
+                style={{ fontFamily: "var(--font-sans)" }}
+              >
+                Contact
+                {location === "/contact" && (
+                  <span
+                    className="absolute bottom-0 left-3 right-3 h-0.5"
+                    style={{ background: "var(--color-nd-terracotta)", borderRadius: "1px" }}
+                  />
+                )}
+              </span>
+            </Link>
           </nav>
 
           {/* Right side: search + social */}
@@ -172,7 +274,7 @@ export default function Navigation() {
         {mobileOpen && (
           <nav className="lg:hidden border-t border-border bg-background pb-4">
             <div className="container flex flex-col pt-2">
-              {navLinks.map((link) => (
+              {allMobileLinks.map((link) => (
                 <Link key={link.href} href={link.href}>
                   <span
                     onClick={() => setMobileOpen(false)}

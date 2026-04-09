@@ -17,7 +17,7 @@ export default function Videos() {
     <div className="min-h-screen flex flex-col bg-background">
       <SEOHead
         title="Video Content"
-        description={`${videos.length} videos by Dmitry Vinnik including the popular 'Explain Like I'm 5' series, breaking down complex Meta open source projects.`}
+        description={`${videos.length} videos by Dmitry Vinnik including the popular 'Explain Like I'm 5' series, breaking down complex open source and AI/ML projects.`}
         path="/videos"
       />
 <main className="flex-1">
@@ -31,7 +31,7 @@ export default function Videos() {
           <SectionHeader
             label="Videos"
             title="Video Content"
-            description={`${videos.length} videos including the popular 'Explain Like I'm 5' series, breaking down complex Meta open source projects into digestible explanations.`}
+            description={`${videos.length} videos including the popular 'Explain Like I'm 5' series, breaking down complex open source and AI/ML projects into digestible explanations.`}
           />
 
           {/* ELI5 Series Highlight */}

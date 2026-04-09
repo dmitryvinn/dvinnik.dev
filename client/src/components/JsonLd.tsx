@@ -24,7 +24,7 @@ function buildArticleSchema(item: ContentItem) {
       "@type": "Person",
       name: "Dmitry Vinnik",
       url: SITE_URL,
-      jobTitle: "Lead Developer Advocate",
+      jobTitle: "Engineering Leader",
     },
     publisher: {
       "@type": "Person",

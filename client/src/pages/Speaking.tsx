@@ -26,7 +26,7 @@ export default function Speaking() {
     <div className="min-h-screen flex flex-col bg-background">
       <SEOHead
         title="Presentations & Talks"
-        description={`${presentations.length} presentations by Dmitry Vinnik delivered at major tech conferences worldwide, covering open source, testing, mobile development, and developer advocacy.`}
+        description={`${presentations.length} presentations by Dmitry Vinnik delivered at major tech conferences worldwide, covering AI/ML, engineering leadership, open source, testing, and developer experience.`}
         path="/speaking"
       />
 <main className="flex-1">
@@ -40,7 +40,7 @@ export default function Speaking() {
           <SectionHeader
             label="Speaking"
             title="Presentations & Talks"
-            description={`${presentations.length} presentations delivered at major tech conferences worldwide, covering open source, testing, mobile development, and developer advocacy.`}
+            description={`${presentations.length} presentations delivered at major tech conferences worldwide, covering AI/ML, engineering leadership, open source, testing, and developer experience.`}
           />
 
           {/* Notable Events */}

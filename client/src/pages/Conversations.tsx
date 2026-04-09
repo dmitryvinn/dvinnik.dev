@@ -15,7 +15,7 @@ export default function Conversations() {
     <div className="min-h-screen flex flex-col bg-background">
       <SEOHead
         title="Podcasts & Interviews"
-        description={`${conversations.length} podcast appearances, interviews, and panel discussions by Dmitry Vinnik on developer advocacy, open source, and technology.`}
+        description={`${conversations.length} podcast appearances, interviews, and panel discussions by Dmitry Vinnik on engineering leadership, AI/ML, developer advocacy, and open source.`}
         path="/conversations"
       />
 <main className="flex-1">
@@ -29,7 +29,7 @@ export default function Conversations() {
           <SectionHeader
             label="Conversations"
             title="Podcasts & Interviews"
-            description={`${conversations.length} podcast appearances, interviews, and panel discussions on developer advocacy, open source, and technology.`}
+            description={`${conversations.length} podcast appearances, interviews, and panel discussions on engineering leadership, AI/ML, developer advocacy, and open source.`}
           />
 
           <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
