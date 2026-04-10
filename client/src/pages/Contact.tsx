@@ -9,7 +9,6 @@ import SEOHead from "@/components/SEOHead";
 import SectionHeader from "@/components/SectionHeader";
 import AnimatedSection, { StaggerContainer, StaggerItem } from "@/components/AnimatedSection";
 
-// Update this URL after deploying your Cloudflare Worker
 const WORKER_URL = "https://api.dvinnik.dev";
 
 const contactLinks = [
@@ -40,7 +39,7 @@ const speakingTopics = [
   "AI/ML & Developer Advocacy",
   "Open Source Strategy & Community Building",
   "Developer Experience & Developer Tools",
-  "Testing Frameworks (Jest, Cypress, Applitools)",
+  "Testing Frameworks & Quality Engineering",
   "Front-End Architecture & Design Systems",
   "Mobile Development (React Native, Android)",
   "Developer Relations & Advocacy",
@@ -83,7 +82,7 @@ export default function Contact() {
       }
     } catch {
       setStatus("error");
-      setErrorMessage("Unable to send message. Please try emailing directly at dmitry@dvinnik.dev");
+      setErrorMessage("Unable to send message. Please try again or reach out via LinkedIn.");
     }
   };
 

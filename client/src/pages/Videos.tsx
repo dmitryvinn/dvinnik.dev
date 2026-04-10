@@ -50,7 +50,7 @@ export default function Videos() {
                 </div>
               </div>
               <p className="nd-body mb-8 max-w-2xl">
-                A video series that breaks down complex Meta open source projects into simple, approachable explanations. From PyTorch and React Native to CacheLib and RocksDB — making cutting-edge technology accessible to everyone.
+                A video series that breaks down complex open source projects into simple, approachable explanations. From PyTorch and React Native to CacheLib and RocksDB — making cutting-edge technology accessible to everyone.
               </p>
 
               <StaggerContainer className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">

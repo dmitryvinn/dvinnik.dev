@@ -52,7 +52,7 @@ const caseStudies: CaseStudy[] = [
     impact: [
       "20+ projects covered across 3 seasons",
       "Spanned front-end frameworks (React, Litho, ComponentKit), dev tools (Jest, Flipper, Metro), and AI/ML (PyTorch MMF, Bean Machine)",
-      "Published on Meta Open Source channels reaching hundreds of thousands of developers",
+      "Published on official open source channels reaching hundreds of thousands of developers",
       "Became a go-to onboarding resource for new contributors to open source projects",
     ],
     technologies: ["React", "React Native", "PyTorch", "Docusaurus", "Jest", "Flipper", "Yoga", "Metro", "CacheLib"],
@@ -217,22 +217,22 @@ const caseStudies: CaseStudy[] = [
     tagline: "Building testing strategies that scale across enterprise platforms",
     category: "Dev Tools · Quality Engineering",
     overview:
-      "Drove the adoption of modern testing practices across enterprise organizations, from building testing infrastructure at Salesforce to advocating for visual regression testing and AI-powered QA tools. Published extensively on testing strategies and spoke at major QA conferences worldwide.",
+      "Drove the adoption of modern testing practices across enterprise organizations, from building testing infrastructure to advocating for visual regression testing and AI-powered QA tools. Published extensively on testing strategies and spoke at major QA conferences worldwide.",
     challenge:
       "Enterprise applications with complex front-ends and frequent releases need testing strategies that are both comprehensive and maintainable. Traditional assertion-based testing couldn't keep up with the pace of front-end changes, and teams needed scalable approaches to visual regression testing.",
     approach:
-      "Pioneered the integration of visual AI testing into enterprise workflows, demonstrating how tools like Applitools could reduce test maintenance while increasing coverage. Combined this with deep expertise in testing frameworks (Jest, Cypress, Selenium) to build end-to-end testing strategies that balanced speed with confidence.",
+      "Pioneered the integration of visual AI testing into enterprise workflows, demonstrating how modern tools could reduce test maintenance while increasing coverage. Combined this with deep expertise in testing frameworks (Jest, Cypress, Selenium) to build end-to-end testing strategies that balanced speed with confidence.",
     impact: [
       "Published definitive guides on visual regression testing for mobile and web platforms",
       "Spoke at 10+ QA-focused conferences including SeleniumConf, Nordic Testing Days, and Agile Testing Days",
       "Testing at Scale talk bridged enterprise testing practices across multiple organizations",
       "Helped teams transition from brittle assertion-based tests to AI-powered visual validation",
     ],
-    technologies: ["Jest", "Cypress", "Selenium", "Applitools", "Visual AI", "TestZeus", "CI/CD"],
+    technologies: ["Jest", "Cypress", "Selenium", "Visual AI", "TestZeus", "CI/CD"],
     relatedContent: [
       { label: "Testing at Scale", href: "/presentations/2022/testing-at-scale/" },
       { label: "Visual Regression Testing", href: "/articles/2019/visual-regression-testing/" },
-      { label: "Lightning Fast Testing for Salesforce", href: "/articles/2023/lightning-fast-testing-for-salesforce-with-applitools-and-testzeus/" },
+      { label: "Lightning Fast Testing with Visual AI", href: "/articles/2023/lightning-fast-testing-for-salesforce-with-applitools-and-testzeus/" },
     ],
     icon: <Code className="w-5 h-5" />,
     accentColor: "var(--color-nd-terracotta)",
