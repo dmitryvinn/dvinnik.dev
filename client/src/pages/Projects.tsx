@@ -2,7 +2,7 @@
  * Projects / Case Studies Page — Nature Distilled
  * Showcases key initiatives spanning AI/ML, developer tools, front-end, and open source
  */
-import { ArrowLeft, ArrowRight, ExternalLink, Play, BookOpen, Users, Code, Layers, BarChart3 } from "lucide-react";
+import { ArrowLeft, ArrowRight, ExternalLink, Play, BookOpen, Users, Code, Layers, BarChart3, MessageCircle, Mic, Heart, GraduationCap } from "lucide-react";
 import { Link } from "wouter";
 import SEOHead from "@/components/SEOHead";
 import AnimatedSection, { StaggerContainer, StaggerItem } from "@/components/AnimatedSection";
@@ -12,7 +12,6 @@ interface CaseStudy {
   title: string;
   tagline: string;
   category: string;
-  period: string;
   overview: string;
   challenge: string;
   approach: string;
@@ -28,8 +27,7 @@ const caseStudies: CaseStudy[] = [
     id: "eli5",
     title: "Explain Like I'm 5",
     tagline: "Making complex open source accessible to every developer",
-    category: "Developer Education · Front-End & Dev Tools",
-    period: "2020 — 2022",
+    category: "Developer Education · Video Series",
     overview:
       "Created and hosted a multi-season video series that broke down complex open source projects into digestible, 5-minute explanations. The series spanned 20+ projects across React, React Native, PyTorch, Docusaurus, Jest, Yoga, Metro, CacheLib, and more — covering the full spectrum from front-end frameworks to AI/ML infrastructure.",
     challenge:
@@ -53,11 +51,37 @@ const caseStudies: CaseStudy[] = [
     accentColor: "var(--color-nd-terracotta)",
   },
   {
+    id: "whatsapp-dev",
+    title: "WhatsApp Business Platform Developer Education",
+    tagline: "Empowering developers to build on the world's most popular messaging platform",
+    category: "Developer Education · Business Messaging",
+    overview:
+      "Led the creation of a comprehensive developer education program for the WhatsApp Business Platform, producing courses, video content, and technical guides that help developers integrate, manage, and troubleshoot WhatsApp Business APIs. The program covers the full developer journey — from initial setup to advanced management and debugging.",
+    challenge:
+      "The WhatsApp Business Platform serves millions of businesses worldwide, but developers integrating with the APIs faced a fragmented learning experience. Technical documentation alone wasn't enough — developers needed structured, hands-on education to successfully build and scale their integrations.",
+    approach:
+      "Designed a multi-format education program: structured Coursera courses for deep learning, short-form video content for quick onboarding, and written guides for reference. Each piece was built to stand alone while fitting into a cohesive learning path from platform overview to advanced troubleshooting.",
+    impact: [
+      "6 comprehensive courses published covering the full WhatsApp Business Platform lifecycle",
+      "Courses span setup, implementation, management API, and troubleshooting",
+      "Launched 'WhatsUp with WhatsApp' developer show for ongoing platform updates",
+      "Reached developers across 180+ countries building on the WhatsApp Business Platform",
+    ],
+    technologies: ["WhatsApp Business API", "Cloud API", "Business Management API", "Webhooks", "REST APIs"],
+    relatedContent: [
+      { label: "WhatsApp Business Platform for Developers", href: "/courses/whatsapp-business-platform-for-developers/" },
+      { label: "Implement the WhatsApp Business Platform", href: "/courses/implement-the-whatsapp-business-platform/" },
+      { label: "WhatsUp with WhatsApp", href: "/videos/2023/whatsup-with-whatsapp/" },
+      { label: "Troubleshoot the WhatsApp Business Platform", href: "/courses/troubleshoot-the-whatsapp-business-platform/" },
+    ],
+    icon: <MessageCircle className="w-5 h-5" />,
+    accentColor: "var(--color-nd-sage)",
+  },
+  {
     id: "oss-health",
     title: "Open Source Project Health Framework",
     tagline: "Data-driven approach to measuring and improving open source communities",
-    category: "Engineering Leadership · Developer Tools",
-    period: "2021 — 2022",
+    category: "Engineering Leadership · Open Source Strategy",
     overview:
       "Developed and evangelized a comprehensive methodology for measuring the health of open source projects at scale. The framework provided actionable metrics that guided DevRel prioritization and resource allocation across a portfolio of 600+ open source repositories.",
     challenge:
@@ -77,6 +101,33 @@ const caseStudies: CaseStudy[] = [
       { label: "Open Source: 2020 Year in Review", href: "/articles/2020/open-source-year-in-review-2020/" },
     ],
     icon: <BarChart3 className="w-5 h-5" />,
+    accentColor: "var(--color-nd-terracotta)",
+  },
+  {
+    id: "conference-speaking",
+    title: "Global Conference Speaking Program",
+    tagline: "30+ talks across 6 continents, from keynotes to hands-on workshops",
+    category: "Developer Advocacy · Public Speaking",
+    overview:
+      "Built and sustained a global conference speaking program spanning 30+ presentations at major international tech conferences. Topics range from open source strategy and testing infrastructure to developer wellness and engineering leadership — reaching developer communities across North America, Europe, Asia, and beyond.",
+    challenge:
+      "Developer advocacy at scale requires more than publishing content — it demands face-to-face engagement with developer communities worldwide. Each conference audience has different needs, technical depth expectations, and cultural context, requiring talks to be both technically rigorous and broadly accessible.",
+    approach:
+      "Developed a diverse talk portfolio covering multiple technical domains and soft skills, allowing each conference appearance to be tailored to the audience. Combined keynote-style thought leadership talks with hands-on workshops where developers could build alongside the presenter. Prioritized conferences that serve underrepresented developer communities.",
+    impact: [
+      "30+ presentations at conferences including GitHub Universe, All Things Open, FOSDEM, and DjangoCon",
+      "Hands-on workshops delivered at TechBash, WeAreDevelopers, and Porto Tech Hub",
+      "Talks span 5+ technical domains: testing, open source, mobile, wellness, and leadership",
+      "Consistent speaker at both large-scale events (5,000+ attendees) and intimate community meetups",
+    ],
+    technologies: ["Public Speaking", "Workshop Design", "Technical Storytelling", "Developer Relations"],
+    relatedContent: [
+      { label: "All Talks", href: "/speaking" },
+      { label: "Hands-on React Native Workshop", href: "/presentations/2021/hands-on-react-native/" },
+      { label: "Stress Driven Development", href: "/presentations/2019/stress-driven-development/" },
+      { label: "Modern Web Testing", href: "/presentations/2019/modern-web-testing/" },
+    ],
+    icon: <Mic className="w-5 h-5" />,
     accentColor: "var(--color-nd-sage)",
   },
   {
@@ -84,7 +135,6 @@ const caseStudies: CaseStudy[] = [
     title: "Cross-Platform Front-End & Developer Tooling",
     tagline: "Championing tools that let developers build once, deploy everywhere",
     category: "Front-End · Dev Tools · Mobile",
-    period: "2019 — 2022",
     overview:
       "Led developer advocacy for a suite of cross-platform front-end frameworks and developer tools — including React Native, Yoga (cross-platform CSS layout engine), Flipper (mobile debugger), and Metro (JavaScript bundler). Built hands-on workshops, conference talks, and educational content that helped developers adopt these tools at scale.",
     challenge:
@@ -112,7 +162,6 @@ const caseStudies: CaseStudy[] = [
     title: "Testing Infrastructure & Visual QA",
     tagline: "Building testing strategies that scale across enterprise platforms",
     category: "Dev Tools · Quality Engineering",
-    period: "2017 — 2023",
     overview:
       "Drove the adoption of modern testing practices across enterprise organizations, from building testing infrastructure at Salesforce to advocating for visual regression testing and AI-powered QA tools. Published extensively on testing strategies and spoke at major QA conferences worldwide.",
     challenge:
@@ -132,6 +181,58 @@ const caseStudies: CaseStudy[] = [
       { label: "Lightning Fast Testing for Salesforce", href: "/articles/2023/lightning-fast-testing-for-salesforce-with-applitools-and-testzeus/" },
     ],
     icon: <Code className="w-5 h-5" />,
+    accentColor: "var(--color-nd-sage)",
+  },
+  {
+    id: "developer-wellness",
+    title: "Developer Wellness & Sustainable Engineering",
+    tagline: "Advocating for healthier, more sustainable ways of building software",
+    category: "Engineering Culture · Developer Wellness",
+    overview:
+      "Developed a body of work around developer wellness and sustainable engineering practices, challenging the industry's burnout culture through conference talks, articles, and community engagement. The 'Stress Driven Development' talk became one of the most-requested presentations, delivered at conferences across multiple continents.",
+    challenge:
+      "The tech industry's 'always-on' culture leads to burnout, reduced productivity, and talent attrition. While most developer advocacy focuses on tools and frameworks, few advocates address the human side of software development — the mental health, work-life balance, and sustainable practices that determine long-term career success.",
+    approach:
+      "Combined personal experience with research-backed strategies to create talks and content that resonated with developers at every career stage. Used humor and storytelling to make wellness topics approachable in technical conference settings, and partnered with conference organizers to normalize wellness content alongside technical tracks.",
+    impact: [
+      "Delivered 'Stress Driven Development' at 8+ conferences including Devoxx, VoxxedDays, HackConf, and AgentConf",
+      "Spoke on developer productivity and the 'Science of Lost Time' at multiple events",
+      "Helped normalize wellness conversations in traditionally technical conference settings",
+      "Reached thousands of developers with actionable strategies for sustainable engineering careers",
+    ],
+    technologies: ["Public Speaking", "Developer Experience", "Engineering Culture", "Productivity"],
+    relatedContent: [
+      { label: "Stress Driven Development", href: "/presentations/2019/stress-driven-development/" },
+      { label: "Science of Lost Time", href: "/presentations/2020/towards-productivity-science-of-lost-time/" },
+      { label: "Overcoming Remote Work Challenges", href: "/videos/2020/overcoming-challenges-facing-remote-employees/" },
+    ],
+    icon: <Heart className="w-5 h-5" />,
+    accentColor: "var(--color-nd-terracotta)",
+  },
+  {
+    id: "coursera-education",
+    title: "Coursera Developer Education Program",
+    tagline: "Structured learning paths for developers at every level",
+    category: "Developer Education · Online Learning",
+    overview:
+      "Designed and produced comprehensive courses on Coursera covering open source, testing, developer tools, and the WhatsApp Business Platform. These structured learning paths provide developers with a guided curriculum that goes deeper than blog posts or conference talks — combining video instruction, hands-on exercises, and assessments.",
+    challenge:
+      "While blog posts and conference talks are effective for awareness, developers adopting new platforms and tools need structured, progressive learning experiences. The gap between 'I've heard of this' and 'I can build with this' requires guided education that scales beyond one-on-one mentorship.",
+    approach:
+      "Created multi-module courses that follow a progressive learning model: each course builds from foundational concepts to advanced implementation. Combined video lectures with practical exercises, real-world scenarios, and assessments to ensure developers can apply what they learn. Partnered with product teams to keep course content aligned with the latest platform capabilities.",
+    impact: [
+      "Multiple courses published on Coursera reaching a global developer audience",
+      "Courses cover open source fundamentals, testing strategies, and platform-specific development",
+      "WhatsApp Business Platform courses provide the definitive learning path for platform developers",
+      "Structured curriculum format enables self-paced learning for developers in 180+ countries",
+    ],
+    technologies: ["Coursera", "Curriculum Design", "Video Production", "Assessment Design"],
+    relatedContent: [
+      { label: "WhatsApp Business Platform for Developers", href: "/courses/whatsapp-business-platform-for-developers/" },
+      { label: "Set up the WhatsApp Business Platform", href: "/courses/set-up-the-whatsapp-business-platform/" },
+      { label: "All Courses", href: "/courses" },
+    ],
+    icon: <GraduationCap className="w-5 h-5" />,
     accentColor: "var(--color-nd-sage)",
   },
 ];
@@ -161,10 +262,10 @@ export default function Projects() {
             <div className="nd-accent-line mb-3" />
             <span className="nd-label">Projects</span>
             <h1 className="nd-heading text-3xl sm:text-4xl lg:text-5xl mt-3 max-w-3xl">
-              Building at the intersection of developer tools, front-end, and AI
+              Building at the intersection of developer tools, education, and open source
             </h1>
             <p className="nd-body text-base lg:text-lg mt-6 max-w-2xl">
-              A selection of initiatives that represent the breadth of my work — from creating developer education programs that reached hundreds of thousands of developers, to building frameworks for measuring open source health at scale.
+              A selection of initiatives that represent the breadth of Dmitry's work — from creating developer education programs reaching hundreds of thousands of developers, to building frameworks for measuring open source health at scale.
             </p>
           </AnimatedSection>
         </div>
@@ -181,35 +282,30 @@ export default function Projects() {
             <div className="container py-16 lg:py-24">
               <AnimatedSection>
                 {/* Header */}
-                <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16">
-                  <div className="lg:col-span-8">
-                    <div className="flex items-center gap-3 mb-4">
-                      <div
-                        className="w-10 h-10 flex items-center justify-center rounded-lg"
-                        style={{
-                          background: study.accentColor,
-                          opacity: 0.15,
-                        }}
-                      >
-                        <span style={{ color: study.accentColor }}>{study.icon}</span>
-                      </div>
-                      <span className="nd-label">{study.category}</span>
-                    </div>
-                    <h2 className="nd-heading text-2xl lg:text-4xl">{study.title}</h2>
-                    <p
-                      className="mt-2 text-lg"
+                <div className="mb-6">
+                  <div className="flex items-center gap-3 mb-4">
+                    <div
+                      className="w-10 h-10 flex items-center justify-center rounded-lg"
                       style={{
-                        fontFamily: "var(--font-serif)",
-                        fontStyle: "italic",
-                        color: "var(--color-nd-terracotta)",
+                        background: study.accentColor,
+                        opacity: 0.15,
                       }}
                     >
-                      {study.tagline}
-                    </p>
+                      <span style={{ color: study.accentColor }}>{study.icon}</span>
+                    </div>
+                    <span className="nd-label">{study.category}</span>
                   </div>
-                  <div className="lg:col-span-4 flex items-start">
-                    <span className="nd-meta">{study.period}</span>
-                  </div>
+                  <h2 className="nd-heading text-2xl lg:text-4xl">{study.title}</h2>
+                  <p
+                    className="mt-2 text-lg"
+                    style={{
+                      fontFamily: "var(--font-serif)",
+                      fontStyle: "italic",
+                      color: "var(--color-nd-terracotta)",
+                    }}
+                  >
+                    {study.tagline}
+                  </p>
                 </div>
 
                 {/* Overview */}
