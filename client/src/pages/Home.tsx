@@ -351,6 +351,88 @@ export default function Home() {
           </div>
         </section>
 
+        {/* ===== FEATURED PROJECTS ===== */}
+        <section className="container py-16 lg:py-24">
+          <AnimatedSection>
+            <div className="flex items-end justify-between mb-10">
+              <div>
+                <div className="nd-accent-line mb-3" />
+                <span className="nd-label">Case Studies</span>
+                <h2 className="nd-heading text-2xl lg:text-4xl mt-2">Featured Projects</h2>
+              </div>
+              <Link href="/projects">
+                <span className="nd-link text-sm hidden sm:inline-flex items-center gap-1" style={{ fontFamily: "var(--font-sans)" }}>
+                  All Projects <ArrowRight className="w-3 h-3" />
+                </span>
+              </Link>
+            </div>
+          </AnimatedSection>
+
+          <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+            {[
+              {
+                title: "Explain Like I'm 5",
+                tagline: "Making complex open source accessible",
+                image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663407462879/97p7vQ5meEpw7kiKUeHkXx/cover-eli5-mxA3n9YK28ivXzj47wHkYA.webp",
+                category: "Developer Education",
+              },
+              {
+                title: "WhatsApp Business Platform",
+                tagline: "Developer education at platform scale",
+                image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663407462879/97p7vQ5meEpw7kiKUeHkXx/cover-whatsapp-SfPxidG8M4WVpbm2wkN3nf.webp",
+                category: "Business Messaging",
+              },
+              {
+                title: "Global Conference Speaking",
+                tagline: "30+ talks across 6 continents",
+                image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663407462879/97p7vQ5meEpw7kiKUeHkXx/cover-speaking-8SVR4hLNbybe7y3MNsaXKu.webp",
+                category: "Public Speaking",
+              },
+              {
+                title: "The Diff Podcast",
+                tagline: "Stories behind open source projects",
+                image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663407462879/97p7vQ5meEpw7kiKUeHkXx/cover-the-diff-6fKSBPgj9jYvkoTYu4VhMe.webp",
+                category: "Podcasts & Interviews",
+              },
+            ].map((project) => (
+              <StaggerItem key={project.title}>
+                <Link href="/projects">
+                  <div className="nd-card h-full group cursor-pointer overflow-hidden !p-0">
+                    <div className="relative w-full h-36 overflow-hidden">
+                      <img
+                        src={project.image}
+                        alt={project.title}
+                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                        loading="lazy"
+                      />
+                    </div>
+                    <div className="p-4">
+                      <span className="nd-meta text-xs uppercase tracking-wider">{project.category}</span>
+                      <h3
+                        className="text-base font-medium leading-snug mt-1 group-hover:text-primary transition-colors"
+                        style={{ fontFamily: "var(--font-serif)", color: "var(--color-nd-charcoal)" }}
+                      >
+                        {project.title}
+                      </h3>
+                      <p className="nd-body text-sm mt-1">{project.tagline}</p>
+                    </div>
+                  </div>
+                </Link>
+              </StaggerItem>
+            ))}
+          </StaggerContainer>
+
+          <div className="mt-6 sm:hidden">
+            <Link href="/projects">
+              <span className="nd-link text-sm inline-flex items-center gap-1" style={{ fontFamily: "var(--font-sans)" }}>
+                All Projects <ArrowRight className="w-3 h-3" />
+              </span>
+            </Link>
+          </div>
+        </section>
+
+        <div className="nd-divider" />
+
         {/* ===== ELI5 VIDEOS ===== */}
         <section className="container py-16 lg:py-24">
           <AnimatedSection>
