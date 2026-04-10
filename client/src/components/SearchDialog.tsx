@@ -1,20 +1,13 @@
 /**
  * SearchDialog — Nature Distilled
- * Global search across all content types using cmdk dialog
+ * Global search across all content types using the Worker API
  * Triggered by search icon in nav or Cmd+K / Ctrl+K
  */
-import { useState, useEffect, useMemo, useCallback } from "react";
+import { useState, useEffect, useMemo, useCallback, useRef } from "react";
 import { useLocation } from "wouter";
-import { Search, FileText, Video, Mic2, Calendar, BookOpen, MessageCircle, ArrowRight } from "lucide-react";
+import { Search, FileText, Video, Mic2, Calendar, BookOpen, MessageCircle, ArrowRight, Loader2 } from "lucide-react";
 
-// Lazy import content data to avoid loading it until search is opened
-let contentCache: typeof import("@/data/content") | null = null;
-async function getContent() {
-  if (!contentCache) {
-    contentCache = await import("@/data/content");
-  }
-  return contentCache;
-}
+const API_BASE = "https://api.dvinnik.dev";
 
 interface SearchResult {
   title: string;
@@ -23,6 +16,12 @@ interface SearchResult {
   category: string;
   date: string;
   tags: string[];
+}
+
+interface SearchResponse {
+  results: SearchResult[];
+  total: number;
+  query: string;
 }
 
 const categoryConfig: Record<string, { label: string; icon: typeof FileText; color: string }> = {
@@ -43,43 +42,73 @@ export default function SearchDialog({
 }) {
   const [, navigate] = useLocation();
   const [query, setQuery] = useState("");
-  const [allContent, setAllContent] = useState<SearchResult[]>([]);
-  const [loaded, setLoaded] = useState(false);
+  const [results, setResults] = useState<SearchResult[]>([]);
+  const [total, setTotal] = useState(0);
+  const [loading, setLoading] = useState(false);
+  const [searched, setSearched] = useState(false);
+  const abortRef = useRef<AbortController | null>(null);
+  const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
-  // Load content data when dialog opens
+  // Debounced API search
   useEffect(() => {
-    if (open && !loaded) {
-      getContent().then((mod) => {
-        const all: SearchResult[] = [];
-        const categories = [
-          { key: "articles", data: mod.articles },
-          { key: "videos", data: mod.videos },
-          { key: "presentations", data: mod.presentations },
-          { key: "events", data: mod.events },
-          { key: "courses", data: mod.courses },
-          { key: "conversations", data: mod.conversations },
-        ];
-        for (const cat of categories) {
-          for (const item of cat.data) {
-            all.push({
-              title: item.title,
-              description: item.description,
-              slug: item.slug,
-              category: cat.key,
-              date: item.date,
-              tags: item.tags,
-            });
-          }
-        }
-        setAllContent(all);
-        setLoaded(true);
-      });
+    if (!open) return;
+
+    if (debounceRef.current) clearTimeout(debounceRef.current);
+
+    const trimmed = query.trim();
+    if (!trimmed) {
+      setResults([]);
+      setTotal(0);
+      setSearched(false);
+      setLoading(false);
+      return;
     }
-  }, [open, loaded]);
 
-  // Reset query when dialog closes
+    setLoading(true);
+
+    debounceRef.current = setTimeout(async () => {
+      // Abort previous request
+      if (abortRef.current) abortRef.current.abort();
+      const controller = new AbortController();
+      abortRef.current = controller;
+
+      try {
+        const res = await fetch(
+          `${API_BASE}/api/search?q=${encodeURIComponent(trimmed)}&limit=20`,
+          { signal: controller.signal }
+        );
+        if (!res.ok) throw new Error("Search failed");
+        const data: SearchResponse = await res.json();
+        setResults(data.results);
+        setTotal(data.total);
+        setSearched(true);
+      } catch (err: any) {
+        if (err.name !== "AbortError") {
+          console.error("Search error:", err);
+          setResults([]);
+          setTotal(0);
+          setSearched(true);
+        }
+      } finally {
+        setLoading(false);
+      }
+    }, 250); // 250ms debounce
+
+    return () => {
+      if (debounceRef.current) clearTimeout(debounceRef.current);
+    };
+  }, [query, open]);
+
+  // Reset state when dialog closes
   useEffect(() => {
-    if (!open) setQuery("");
+    if (!open) {
+      setQuery("");
+      setResults([]);
+      setTotal(0);
+      setSearched(false);
+      setLoading(false);
+      if (abortRef.current) abortRef.current.abort();
+    }
   }, [open]);
 
   // Close on Escape
@@ -101,20 +130,6 @@ export default function SearchDialog({
     }
     return () => { document.body.style.overflow = ""; };
   }, [open]);
-
-  // Search logic
-  const results = useMemo(() => {
-    if (!query.trim()) return [];
-    const q = query.toLowerCase().trim();
-    const terms = q.split(/\s+/);
-
-    return allContent
-      .filter((item) => {
-        const searchable = `${item.title} ${item.description} ${item.tags.join(" ")} ${item.category}`.toLowerCase();
-        return terms.every((term) => searchable.includes(term));
-      })
-      .slice(0, 20); // Limit to 20 results
-  }, [query, allContent]);
 
   const handleSelect = useCallback(
     (slug: string) => {
@@ -145,7 +160,11 @@ export default function SearchDialog({
       >
         {/* Search input */}
         <div className="flex items-center gap-3 px-5 py-4" style={{ borderBottom: "1px solid oklch(0.22 0.01 55 / 8%)" }}>
-          <Search className="w-5 h-5 flex-shrink-0" style={{ color: "var(--color-nd-terracotta)" }} />
+          {loading ? (
+            <Loader2 className="w-5 h-5 flex-shrink-0 animate-spin" style={{ color: "var(--color-nd-terracotta)" }} />
+          ) : (
+            <Search className="w-5 h-5 flex-shrink-0" style={{ color: "var(--color-nd-terracotta)" }} />
+          )}
           <input
             type="text"
             value={query}
@@ -170,7 +189,7 @@ export default function SearchDialog({
 
         {/* Results */}
         <div className="max-h-[60vh] overflow-y-auto">
-          {query.trim() && results.length === 0 && loaded && (
+          {query.trim() && searched && results.length === 0 && !loading && (
             <div className="px-5 py-10 text-center">
               <p className="nd-body text-sm" style={{ color: "var(--color-nd-warm-gray)" }}>
                 No results found for "{query}"
@@ -178,18 +197,10 @@ export default function SearchDialog({
             </div>
           )}
 
-          {query.trim() && !loaded && (
-            <div className="px-5 py-10 text-center">
-              <p className="nd-body text-sm" style={{ color: "var(--color-nd-warm-gray)" }}>
-                Loading content...
-              </p>
-            </div>
-          )}
-
           {!query.trim() && (
             <div className="px-5 py-8 text-center">
               <p className="nd-body text-sm" style={{ color: "var(--color-nd-warm-gray)" }}>
-                Start typing to search across {allContent.length || "200+"} content items
+                Start typing to search across 200+ content items
               </p>
             </div>
           )}
@@ -259,7 +270,7 @@ export default function SearchDialog({
             }}
           >
             <span className="text-xs" style={{ fontFamily: "var(--font-sans)", color: "var(--color-nd-warm-gray)" }}>
-              {results.length} result{results.length !== 1 ? "s" : ""}
+              {results.length} of {total} result{total !== 1 ? "s" : ""}
             </span>
             <span className="text-xs" style={{ fontFamily: "var(--font-mono)", color: "var(--color-nd-warm-gray)" }}>
               Click to open

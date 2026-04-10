@@ -3,7 +3,7 @@
  * Features a contact form powered by Cloudflare Workers + social links + speaking topics
  */
 import { useState } from "react";
-import { ArrowLeft, Mail, ExternalLink, Github, Linkedin, MessageCircle, Send, CheckCircle, AlertCircle, Loader2 } from "lucide-react";
+import { ArrowLeft, ExternalLink, Github, Linkedin, MessageCircle, Send, CheckCircle, AlertCircle, Loader2 } from "lucide-react";
 import { Link } from "wouter";
 import SEOHead from "@/components/SEOHead";
 import SectionHeader from "@/components/SectionHeader";
@@ -13,13 +13,6 @@ import AnimatedSection, { StaggerContainer, StaggerItem } from "@/components/Ani
 const WORKER_URL = "https://api.dvinnik.dev";
 
 const contactLinks = [
-  {
-    label: "Email",
-    value: "hello@dvinnik.dev",
-    href: "mailto:hello@dvinnik.dev",
-    icon: Mail,
-    description: "For speaking inquiries, collaborations, or just to say hello.",
-  },
   {
     label: "LinkedIn",
     value: "linkedin.com/in/dmitry-vinnik",
@@ -90,7 +83,7 @@ export default function Contact() {
       }
     } catch {
       setStatus("error");
-      setErrorMessage("Unable to send message. Please try emailing directly at hello@dvinnik.dev");
+      setErrorMessage("Unable to send message. Please try emailing directly at dmitry@dvinnik.dev");
     }
   };
 
@@ -231,12 +224,13 @@ export default function Contact() {
                           className="block text-sm font-medium mb-1.5"
                           style={{ fontFamily: "var(--font-sans)", color: "var(--color-nd-charcoal)" }}
                         >
-                          Subject
+                          Subject <span style={{ color: "var(--color-nd-terracotta)" }}>*</span>
                         </label>
                         <input
                           id="subject"
                           name="subject"
                           type="text"
+                          required
                           maxLength={300}
                           value={formData.subject}
                           onChange={handleChange}
@@ -258,6 +252,7 @@ export default function Contact() {
                           style={{ fontFamily: "var(--font-sans)", color: "var(--color-nd-charcoal)" }}
                         >
                           Message <span style={{ color: "var(--color-nd-terracotta)" }}>*</span>
+                          <span className="nd-meta text-xs font-normal ml-1">(min. 10 characters)</span>
                         </label>
                         <textarea
                           id="message"
@@ -278,7 +273,9 @@ export default function Contact() {
                           }}
                         />
                         <p className="nd-meta text-xs mt-1">
-                          {formData.message.length}/5000 characters
+                          {formData.message.length}/5000 characters{formData.message.length > 0 && formData.message.length < 10 && (
+                            <span style={{ color: "var(--color-nd-terracotta)", marginLeft: "0.5rem" }}>Minimum 10 characters required</span>
+                          )}
                         </p>
                       </div>
 
