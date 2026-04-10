@@ -1,8 +1,20 @@
 /**
  * Projects / Case Studies Page — Nature Distilled
- * Showcases key initiatives spanning AI/ML, developer tools, front-end, and open source
+ * Showcases key initiatives spanning developer education, open source, front-end, and engineering culture
+ *
+ * Ordering rationale (strongest narrative arc):
+ * 1. ELI5 — signature series, most recognizable, hooks the reader
+ * 2. Cross-Platform Front-End — deep technical credibility
+ * 3. WhatsApp Business Platform — platform-scale impact
+ * 4. The Diff Podcast — storytelling & community voice
+ * 5. Meet the Developers — humanizing open source
+ * 6. Open Source Health Framework — strategic / data-driven leadership
+ * 7. Testing Infrastructure — enterprise engineering depth
+ * 8. Global Conference Speaking — reach & influence
+ * 9. Coursera Education — structured learning at scale
+ * 10. Developer Wellness — closes on the human note, memorable ending
  */
-import { ArrowLeft, ArrowRight, ExternalLink, Play, BookOpen, Users, Code, Layers, BarChart3, MessageCircle, Mic, Heart, GraduationCap } from "lucide-react";
+import { ArrowLeft, ArrowRight, ExternalLink, Play, BookOpen, Users, Code, Layers, BarChart3, MessageCircle, Mic, Heart, GraduationCap, Radio } from "lucide-react";
 import { Link } from "wouter";
 import SEOHead from "@/components/SEOHead";
 import AnimatedSection, { StaggerContainer, StaggerItem } from "@/components/AnimatedSection";
@@ -23,6 +35,7 @@ interface CaseStudy {
 }
 
 const caseStudies: CaseStudy[] = [
+  // 1. Signature series — hooks the reader
   {
     id: "eli5",
     title: "Explain Like I'm 5",
@@ -50,86 +63,7 @@ const caseStudies: CaseStudy[] = [
     icon: <Play className="w-5 h-5" />,
     accentColor: "var(--color-nd-terracotta)",
   },
-  {
-    id: "whatsapp-dev",
-    title: "WhatsApp Business Platform Developer Education",
-    tagline: "Empowering developers to build on the world's most popular messaging platform",
-    category: "Developer Education · Business Messaging",
-    overview:
-      "Led the creation of a comprehensive developer education program for the WhatsApp Business Platform, producing courses, video content, and technical guides that help developers integrate, manage, and troubleshoot WhatsApp Business APIs. The program covers the full developer journey — from initial setup to advanced management and debugging.",
-    challenge:
-      "The WhatsApp Business Platform serves millions of businesses worldwide, but developers integrating with the APIs faced a fragmented learning experience. Technical documentation alone wasn't enough — developers needed structured, hands-on education to successfully build and scale their integrations.",
-    approach:
-      "Designed a multi-format education program: structured Coursera courses for deep learning, short-form video content for quick onboarding, and written guides for reference. Each piece was built to stand alone while fitting into a cohesive learning path from platform overview to advanced troubleshooting.",
-    impact: [
-      "6 comprehensive courses published covering the full WhatsApp Business Platform lifecycle",
-      "Courses span setup, implementation, management API, and troubleshooting",
-      "Launched 'WhatsUp with WhatsApp' developer show for ongoing platform updates",
-      "Reached developers across 180+ countries building on the WhatsApp Business Platform",
-    ],
-    technologies: ["WhatsApp Business API", "Cloud API", "Business Management API", "Webhooks", "REST APIs"],
-    relatedContent: [
-      { label: "WhatsApp Business Platform for Developers", href: "/courses/whatsapp-business-platform-for-developers/" },
-      { label: "Implement the WhatsApp Business Platform", href: "/courses/implement-the-whatsapp-business-platform/" },
-      { label: "WhatsUp with WhatsApp", href: "/videos/2023/whatsup-with-whatsapp/" },
-      { label: "Troubleshoot the WhatsApp Business Platform", href: "/courses/troubleshoot-the-whatsapp-business-platform/" },
-    ],
-    icon: <MessageCircle className="w-5 h-5" />,
-    accentColor: "var(--color-nd-sage)",
-  },
-  {
-    id: "oss-health",
-    title: "Open Source Project Health Framework",
-    tagline: "Data-driven approach to measuring and improving open source communities",
-    category: "Engineering Leadership · Open Source Strategy",
-    overview:
-      "Developed and evangelized a comprehensive methodology for measuring the health of open source projects at scale. The framework provided actionable metrics that guided DevRel prioritization and resource allocation across a portfolio of 600+ open source repositories.",
-    challenge:
-      "With hundreds of open source projects, teams needed a systematic way to assess which projects were thriving, which needed attention, and where to focus limited DevRel resources. Traditional metrics like star counts were insufficient — a more nuanced, multi-dimensional health model was needed.",
-    approach:
-      "Built a framework inspired by personal health metaphors — just as human health requires multiple vital signs, project health requires measuring community engagement, contributor diversity, documentation quality, issue response time, and ecosystem integration. Presented the methodology at 8+ international conferences to share learnings with the broader open source community.",
-    impact: [
-      "Presented at 8+ major conferences including Open Source Summit, All Things Open, and DevTalks",
-      "Framework adopted for prioritizing DevRel focus across 600+ repositories",
-      "Press coverage from Business Insider, The Recursive, and PR Newswire",
-      "Helped establish data-driven DevRel as a practice within the organization",
-    ],
-    technologies: ["Data Analytics", "Community Metrics", "Open Source Governance", "DevRel Strategy"],
-    relatedContent: [
-      { label: "Conference Talk", href: "/presentations/2021/10000-steps-of-open-source-project-health/" },
-      { label: "Open Source: 2021 Year in Review", href: "/articles/2021/open-source-year-in-review-2021/" },
-      { label: "Open Source: 2020 Year in Review", href: "/articles/2020/open-source-year-in-review-2020/" },
-    ],
-    icon: <BarChart3 className="w-5 h-5" />,
-    accentColor: "var(--color-nd-terracotta)",
-  },
-  {
-    id: "conference-speaking",
-    title: "Global Conference Speaking Program",
-    tagline: "30+ talks across 6 continents, from keynotes to hands-on workshops",
-    category: "Developer Advocacy · Public Speaking",
-    overview:
-      "Built and sustained a global conference speaking program spanning 30+ presentations at major international tech conferences. Topics range from open source strategy and testing infrastructure to developer wellness and engineering leadership — reaching developer communities across North America, Europe, Asia, and beyond.",
-    challenge:
-      "Developer advocacy at scale requires more than publishing content — it demands face-to-face engagement with developer communities worldwide. Each conference audience has different needs, technical depth expectations, and cultural context, requiring talks to be both technically rigorous and broadly accessible.",
-    approach:
-      "Developed a diverse talk portfolio covering multiple technical domains and soft skills, allowing each conference appearance to be tailored to the audience. Combined keynote-style thought leadership talks with hands-on workshops where developers could build alongside the presenter. Prioritized conferences that serve underrepresented developer communities.",
-    impact: [
-      "30+ presentations at conferences including GitHub Universe, All Things Open, FOSDEM, and DjangoCon",
-      "Hands-on workshops delivered at TechBash, WeAreDevelopers, and Porto Tech Hub",
-      "Talks span 5+ technical domains: testing, open source, mobile, wellness, and leadership",
-      "Consistent speaker at both large-scale events (5,000+ attendees) and intimate community meetups",
-    ],
-    technologies: ["Public Speaking", "Workshop Design", "Technical Storytelling", "Developer Relations"],
-    relatedContent: [
-      { label: "All Talks", href: "/speaking" },
-      { label: "Hands-on React Native Workshop", href: "/presentations/2021/hands-on-react-native/" },
-      { label: "Stress Driven Development", href: "/presentations/2019/stress-driven-development/" },
-      { label: "Modern Web Testing", href: "/presentations/2019/modern-web-testing/" },
-    ],
-    icon: <Mic className="w-5 h-5" />,
-    accentColor: "var(--color-nd-sage)",
-  },
+  // 2. Deep technical credibility
   {
     id: "cross-platform",
     title: "Cross-Platform Front-End & Developer Tooling",
@@ -155,86 +89,65 @@ const caseStudies: CaseStudy[] = [
       { label: "ELI5: Metro", href: "/articles/2021/eli5-metro/" },
     ],
     icon: <Layers className="w-5 h-5" />,
-    accentColor: "var(--color-nd-terracotta)",
-  },
-  {
-    id: "testing-at-scale",
-    title: "Testing Infrastructure & Visual QA",
-    tagline: "Building testing strategies that scale across enterprise platforms",
-    category: "Dev Tools · Quality Engineering",
-    overview:
-      "Drove the adoption of modern testing practices across enterprise organizations, from building testing infrastructure at Salesforce to advocating for visual regression testing and AI-powered QA tools. Published extensively on testing strategies and spoke at major QA conferences worldwide.",
-    challenge:
-      "Enterprise applications with complex front-ends and frequent releases need testing strategies that are both comprehensive and maintainable. Traditional assertion-based testing couldn't keep up with the pace of front-end changes, and teams needed scalable approaches to visual regression testing.",
-    approach:
-      "Pioneered the integration of visual AI testing into enterprise workflows, demonstrating how tools like Applitools could reduce test maintenance while increasing coverage. Combined this with deep expertise in testing frameworks (Jest, Cypress, Selenium) to build end-to-end testing strategies that balanced speed with confidence.",
-    impact: [
-      "Published definitive guides on visual regression testing for mobile and web platforms",
-      "Spoke at 10+ QA-focused conferences including SeleniumConf, Nordic Testing Days, and Agile Testing Days",
-      "Testing at Scale talk bridged enterprise testing practices across multiple organizations",
-      "Helped teams transition from brittle assertion-based tests to AI-powered visual validation",
-    ],
-    technologies: ["Jest", "Cypress", "Selenium", "Applitools", "Visual AI", "TestZeus", "CI/CD"],
-    relatedContent: [
-      { label: "Testing at Scale", href: "/presentations/2022/testing-at-scale/" },
-      { label: "Visual Regression Testing", href: "/articles/2019/visual-regression-testing/" },
-      { label: "Lightning Fast Testing for Salesforce", href: "/articles/2023/lightning-fast-testing-for-salesforce-with-applitools-and-testzeus/" },
-    ],
-    icon: <Code className="w-5 h-5" />,
     accentColor: "var(--color-nd-sage)",
   },
+  // 3. Platform-scale impact
   {
-    id: "developer-wellness",
-    title: "Developer Wellness & Sustainable Engineering",
-    tagline: "Advocating for healthier, more sustainable ways of building software",
-    category: "Engineering Culture · Developer Wellness",
+    id: "whatsapp-dev",
+    title: "WhatsApp Business Platform Developer Education",
+    tagline: "Empowering developers to build on the world's most popular messaging platform",
+    category: "Developer Education · Business Messaging",
     overview:
-      "Developed a body of work around developer wellness and sustainable engineering practices, challenging the industry's burnout culture through conference talks, articles, and community engagement. The 'Stress Driven Development' talk became one of the most-requested presentations, delivered at conferences across multiple continents.",
+      "Led the creation of a comprehensive developer education program for the WhatsApp Business Platform, producing courses, video content, and technical guides that help developers integrate, manage, and troubleshoot WhatsApp Business APIs. The program covers the full developer journey — from initial setup to advanced management and debugging.",
     challenge:
-      "The tech industry's 'always-on' culture leads to burnout, reduced productivity, and talent attrition. While most developer advocacy focuses on tools and frameworks, few advocates address the human side of software development — the mental health, work-life balance, and sustainable practices that determine long-term career success.",
+      "The WhatsApp Business Platform serves millions of businesses worldwide, but developers integrating with the APIs faced a fragmented learning experience. Technical documentation alone wasn't enough — developers needed structured, hands-on education to successfully build and scale their integrations.",
     approach:
-      "Combined personal experience with research-backed strategies to create talks and content that resonated with developers at every career stage. Used humor and storytelling to make wellness topics approachable in technical conference settings, and partnered with conference organizers to normalize wellness content alongside technical tracks.",
+      "Designed a multi-format education program: structured Coursera courses for deep learning, short-form video content for quick onboarding, and written guides for reference. Each piece was built to stand alone while fitting into a cohesive learning path from platform overview to advanced troubleshooting.",
     impact: [
-      "Delivered 'Stress Driven Development' at 8+ conferences including Devoxx, VoxxedDays, HackConf, and AgentConf",
-      "Spoke on developer productivity and the 'Science of Lost Time' at multiple events",
-      "Helped normalize wellness conversations in traditionally technical conference settings",
-      "Reached thousands of developers with actionable strategies for sustainable engineering careers",
+      "6 comprehensive courses published covering the full WhatsApp Business Platform lifecycle",
+      "Courses span setup, implementation, management API, and troubleshooting",
+      "Launched 'WhatsUp with WhatsApp' developer show for ongoing platform updates",
+      "Reached developers across 180+ countries building on the WhatsApp Business Platform",
     ],
-    technologies: ["Public Speaking", "Developer Experience", "Engineering Culture", "Productivity"],
-    relatedContent: [
-      { label: "Stress Driven Development", href: "/presentations/2019/stress-driven-development/" },
-      { label: "Science of Lost Time", href: "/presentations/2020/towards-productivity-science-of-lost-time/" },
-      { label: "Overcoming Remote Work Challenges", href: "/videos/2020/overcoming-challenges-facing-remote-employees/" },
-    ],
-    icon: <Heart className="w-5 h-5" />,
-    accentColor: "var(--color-nd-terracotta)",
-  },
-  {
-    id: "coursera-education",
-    title: "Coursera Developer Education Program",
-    tagline: "Structured learning paths for developers at every level",
-    category: "Developer Education · Online Learning",
-    overview:
-      "Designed and produced comprehensive courses on Coursera covering open source, testing, developer tools, and the WhatsApp Business Platform. These structured learning paths provide developers with a guided curriculum that goes deeper than blog posts or conference talks — combining video instruction, hands-on exercises, and assessments.",
-    challenge:
-      "While blog posts and conference talks are effective for awareness, developers adopting new platforms and tools need structured, progressive learning experiences. The gap between 'I've heard of this' and 'I can build with this' requires guided education that scales beyond one-on-one mentorship.",
-    approach:
-      "Created multi-module courses that follow a progressive learning model: each course builds from foundational concepts to advanced implementation. Combined video lectures with practical exercises, real-world scenarios, and assessments to ensure developers can apply what they learn. Partnered with product teams to keep course content aligned with the latest platform capabilities.",
-    impact: [
-      "Multiple courses published on Coursera reaching a global developer audience",
-      "Courses cover open source fundamentals, testing strategies, and platform-specific development",
-      "WhatsApp Business Platform courses provide the definitive learning path for platform developers",
-      "Structured curriculum format enables self-paced learning for developers in 180+ countries",
-    ],
-    technologies: ["Coursera", "Curriculum Design", "Video Production", "Assessment Design"],
+    technologies: ["WhatsApp Business API", "Cloud API", "Business Management API", "Webhooks", "REST APIs"],
     relatedContent: [
       { label: "WhatsApp Business Platform for Developers", href: "/courses/whatsapp-business-platform-for-developers/" },
-      { label: "Set up the WhatsApp Business Platform", href: "/courses/set-up-the-whatsapp-business-platform/" },
-      { label: "All Courses", href: "/courses" },
+      { label: "Implement the WhatsApp Business Platform", href: "/courses/implement-the-whatsapp-business-platform/" },
+      { label: "WhatsUp with WhatsApp", href: "/videos/2023/whatsup-with-whatsapp/" },
+      { label: "Troubleshoot the WhatsApp Business Platform", href: "/courses/troubleshoot-the-whatsapp-business-platform/" },
     ],
-    icon: <GraduationCap className="w-5 h-5" />,
+    icon: <MessageCircle className="w-5 h-5" />,
+    accentColor: "var(--color-nd-terracotta)",
+  },
+  // 4. Storytelling & community voice (NEW)
+  {
+    id: "the-diff-podcast",
+    title: "The Diff Podcast",
+    tagline: "Long-form conversations with the engineers shaping open source",
+    category: "Podcasts & Interviews · Developer Storytelling",
+    overview:
+      "Hosted The Diff, a podcast spotlighting the people and stories behind major open source projects. Each episode features an in-depth conversation with an engineer — exploring their technical journey, the projects they maintain, and the broader impact of open source on the developer ecosystem. The show also served as a platform for fireside chats on open source strategy and leadership.",
+    challenge:
+      "Developer podcasts often stay surface-level, covering news and announcements without diving into the human stories behind the code. Engineers working on foundational open source projects rarely get a platform to share their motivations, challenges, and the decisions that shaped the tools millions of developers rely on.",
+    approach:
+      "Created a long-form interview format that balances technical depth with personal storytelling. Each episode is structured around the guest's journey — from how they entered open source to the specific architectural and community decisions they've made. Complemented the podcast with short-form video clips for social distribution, maximizing reach across platforms.",
+    impact: [
+      "3 full-length episodes featuring engineers behind React Native, React, Litho, and Flipper",
+      "Fireside chat on open source strategy at Meta reached leadership and community audiences",
+      "Audio, video, and clip formats distributed across podcast platforms, YouTube, and social media",
+      "Provided a model for humanizing open source through developer-focused audio storytelling",
+    ],
+    technologies: ["Podcast Production", "Audio Engineering", "Video Editing", "Content Distribution"],
+    relatedContent: [
+      { label: "From Linux to React Native with Nicola Corti", href: "/conversations/2022/the-diff-episode-13/" },
+      { label: "All Things React with Rachel Nabors", href: "/conversations/2022/the-diff-episode-12/" },
+      { label: "Mobile Open Source with Pascal Hartig", href: "/conversations/2022/the-diff-episode-11/" },
+      { label: "Fireside Chat: Open Source at Meta", href: "/conversations/2022/open-source-at-meta/" },
+    ],
+    icon: <Radio className="w-5 h-5" />,
     accentColor: "var(--color-nd-sage)",
   },
+  // 5. Humanizing open source
   {
     id: "meet-the-developers",
     title: "Meet the Developers",
@@ -262,6 +175,142 @@ const caseStudies: CaseStudy[] = [
     icon: <Users className="w-5 h-5" />,
     accentColor: "var(--color-nd-terracotta)",
   },
+  // 6. Strategic / data-driven leadership
+  {
+    id: "oss-health",
+    title: "Open Source Project Health Framework",
+    tagline: "Data-driven approach to measuring and improving open source communities",
+    category: "Engineering Leadership · Open Source Strategy",
+    overview:
+      "Developed and evangelized a comprehensive methodology for measuring the health of open source projects at scale. The framework provided actionable metrics that guided DevRel prioritization and resource allocation across a portfolio of 600+ open source repositories.",
+    challenge:
+      "With hundreds of open source projects, teams needed a systematic way to assess which projects were thriving, which needed attention, and where to focus limited DevRel resources. Traditional metrics like star counts were insufficient — a more nuanced, multi-dimensional health model was needed.",
+    approach:
+      "Built a framework inspired by personal health metaphors — just as human health requires multiple vital signs, project health requires measuring community engagement, contributor diversity, documentation quality, issue response time, and ecosystem integration. Presented the methodology at 8+ international conferences to share learnings with the broader open source community.",
+    impact: [
+      "Presented at 8+ major conferences including Open Source Summit, All Things Open, and DevTalks",
+      "Framework adopted for prioritizing DevRel focus across 600+ repositories",
+      "Press coverage from Business Insider, The Recursive, and PR Newswire",
+      "Helped establish data-driven DevRel as a practice within the organization",
+    ],
+    technologies: ["Data Analytics", "Community Metrics", "Open Source Governance", "DevRel Strategy"],
+    relatedContent: [
+      { label: "Conference Talk", href: "/presentations/2021/10000-steps-of-open-source-project-health/" },
+      { label: "Open Source: 2021 Year in Review", href: "/articles/2021/open-source-year-in-review-2021/" },
+      { label: "Open Source: 2020 Year in Review", href: "/articles/2020/open-source-year-in-review-2020/" },
+    ],
+    icon: <BarChart3 className="w-5 h-5" />,
+    accentColor: "var(--color-nd-sage)",
+  },
+  // 7. Enterprise engineering depth
+  {
+    id: "testing-at-scale",
+    title: "Testing Infrastructure & Visual QA",
+    tagline: "Building testing strategies that scale across enterprise platforms",
+    category: "Dev Tools · Quality Engineering",
+    overview:
+      "Drove the adoption of modern testing practices across enterprise organizations, from building testing infrastructure at Salesforce to advocating for visual regression testing and AI-powered QA tools. Published extensively on testing strategies and spoke at major QA conferences worldwide.",
+    challenge:
+      "Enterprise applications with complex front-ends and frequent releases need testing strategies that are both comprehensive and maintainable. Traditional assertion-based testing couldn't keep up with the pace of front-end changes, and teams needed scalable approaches to visual regression testing.",
+    approach:
+      "Pioneered the integration of visual AI testing into enterprise workflows, demonstrating how tools like Applitools could reduce test maintenance while increasing coverage. Combined this with deep expertise in testing frameworks (Jest, Cypress, Selenium) to build end-to-end testing strategies that balanced speed with confidence.",
+    impact: [
+      "Published definitive guides on visual regression testing for mobile and web platforms",
+      "Spoke at 10+ QA-focused conferences including SeleniumConf, Nordic Testing Days, and Agile Testing Days",
+      "Testing at Scale talk bridged enterprise testing practices across multiple organizations",
+      "Helped teams transition from brittle assertion-based tests to AI-powered visual validation",
+    ],
+    technologies: ["Jest", "Cypress", "Selenium", "Applitools", "Visual AI", "TestZeus", "CI/CD"],
+    relatedContent: [
+      { label: "Testing at Scale", href: "/presentations/2022/testing-at-scale/" },
+      { label: "Visual Regression Testing", href: "/articles/2019/visual-regression-testing/" },
+      { label: "Lightning Fast Testing for Salesforce", href: "/articles/2023/lightning-fast-testing-for-salesforce-with-applitools-and-testzeus/" },
+    ],
+    icon: <Code className="w-5 h-5" />,
+    accentColor: "var(--color-nd-terracotta)",
+  },
+  // 8. Reach & influence
+  {
+    id: "conference-speaking",
+    title: "Global Conference Speaking Program",
+    tagline: "30+ talks across 6 continents, from keynotes to hands-on workshops",
+    category: "Developer Advocacy · Public Speaking",
+    overview:
+      "Built and sustained a global conference speaking program spanning 30+ presentations at major international tech conferences. Topics range from open source strategy and testing infrastructure to developer wellness and engineering leadership — reaching developer communities across North America, Europe, Asia, and beyond.",
+    challenge:
+      "Developer advocacy at scale requires more than publishing content — it demands face-to-face engagement with developer communities worldwide. Each conference audience has different needs, technical depth expectations, and cultural context, requiring talks to be both technically rigorous and broadly accessible.",
+    approach:
+      "Developed a diverse talk portfolio covering multiple technical domains and soft skills, allowing each conference appearance to be tailored to the audience. Combined keynote-style thought leadership talks with hands-on workshops where developers could build alongside the presenter. Prioritized conferences that serve underrepresented developer communities.",
+    impact: [
+      "30+ presentations at conferences including GitHub Universe, All Things Open, FOSDEM, and DjangoCon",
+      "Hands-on workshops delivered at TechBash, WeAreDevelopers, and Porto Tech Hub",
+      "Talks span 5+ technical domains: testing, open source, mobile, wellness, and leadership",
+      "Consistent speaker at both large-scale events (5,000+ attendees) and intimate community meetups",
+    ],
+    technologies: ["Public Speaking", "Workshop Design", "Technical Storytelling", "Developer Relations"],
+    relatedContent: [
+      { label: "All Talks", href: "/speaking" },
+      { label: "Hands-on React Native Workshop", href: "/presentations/2021/hands-on-react-native/" },
+      { label: "Stress Driven Development", href: "/presentations/2019/stress-driven-development/" },
+      { label: "Modern Web Testing", href: "/presentations/2019/modern-web-testing/" },
+    ],
+    icon: <Mic className="w-5 h-5" />,
+    accentColor: "var(--color-nd-sage)",
+  },
+  // 9. Structured learning at scale
+  {
+    id: "coursera-education",
+    title: "Coursera Developer Education Program",
+    tagline: "Structured learning paths for developers at every level",
+    category: "Developer Education · Online Learning",
+    overview:
+      "Designed and produced comprehensive courses on Coursera covering open source, testing, developer tools, and the WhatsApp Business Platform. These structured learning paths provide developers with a guided curriculum that goes deeper than blog posts or conference talks — combining video instruction, hands-on exercises, and assessments.",
+    challenge:
+      "While blog posts and conference talks are effective for awareness, developers adopting new platforms and tools need structured, progressive learning experiences. The gap between 'I've heard of this' and 'I can build with this' requires guided education that scales beyond one-on-one mentorship.",
+    approach:
+      "Created multi-module courses that follow a progressive learning model: each course builds from foundational concepts to advanced implementation. Combined video lectures with practical exercises, real-world scenarios, and assessments to ensure developers can apply what they learn. Partnered with product teams to keep course content aligned with the latest platform capabilities.",
+    impact: [
+      "Multiple courses published on Coursera reaching a global developer audience",
+      "Courses cover open source fundamentals, testing strategies, and platform-specific development",
+      "WhatsApp Business Platform courses provide the definitive learning path for platform developers",
+      "Structured curriculum format enables self-paced learning for developers in 180+ countries",
+    ],
+    technologies: ["Coursera", "Curriculum Design", "Video Production", "Assessment Design"],
+    relatedContent: [
+      { label: "WhatsApp Business Platform for Developers", href: "/courses/whatsapp-business-platform-for-developers/" },
+      { label: "Set up the WhatsApp Business Platform", href: "/courses/set-up-the-whatsapp-business-platform/" },
+      { label: "All Courses", href: "/courses" },
+    ],
+    icon: <GraduationCap className="w-5 h-5" />,
+    accentColor: "var(--color-nd-terracotta)",
+  },
+  // 10. Closes on the human note — memorable ending
+  {
+    id: "developer-wellness",
+    title: "Developer Wellness & Sustainable Engineering",
+    tagline: "Advocating for healthier, more sustainable ways of building software",
+    category: "Engineering Culture · Developer Wellness",
+    overview:
+      "Developed a body of work around developer wellness and sustainable engineering practices, challenging the industry's burnout culture through conference talks, articles, and community engagement. The 'Stress Driven Development' talk became one of the most-requested presentations, delivered at conferences across multiple continents.",
+    challenge:
+      "The tech industry's 'always-on' culture leads to burnout, reduced productivity, and talent attrition. While most developer advocacy focuses on tools and frameworks, few advocates address the human side of software development — the mental health, work-life balance, and sustainable practices that determine long-term career success.",
+    approach:
+      "Combined personal experience with research-backed strategies to create talks and content that resonated with developers at every career stage. Used humor and storytelling to make wellness topics approachable in technical conference settings, and partnered with conference organizers to normalize wellness content alongside technical tracks.",
+    impact: [
+      "Delivered 'Stress Driven Development' at 8+ conferences including Devoxx, VoxxedDays, HackConf, and AgentConf",
+      "Spoke on developer productivity and the 'Science of Lost Time' at multiple events",
+      "Helped normalize wellness conversations in traditionally technical conference settings",
+      "Reached thousands of developers with actionable strategies for sustainable engineering careers",
+    ],
+    technologies: ["Public Speaking", "Developer Experience", "Engineering Culture", "Productivity"],
+    relatedContent: [
+      { label: "Stress Driven Development", href: "/presentations/2019/stress-driven-development/" },
+      { label: "Science of Lost Time", href: "/presentations/2020/towards-productivity-science-of-lost-time/" },
+      { label: "Overcoming Remote Work Challenges", href: "/videos/2020/overcoming-challenges-facing-remote-employees/" },
+    ],
+    icon: <Heart className="w-5 h-5" />,
+    accentColor: "var(--color-nd-sage)",
+  },
 ];
 
 export default function Projects() {
@@ -269,7 +318,7 @@ export default function Projects() {
     <div className="min-h-screen flex flex-col bg-background">
       <SEOHead
         title="Projects"
-        description="Case studies and key initiatives by Dmitry Vinnik spanning AI/ML, developer tools, front-end frameworks, and open source — from the Explain Like I'm 5 series to enterprise testing infrastructure."
+        description="Case studies and key initiatives by Dmitry Vinnik spanning developer education, open source, front-end frameworks, and engineering culture — from the Explain Like I'm 5 series to The Diff podcast."
         path="/projects"
         image="https://d2xsxph8kpxj0f.cloudfront.net/310519663407462879/97p7vQ5meEpw7kiKUeHkXx/og-projects-3Bd2iELkcFnRMBaNG6SgaM.png"
       />
@@ -292,7 +341,7 @@ export default function Projects() {
               Building at the intersection of developer tools, education, and open source
             </h1>
             <p className="nd-body text-base lg:text-lg mt-6 max-w-2xl">
-              A selection of initiatives that represent the breadth of Dmitry's work — from creating developer education programs reaching hundreds of thousands of developers, to building frameworks for measuring open source health at scale.
+              A selection of initiatives that represent the breadth of my work — from creating developer education programs reaching hundreds of thousands of developers, to hosting podcasts with the engineers behind the code.
             </p>
           </AnimatedSection>
         </div>
