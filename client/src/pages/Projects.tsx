@@ -235,6 +235,33 @@ const caseStudies: CaseStudy[] = [
     icon: <GraduationCap className="w-5 h-5" />,
     accentColor: "var(--color-nd-sage)",
   },
+  {
+    id: "meet-the-developers",
+    title: "Meet the Developers",
+    tagline: "Humanizing open source by spotlighting the engineers behind the code",
+    category: "Community Building · Developer Storytelling",
+    overview:
+      "Created and produced the 'Meet the Developers' interview series, featuring in-depth conversations with mobile engineers working on some of the most widely used open source projects. The series put a human face on open source — showcasing the people, motivations, and career journeys behind the code.",
+    challenge:
+      "Open source communities often feel impersonal. Developers contribute to projects without knowing who else is building alongside them, what motivates maintainers, or what career paths led engineers to their current roles. This disconnect makes it harder to build the sense of belonging that sustains healthy communities.",
+    approach:
+      "Designed a long-form interview format that goes beyond technical topics to explore each engineer's personal journey — how they got into mobile development, what excites them about open source, and what advice they'd give to aspiring developers. Each profile combines storytelling with practical insights, making the content both inspiring and actionable.",
+    impact: [
+      "4-part interview series featuring mobile engineers across different specializations",
+      "Covered engineers working on Android, iOS, React Native, and cross-platform tooling",
+      "Humanized open source contributions by highlighting personal stories and career journeys",
+      "Provided mentorship-style advice reaching developers exploring mobile engineering careers",
+    ],
+    technologies: ["Android", "iOS", "React Native", "Mobile Engineering", "Open Source"],
+    relatedContent: [
+      { label: "Vadims Savjolovs Interview", href: "/articles/2022/meet-the-developers-mobile-edition-with-vadims/" },
+      { label: "Pritesh Nandgaonkar Interview", href: "/articles/2022/meet-the-developers-mobile-edition-with-pritesh/" },
+      { label: "Derick Zhang Interview", href: "/articles/2022/meet-the-developers-mobile-edition-with-derick/" },
+      { label: "Aleksandr Sergeev Interview", href: "/articles/2022/meet-the-developers-mobile-edition-with-aleksandr/" },
+    ],
+    icon: <Users className="w-5 h-5" />,
+    accentColor: "var(--color-nd-terracotta)",
+  },
 ];
 
 export default function Projects() {
