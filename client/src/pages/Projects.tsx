@@ -14,7 +14,7 @@
  * 9. Coursera Education — structured learning at scale
  * 10. Developer Wellness — closes on the human note, memorable ending
  */
-import { ArrowLeft, ArrowRight, ExternalLink, Play, BookOpen, Users, Code, Layers, BarChart3, MessageCircle, Mic, Heart, GraduationCap, Radio } from "lucide-react";
+import { ArrowLeft, ArrowRight, ExternalLink, Play, BookOpen, Users, Code, Layers, BarChart3, MessageCircle, Mic, Heart, GraduationCap, Radio, TrendingUp } from "lucide-react";
 import { Link } from "wouter";
 import SEOHead from "@/components/SEOHead";
 import AnimatedSection, { StaggerContainer, StaggerItem } from "@/components/AnimatedSection";
@@ -32,12 +32,14 @@ interface CaseStudy {
   relatedContent: { label: string; href: string }[];
   icon: React.ReactNode;
   accentColor: string;
+  coverImage?: string;
 }
 
 const caseStudies: CaseStudy[] = [
   // 1. Signature series — hooks the reader
   {
     id: "eli5",
+    coverImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663407462879/97p7vQ5meEpw7kiKUeHkXx/cover-eli5-mxA3n9YK28ivXzj47wHkYA.webp",
     title: "Explain Like I'm 5",
     tagline: "Making complex open source accessible to every developer",
     category: "Developer Education · Video Series",
@@ -66,6 +68,7 @@ const caseStudies: CaseStudy[] = [
   // 2. Deep technical credibility
   {
     id: "cross-platform",
+    coverImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663407462879/97p7vQ5meEpw7kiKUeHkXx/cover-cross-platform-YGfcvDtDCooviWRhrJ4E2k.webp",
     title: "Cross-Platform Front-End & Developer Tooling",
     tagline: "Championing tools that let developers build once, deploy everywhere",
     category: "Front-End · Dev Tools · Mobile",
@@ -94,6 +97,7 @@ const caseStudies: CaseStudy[] = [
   // 3. Platform-scale impact
   {
     id: "whatsapp-dev",
+    coverImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663407462879/97p7vQ5meEpw7kiKUeHkXx/cover-whatsapp-SfPxidG8M4WVpbm2wkN3nf.webp",
     title: "WhatsApp Business Platform Developer Education",
     tagline: "Empowering developers to build on the world's most popular messaging platform",
     category: "Developer Education · Business Messaging",
@@ -122,6 +126,7 @@ const caseStudies: CaseStudy[] = [
   // 4. Storytelling & community voice (NEW)
   {
     id: "the-diff-podcast",
+    coverImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663407462879/97p7vQ5meEpw7kiKUeHkXx/cover-the-diff-6fKSBPgj9jYvkoTYu4VhMe.webp",
     title: "The Diff Podcast",
     tagline: "Long-form conversations with the engineers shaping open source",
     category: "Podcasts & Interviews · Developer Storytelling",
@@ -150,6 +155,7 @@ const caseStudies: CaseStudy[] = [
   // 5. Humanizing open source
   {
     id: "meet-the-developers",
+    coverImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663407462879/97p7vQ5meEpw7kiKUeHkXx/cover-meet-devs-CCjajKu6BLESQtCJNso3g3.webp",
     title: "Meet the Developers",
     tagline: "Humanizing open source by spotlighting the engineers behind the code",
     category: "Community Building · Developer Storytelling",
@@ -178,6 +184,7 @@ const caseStudies: CaseStudy[] = [
   // 6. Strategic / data-driven leadership
   {
     id: "oss-health",
+    coverImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663407462879/97p7vQ5meEpw7kiKUeHkXx/cover-oss-health-hQ6JziGeUTj3oHK4tZbpwU.webp",
     title: "Open Source Project Health Framework",
     tagline: "Data-driven approach to measuring and improving open source communities",
     category: "Engineering Leadership · Open Source Strategy",
@@ -205,6 +212,7 @@ const caseStudies: CaseStudy[] = [
   // 7. Enterprise engineering depth
   {
     id: "testing-at-scale",
+    coverImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663407462879/97p7vQ5meEpw7kiKUeHkXx/cover-testing-Lwk96WZEubk42L5FKXZR24.webp",
     title: "Testing Infrastructure & Visual QA",
     tagline: "Building testing strategies that scale across enterprise platforms",
     category: "Dev Tools · Quality Engineering",
@@ -232,6 +240,7 @@ const caseStudies: CaseStudy[] = [
   // 8. Reach & influence
   {
     id: "conference-speaking",
+    coverImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663407462879/97p7vQ5meEpw7kiKUeHkXx/cover-speaking-8SVR4hLNbybe7y3MNsaXKu.webp",
     title: "Global Conference Speaking Program",
     tagline: "30+ talks across 6 continents, from keynotes to hands-on workshops",
     category: "Developer Advocacy · Public Speaking",
@@ -260,6 +269,7 @@ const caseStudies: CaseStudy[] = [
   // 9. Structured learning at scale
   {
     id: "coursera-education",
+    coverImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663407462879/97p7vQ5meEpw7kiKUeHkXx/cover-coursera-mYMa38NarmqNL3KSNC9gkT.webp",
     title: "Coursera Developer Education Program",
     tagline: "Structured learning paths for developers at every level",
     category: "Developer Education · Online Learning",
@@ -287,6 +297,7 @@ const caseStudies: CaseStudy[] = [
   // 10. Closes on the human note — memorable ending
   {
     id: "developer-wellness",
+    coverImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663407462879/97p7vQ5meEpw7kiKUeHkXx/cover-wellness-Q79dwC6biAp7KruvbRArbC.webp",
     title: "Developer Wellness & Sustainable Engineering",
     tagline: "Advocating for healthier, more sustainable ways of building software",
     category: "Engineering Culture · Developer Wellness",
@@ -310,6 +321,35 @@ const caseStudies: CaseStudy[] = [
     ],
     icon: <Heart className="w-5 h-5" />,
     accentColor: "var(--color-nd-sage)",
+  },
+  // 11. Longitudinal impact — annual retrospective
+  {
+    id: "year-in-review",
+    coverImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663407462879/97p7vQ5meEpw7kiKUeHkXx/cover-year-review-kd92MdYPGGhHQZEqw96Swn.webp",
+    title: "Open Source Year in Review",
+    tagline: "Chronicling the evolution of open source across four consecutive years",
+    category: "Open Source Strategy · Annual Retrospective",
+    overview:
+      "Authored a multi-year series of comprehensive annual retrospectives documenting the state of open source — covering project launches, community growth, ecosystem trends, and strategic milestones. Each edition synthesizes a full year of activity across hundreds of repositories into a single, authoritative narrative that serves as both a historical record and a strategic planning resource.",
+    challenge:
+      "Open source ecosystems move fast. With hundreds of projects shipping releases, communities growing, and new initiatives launching throughout the year, it's easy to lose sight of the bigger picture. Teams and the broader community needed a way to understand not just what happened, but what it means for the trajectory of open source.",
+    approach:
+      "Created a recurring editorial format that combines quantitative data (release counts, contributor growth, adoption metrics) with qualitative analysis (strategic shifts, community highlights, ecosystem trends). Each edition follows a consistent structure — making year-over-year comparisons possible — while adapting to cover the most significant developments of that particular year.",
+    impact: [
+      "4 consecutive annual retrospectives published (2019, 2020, 2021, 2022)",
+      "Covered the evolution of 600+ open source projects across AI/ML, mobile, web, and infrastructure",
+      "Became a reference document for strategic planning and DevRel prioritization",
+      "Provided the broader community with a longitudinal view of open source trends and growth",
+    ],
+    technologies: ["Data Analysis", "Technical Writing", "Open Source Governance", "Community Metrics"],
+    relatedContent: [
+      { label: "2022 Year in Review", href: "/articles/2023/open-source-year-in-review-2022/" },
+      { label: "2021 Year in Review", href: "/articles/2022/open-source-year-in-review-2021/" },
+      { label: "2020 Year in Review", href: "/articles/2021/open-source-year-in-review-2020/" },
+      { label: "2019 Year in Review", href: "/articles/2020/open-source-year-in-review-2019/" },
+    ],
+    icon: <TrendingUp className="w-5 h-5" />,
+    accentColor: "var(--color-nd-terracotta)",
   },
 ];
 
@@ -383,6 +423,19 @@ export default function Projects() {
                     {study.tagline}
                   </p>
                 </div>
+
+                {/* Cover Image */}
+                {study.coverImage && (
+                  <div className="mt-8 overflow-hidden" style={{ borderRadius: "8px" }}>
+                    <img
+                      src={study.coverImage}
+                      alt={study.title}
+                      className="w-full object-contain"
+                      style={{ maxHeight: "320px", width: "100%" }}
+                      loading="lazy"
+                    />
+                  </div>
+                )}
 
                 {/* Overview */}
                 <div className="mt-8">
