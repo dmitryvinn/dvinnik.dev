@@ -19,6 +19,7 @@ export default function Courses() {
         title="Courses & Learning Paths"
         description={`${courses.length} structured learning paths by Dmitry Vinnik on the WhatsApp Business Platform, published on Coursera and Meta Blueprint.`}
         path="/courses"
+        image="https://d2xsxph8kpxj0f.cloudfront.net/310519663407462879/97p7vQ5meEpw7kiKUeHkXx/og-courses-EuY5vV4QLtoRxULXkGXiWM.png"
       />
 <main className="flex-1">
         <div className="container py-12 lg:py-20">

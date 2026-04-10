@@ -19,6 +19,7 @@ export default function Videos() {
         title="Video Content"
         description={`${videos.length} videos by Dmitry Vinnik including the popular 'Explain Like I'm 5' series, breaking down complex open source and AI/ML projects.`}
         path="/videos"
+        image="https://d2xsxph8kpxj0f.cloudfront.net/310519663407462879/97p7vQ5meEpw7kiKUeHkXx/og-videos-U87ukKHDUEKkBnrhPh3BVJ.png"
       />
 <main className="flex-1">
         <div className="container py-12 lg:py-20">

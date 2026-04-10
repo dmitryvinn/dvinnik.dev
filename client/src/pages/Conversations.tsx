@@ -17,6 +17,7 @@ export default function Conversations() {
         title="Podcasts & Interviews"
         description={`${conversations.length} podcast appearances, interviews, and panel discussions by Dmitry Vinnik on engineering leadership, AI/ML, developer advocacy, and open source.`}
         path="/conversations"
+        image="https://d2xsxph8kpxj0f.cloudfront.net/310519663407462879/97p7vQ5meEpw7kiKUeHkXx/og-conversations-SZmRDQkqHk9iKQqzymjegE.png"
       />
 <main className="flex-1">
         <div className="container py-12 lg:py-20">

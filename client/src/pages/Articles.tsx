@@ -23,6 +23,7 @@ export default function Articles() {
         title="Articles & Technical Writing"
         description={`${articles.length} in-depth articles by Dmitry Vinnik on open source technologies, developer tools, and engineering best practices.`}
         path="/articles"
+        image="https://d2xsxph8kpxj0f.cloudfront.net/310519663407462879/97p7vQ5meEpw7kiKUeHkXx/og-articles-8mD6F45qSKcK89PhuEEfoW.png"
       />
 <main className="flex-1">
         <div className="container py-12 lg:py-20">

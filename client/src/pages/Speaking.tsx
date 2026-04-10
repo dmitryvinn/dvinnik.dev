@@ -28,6 +28,7 @@ export default function Speaking() {
         title="Presentations & Talks"
         description={`${presentations.length} presentations by Dmitry Vinnik delivered at major tech conferences worldwide, covering AI/ML, engineering leadership, open source, testing, and developer experience.`}
         path="/speaking"
+        image="https://d2xsxph8kpxj0f.cloudfront.net/310519663407462879/97p7vQ5meEpw7kiKUeHkXx/og-speaking-Guo6BH7kTMGhEZBLXBCtyZ.png"
       />
 <main className="flex-1">
         <div className="container py-12 lg:py-20">

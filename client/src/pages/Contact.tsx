@@ -96,6 +96,7 @@ export default function Contact() {
         title="Contact"
         description="Get in touch with Dmitry Vinnik for engineering leadership opportunities, speaking engagements, podcast appearances, open source collaborations, or developer experience conversations."
         path="/contact"
+        image="https://d2xsxph8kpxj0f.cloudfront.net/310519663407462879/97p7vQ5meEpw7kiKUeHkXx/og-contact-DNVjEn64whDshGK68DKTAs.png"
       />
       <main className="flex-1">
         <div className="container py-12 lg:py-20">
