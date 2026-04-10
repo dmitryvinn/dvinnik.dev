@@ -251,7 +251,7 @@ const caseStudies: CaseStudy[] = [
     approach:
       "Developed a diverse talk portfolio covering multiple technical domains and soft skills, allowing each conference appearance to be tailored to the audience. Combined keynote-style thought leadership talks with hands-on workshops where developers could build alongside the presenter. Prioritized conferences that serve underrepresented developer communities.",
     impact: [
-      "30+ presentations at conferences including GitHub Universe, All Things Open, FOSDEM, and DjangoCon",
+      "30+ presentations at conferences including GitHub Universe, All Things Open, Open Source Summit, and DjangoCon",
       "Hands-on workshops delivered at TechBash, WeAreDevelopers, and Porto Tech Hub",
       "Talks span 5+ technical domains: testing, open source, mobile, wellness, and leadership",
       "Consistent speaker at both large-scale events (5,000+ attendees) and intimate community meetups",

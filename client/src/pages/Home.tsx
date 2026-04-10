@@ -533,6 +533,53 @@ export default function Home() {
           </StaggerContainer>
         </section>
 
+        {/* ===== FEATURED IN / AS SEEN AT ===== */}
+        <section className="container py-16 lg:py-20">
+          <AnimatedSection>
+            <div className="text-center mb-10">
+              <div className="nd-accent-line mx-auto mb-3" />
+              <span className="nd-label">Featured In</span>
+              <h2 className="nd-heading text-2xl lg:text-3xl mt-2">
+                Conferences & Platforms
+              </h2>
+            </div>
+          </AnimatedSection>
+          <StaggerContainer className="flex flex-wrap items-center justify-center gap-x-10 gap-y-6 lg:gap-x-14">
+            {[
+              { name: "GitHub Universe", url: "https://githubuniverse.com" },
+              { name: "All Things Open", url: "https://allthingsopen.org" },
+              { name: "Craft Conference", url: "https://craft-conf.com" },
+              { name: "OSCAFest", url: "https://festival.oscafrica.org" },
+              { name: "Coursera", url: "https://coursera.org" },
+              { name: "PodRocket", url: "https://podrocket.logrocket.com" },
+              { name: "DjangoCon", url: "https://djangocon.us" },
+              { name: "SeleniumConf", url: "https://seleniumconf.com" },
+              { name: "Open Source Summit", url: "https://events.linuxfoundation.org" },
+              { name: "DevRelCon", url: "https://devrelcon.dev" },
+            ].map((venue) => (
+              <StaggerItem key={venue.name}>
+                <a
+                  href={venue.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block text-center group transition-opacity hover:opacity-70"
+                >
+                  <span
+                    className="text-sm lg:text-base font-semibold tracking-wide uppercase"
+                    style={{
+                      fontFamily: "var(--font-sans)",
+                      color: "var(--color-nd-stone)",
+                      letterSpacing: "0.08em",
+                    }}
+                  >
+                    {venue.name}
+                  </span>
+                </a>
+              </StaggerItem>
+            ))}
+          </StaggerContainer>
+        </section>
+
         {/* ===== CTA ===== */}
         <section style={{ background: "var(--color-nd-sand)" }}>
           <div className="container py-16 lg:py-24 text-center">

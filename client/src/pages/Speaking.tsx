@@ -17,7 +17,7 @@ const majorEventNames = Array.from(new Set(events.map(e => e.title)))
     "Open Source Summit", "GitHub Universe", "Python Web Conf", "DevTalks",
     "GDG DevFest UK & Ireland", "Open Source Festival", "Developer Week",
     "Future of Testing Forum", "Testμ Conference", "GitHub InFocus",
-    "All Things Open", "React Summit", "FOSDEM", "SeleniumConf",
+    "All Things Open", "React Summit", "SeleniumConf",
   ].some(notable => name.includes(notable)))
   .slice(0, 12);
 

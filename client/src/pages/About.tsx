@@ -19,7 +19,7 @@ const timeline = [
       "Lead a team of developer advocates and consulting agencies to drive adoption and community engagement for open source projects, including PyTorch, React Native, Jest, and Docusaurus.",
       "Collaborate with product teams on the WhatsApp Business Platform to develop developer-facing content and resources.",
       "Produced 45+ educational videos and 40+ technical articles, reaching millions of developers worldwide.",
-      "Delivered 30+ presentations at major international tech conferences, including GitHub Universe, All Things Open, and FOSDEM.",
+      "Delivered 30+ presentations at major international tech conferences, including GitHub Universe, All Things Open, and Open Source Summit.",
       "Created comprehensive courses on Coursera covering open source, testing, and developer tools.",
       "Managed cross-functional relationships with engineering, product, and marketing teams to align developer advocacy strategy with business objectives.",
     ],
@@ -132,7 +132,7 @@ export default function About() {
                     Dmitry currently leads several developer advocacy efforts for major open source projects including PyTorch, React Native, Jest, and Docusaurus. His work spans the full spectrum of developer engagement — from creating educational content and delivering conference talks to collaborating with product teams on developer-facing resources for platforms like WhatsApp Business.
                   </p>
                   <p className="nd-body text-base lg:text-lg">
-                    Dmitry is passionate about sharing knowledge and has delivered over 30 presentations at major tech conferences worldwide, including GitHub Universe, All Things Open, and FOSDEM. His content portfolio includes 45+ educational videos, 40+ technical articles, and comprehensive courses on Coursera. He believes that open source is not just about code — it's about building communities that outlast any single project.
+                    Dmitry is passionate about sharing knowledge and has delivered over 30 presentations at major tech conferences worldwide, including GitHub Universe, All Things Open, and Open Source Summit. His content portfolio includes 45+ educational videos, 40+ technical articles, and comprehensive courses on Coursera. He believes that open source is not just about code — it's about building communities that outlast any single project.
                   </p>
                   <p className="nd-body text-base lg:text-lg">
                     Previously, Dmitry held engineering roles where he honed his skills in software development, team leadership, and developer education — experience that gives him a unique perspective on how developers experience and adopt technology.
