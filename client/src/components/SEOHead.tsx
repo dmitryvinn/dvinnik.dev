@@ -13,7 +13,7 @@ interface SEOHeadProps {
 }
 
 const BASE_URL = "https://dvinnik.dev";
-const DEFAULT_IMAGE = "https://d2xsxph8kpxj0f.cloudfront.net/310519663407462879/97p7vQ5meEpw7kiKUeHkXx/profile_c72f6f18.jpg";
+const DEFAULT_IMAGE = "https://d2xsxph8kpxj0f.cloudfront.net/310519663407462879/97p7vQ5meEpw7kiKUeHkXx/og-home-v2_2ce51100.png";
 const SITE_NAME = "Dmitry Vinnik — Engineering Leader";
 
 function setMetaTag(property: string, content: string) {

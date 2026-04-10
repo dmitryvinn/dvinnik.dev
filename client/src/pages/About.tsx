@@ -102,6 +102,7 @@ export default function About() {
         title="About"
         description="Dmitry Vinnik is a Lead Developer Advocate specializing in AI/ML, developer tools, and front-end, with over a decade of experience championing open source, building teams, and speaking at conferences worldwide."
         path="/about"
+        image="https://d2xsxph8kpxj0f.cloudfront.net/310519663407462879/97p7vQ5meEpw7kiKUeHkXx/og-about-FLgLdtxTmq568Zrb8E4US5.png"
       />
       <main className="flex-1">
         <div className="container py-12 lg:py-20">

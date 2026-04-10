@@ -143,6 +143,7 @@ export default function Projects() {
         title="Projects"
         description="Case studies and key initiatives by Dmitry Vinnik spanning AI/ML, developer tools, front-end frameworks, and open source — from the Explain Like I'm 5 series to enterprise testing infrastructure."
         path="/projects"
+        image="https://d2xsxph8kpxj0f.cloudfront.net/310519663407462879/97p7vQ5meEpw7kiKUeHkXx/og-projects-3Bd2iELkcFnRMBaNG6SgaM.png"
       />
       <main className="flex-1">
         {/* Hero */}
