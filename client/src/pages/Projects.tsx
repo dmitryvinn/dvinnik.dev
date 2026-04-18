@@ -388,9 +388,9 @@ export default function Projects() {
     <div className="min-h-screen flex flex-col bg-background">
       <SEOHead
         title="Projects"
-        description="Case studies and key initiatives by Dmitry Vinnik spanning developer education, open source, front-end frameworks, and engineering culture — from the Explain Like I'm 5 series to The Diff podcast."
+        description="Case studies and key initiatives by Dmitry Vinnik — from DevRel Academy and the Explain Like I'm 5 series to developer education, open source, and engineering culture."
         path="/projects"
-        image="https://d2xsxph8kpxj0f.cloudfront.net/310519663407462879/97p7vQ5meEpw7kiKUeHkXx/og-projects-3Bd2iELkcFnRMBaNG6SgaM.png"
+        image="https://d2xsxph8kpxj0f.cloudfront.net/310519663407462879/97p7vQ5meEpw7kiKUeHkXx/og-devrel-academy-SRSFfukzmvSsMEAgLNttXJ.png"
       />
       <main className="flex-1">
         {/* Hero */}
