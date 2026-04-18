@@ -546,6 +546,7 @@ export default function Home() {
           </AnimatedSection>
           <StaggerContainer className="flex flex-wrap items-center justify-center gap-x-10 gap-y-6 lg:gap-x-14">
             {[
+              { name: "DevRel Academy", url: "https://devrelacademy.com" },
               { name: "GitHub Universe", url: "https://githubuniverse.com" },
               { name: "All Things Open", url: "https://allthingsopen.org" },
               { name: "Craft Conference", url: "https://craft-conf.com" },

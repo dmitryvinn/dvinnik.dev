@@ -60,8 +60,8 @@ const caseStudies: CaseStudy[] = [
     technologies: ["React", "TypeScript", "Cloudflare Workers", "Open Source", "Community Curation"],
     relatedContent: [
       { label: "DevRel Academy", href: "https://devrelacademy.com" },
-      { label: "CFP Tracker", href: "https://devrelacademy.com/cfps" },
-      { label: "Learning Paths", href: "https://devrelacademy.com/paths" },
+      { label: "CFP Tracker", href: "https://devrelacademy.com/cfp-tracker" },
+      { label: "Learning Paths", href: "https://devrelacademy.com/learn" },
     ],
     icon: <Globe className="w-5 h-5" />,
     accentColor: "var(--color-nd-terracotta)",
