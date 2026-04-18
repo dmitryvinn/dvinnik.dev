@@ -3,18 +3,20 @@
  * Showcases key initiatives spanning developer education, open source, front-end, and engineering culture
  *
  * Ordering rationale (strongest narrative arc):
- * 1. ELI5 — signature series, most recognizable, hooks the reader
- * 2. Cross-Platform Front-End — deep technical credibility
- * 3. WhatsApp Business Platform — platform-scale impact
- * 4. The Diff Podcast — storytelling & community voice
- * 5. Meet the Developers — humanizing open source
- * 6. Open Source Health Framework — strategic / data-driven leadership
- * 7. Testing Infrastructure — enterprise engineering depth
- * 8. Global Conference Speaking — reach & influence
- * 9. Coursera Education — structured learning at scale
- * 10. Developer Wellness — closes on the human note, memorable ending
+ * 1. DevRel Academy — flagship product, leads with current work
+ * 2. ELI5 — signature series, most recognizable, hooks the reader
+ * 3. Cross-Platform Front-End — deep technical credibility
+ * 4. WhatsApp Business Platform — platform-scale impact
+ * 5. The Diff Podcast — storytelling & community voice
+ * 6. Meet the Developers — humanizing open source
+ * 7. Open Source Health Framework — strategic / data-driven leadership
+ * 8. Testing Infrastructure — enterprise engineering depth
+ * 9. Global Conference Speaking — reach & influence
+ * 10. Coursera Education — structured learning at scale
+ * 11. Developer Wellness — closes on the human note, memorable ending
+ * 12. Year in Review — longitudinal retrospective
  */
-import { ArrowLeft, ArrowRight, ExternalLink, Play, BookOpen, Users, Code, Layers, BarChart3, MessageCircle, Mic, Heart, GraduationCap, Radio, TrendingUp } from "lucide-react";
+import { ArrowLeft, ArrowRight, ExternalLink, Play, BookOpen, Users, Code, Layers, BarChart3, MessageCircle, Mic, Heart, GraduationCap, Radio, TrendingUp, Globe } from "lucide-react";
 import { Link } from "wouter";
 import SEOHead from "@/components/SEOHead";
 import AnimatedSection, { StaggerContainer, StaggerItem } from "@/components/AnimatedSection";
@@ -36,7 +38,35 @@ interface CaseStudy {
 }
 
 const caseStudies: CaseStudy[] = [
-  // 1. Signature series — hooks the reader
+  // 1. DevRel Academy — flagship product, leads with current work
+  {
+    id: "devrel-academy",
+    coverImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663407462879/97p7vQ5meEpw7kiKUeHkXx/cover-devrel-academy-i3CoKyteNKe6MWQUupzWPi.webp",
+    title: "DevRel Academy",
+    tagline: "The home of DevRel learning — 2,800+ curated resources for developer advocates",
+    category: "Product · Developer Relations · Community",
+    overview:
+      "Built and launched DevRel Academy (devrelacademy.com), a comprehensive learning platform for developer advocates. The platform curates 2,800+ community-vetted resources — books, articles, videos, podcasts, tools, courses, and guides — organized into structured learning paths. It also features a CFP Tracker with 780+ conferences across 6 regions, and Agent Skills for AI-powered developer workflows.",
+    challenge:
+      "Developer Relations is a rapidly growing field, but learning resources are scattered across hundreds of blogs, podcasts, and conference talks. Aspiring and practicing developer advocates had no single place to find curated, community-vetted materials organized by skill area — from technical writing and public speaking to content creation and community building.",
+    approach:
+      "Built on the foundation of the awesome-dev-advocacy open source project, DevRel Academy evolved from a curated list into a full-featured learning platform. Resources are organized by skill taxonomy (Developer Advocacy, Technical Writing, Content Creation, Public Speaking), with structured learning paths for different career stages. The CFP Tracker aggregates open calls-for-papers across global conferences, and Agent Skills integrate DevRel workflows into AI coding assistants like Claude Code and Codex CLI.",
+    impact: [
+      "2,800+ curated resources across 9 categories: books, blogs, videos, podcasts, communities, tools, courses, guides, and agent skills",
+      "CFP Tracker covering 780+ conferences with 280+ open CFPs across 6 global regions",
+      "Structured learning paths for aspiring developer advocates at every career stage",
+      "Agent Skills for Claude Code, Codex CLI, and ChatGPT — bringing DevRel into AI-powered workflows",
+    ],
+    technologies: ["React", "TypeScript", "Cloudflare Workers", "Open Source", "Community Curation"],
+    relatedContent: [
+      { label: "DevRel Academy", href: "https://devrelacademy.com" },
+      { label: "CFP Tracker", href: "https://devrelacademy.com/cfps" },
+      { label: "Learning Paths", href: "https://devrelacademy.com/paths" },
+    ],
+    icon: <Globe className="w-5 h-5" />,
+    accentColor: "var(--color-nd-terracotta)",
+  },
+  // 2. Signature series — hooks the reader
   {
     id: "eli5",
     coverImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663407462879/97p7vQ5meEpw7kiKUeHkXx/cover-eli5-mxA3n9YK28ivXzj47wHkYA.webp",
@@ -65,7 +95,7 @@ const caseStudies: CaseStudy[] = [
     icon: <Play className="w-5 h-5" />,
     accentColor: "var(--color-nd-terracotta)",
   },
-  // 2. Deep technical credibility
+  // 3. Deep technical credibility
   {
     id: "cross-platform",
     coverImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663407462879/97p7vQ5meEpw7kiKUeHkXx/cover-cross-platform-YGfcvDtDCooviWRhrJ4E2k.webp",
@@ -94,7 +124,7 @@ const caseStudies: CaseStudy[] = [
     icon: <Layers className="w-5 h-5" />,
     accentColor: "var(--color-nd-sage)",
   },
-  // 3. Platform-scale impact
+  // 4. Platform-scale impact
   {
     id: "whatsapp-dev",
     coverImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663407462879/97p7vQ5meEpw7kiKUeHkXx/cover-whatsapp-SfPxidG8M4WVpbm2wkN3nf.webp",
@@ -123,7 +153,7 @@ const caseStudies: CaseStudy[] = [
     icon: <MessageCircle className="w-5 h-5" />,
     accentColor: "var(--color-nd-terracotta)",
   },
-  // 4. Storytelling & community voice (NEW)
+  // 5. Storytelling & community voice
   {
     id: "the-diff-podcast",
     coverImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663407462879/97p7vQ5meEpw7kiKUeHkXx/cover-the-diff-6fKSBPgj9jYvkoTYu4VhMe.webp",
@@ -152,7 +182,7 @@ const caseStudies: CaseStudy[] = [
     icon: <Radio className="w-5 h-5" />,
     accentColor: "var(--color-nd-sage)",
   },
-  // 5. Humanizing open source
+  // 6. Humanizing open source
   {
     id: "meet-the-developers",
     coverImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663407462879/97p7vQ5meEpw7kiKUeHkXx/cover-meet-devs-CCjajKu6BLESQtCJNso3g3.webp",
@@ -181,7 +211,7 @@ const caseStudies: CaseStudy[] = [
     icon: <Users className="w-5 h-5" />,
     accentColor: "var(--color-nd-terracotta)",
   },
-  // 6. Strategic / data-driven leadership
+  // 7. Strategic / data-driven leadership
   {
     id: "oss-health",
     coverImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663407462879/97p7vQ5meEpw7kiKUeHkXx/cover-oss-health-hQ6JziGeUTj3oHK4tZbpwU.webp",
@@ -209,7 +239,7 @@ const caseStudies: CaseStudy[] = [
     icon: <BarChart3 className="w-5 h-5" />,
     accentColor: "var(--color-nd-sage)",
   },
-  // 7. Enterprise engineering depth
+  // 8. Enterprise engineering depth
   {
     id: "testing-at-scale",
     coverImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663407462879/97p7vQ5meEpw7kiKUeHkXx/cover-testing-Lwk96WZEubk42L5FKXZR24.webp",
@@ -237,7 +267,7 @@ const caseStudies: CaseStudy[] = [
     icon: <Code className="w-5 h-5" />,
     accentColor: "var(--color-nd-terracotta)",
   },
-  // 8. Reach & influence
+  // 9. Reach & influence
   {
     id: "conference-speaking",
     coverImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663407462879/97p7vQ5meEpw7kiKUeHkXx/cover-speaking-8SVR4hLNbybe7y3MNsaXKu.webp",
@@ -266,7 +296,7 @@ const caseStudies: CaseStudy[] = [
     icon: <Mic className="w-5 h-5" />,
     accentColor: "var(--color-nd-sage)",
   },
-  // 9. Structured learning at scale
+  // 10. Structured learning at scale
   {
     id: "coursera-education",
     coverImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663407462879/97p7vQ5meEpw7kiKUeHkXx/cover-coursera-mYMa38NarmqNL3KSNC9gkT.webp",
@@ -294,7 +324,7 @@ const caseStudies: CaseStudy[] = [
     icon: <GraduationCap className="w-5 h-5" />,
     accentColor: "var(--color-nd-terracotta)",
   },
-  // 10. Closes on the human note — memorable ending
+  // 11. Closes on the human note — memorable ending
   {
     id: "developer-wellness",
     coverImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663407462879/97p7vQ5meEpw7kiKUeHkXx/cover-wellness-Q79dwC6biAp7KruvbRArbC.webp",
@@ -322,7 +352,7 @@ const caseStudies: CaseStudy[] = [
     icon: <Heart className="w-5 h-5" />,
     accentColor: "var(--color-nd-sage)",
   },
-  // 11. Longitudinal impact — annual retrospective
+  // 12. Longitudinal impact — annual retrospective
   {
     id: "year-in-review",
     coverImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663407462879/97p7vQ5meEpw7kiKUeHkXx/cover-year-review-kd92MdYPGGhHQZEqw96Swn.webp",
@@ -531,14 +561,25 @@ export default function Projects() {
                     <h4 className="nd-meta mb-3">Related Content</h4>
                     <div className="flex flex-col gap-2">
                       {study.relatedContent.map((link) => (
-                        <Link key={link.href} href={link.href}>
-                          <span
-                            className="nd-link text-sm inline-flex items-center gap-1"
-                            style={{ fontFamily: "var(--font-sans)" }}
-                          >
-                            {link.label} <ArrowRight className="w-3 h-3" />
-                          </span>
-                        </Link>
+                        link.href.startsWith("http") ? (
+                          <a key={link.href} href={link.href} target="_blank" rel="noopener noreferrer">
+                            <span
+                              className="nd-link text-sm inline-flex items-center gap-1"
+                              style={{ fontFamily: "var(--font-sans)" }}
+                            >
+                              {link.label} <ExternalLink className="w-3 h-3" />
+                            </span>
+                          </a>
+                        ) : (
+                          <Link key={link.href} href={link.href}>
+                            <span
+                              className="nd-link text-sm inline-flex items-center gap-1"
+                              style={{ fontFamily: "var(--font-sans)" }}
+                            >
+                              {link.label} <ArrowRight className="w-3 h-3" />
+                            </span>
+                          </Link>
+                        )
                       ))}
                     </div>
                   </div>

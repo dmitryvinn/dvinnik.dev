@@ -389,10 +389,10 @@ export default function Home() {
                 category: "Public Speaking",
               },
               {
-                title: "The Diff Podcast",
-                tagline: "Stories behind open source projects",
-                image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663407462879/97p7vQ5meEpw7kiKUeHkXx/cover-the-diff-6fKSBPgj9jYvkoTYu4VhMe.webp",
-                category: "Podcasts & Interviews",
+                title: "DevRel Academy",
+                tagline: "The home of DevRel learning",
+                image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663407462879/97p7vQ5meEpw7kiKUeHkXx/cover-devrel-academy-i3CoKyteNKe6MWQUupzWPi.webp",
+                category: "Product · Community",
               },
             ].map((project) => (
               <StaggerItem key={project.title}>
