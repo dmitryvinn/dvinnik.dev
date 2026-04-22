@@ -383,10 +383,10 @@ export default function Home() {
                 category: "Business Messaging",
               },
               {
-                title: "Global Conference Speaking",
-                tagline: "30+ talks across 6 continents",
-                image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663407462879/97p7vQ5meEpw7kiKUeHkXx/cover-speaking-8SVR4hLNbybe7y3MNsaXKu.webp",
-                category: "Public Speaking",
+                title: "Engineering Leadership Hub",
+                tagline: "1,000+ resources for engineering leaders",
+                image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663407462879/97p7vQ5meEpw7kiKUeHkXx/cover-engleader-PqNxQFMnFrqoqpg62H5o8g.webp",
+                category: "Product · Leadership",
               },
               {
                 title: "DevRel Academy",
@@ -546,6 +546,7 @@ export default function Home() {
           </AnimatedSection>
           <StaggerContainer className="flex flex-wrap items-center justify-center gap-x-10 gap-y-6 lg:gap-x-14">
             {[
+              { name: "Engineering Leadership Hub", url: "https://engleader.dev" },
               { name: "DevRel Academy", url: "https://devrelacademy.com" },
               { name: "GitHub Universe", url: "https://githubuniverse.com" },
               { name: "All Things Open", url: "https://allthingsopen.org" },

@@ -3,20 +3,21 @@
  * Showcases key initiatives spanning developer education, open source, front-end, and engineering culture
  *
  * Ordering rationale (strongest narrative arc):
- * 1. DevRel Academy — flagship product, leads with current work
- * 2. ELI5 — signature series, most recognizable, hooks the reader
- * 3. Cross-Platform Front-End — deep technical credibility
- * 4. WhatsApp Business Platform — platform-scale impact
- * 5. The Diff Podcast — storytelling & community voice
- * 6. Meet the Developers — humanizing open source
- * 7. Open Source Health Framework — strategic / data-driven leadership
- * 8. Testing Infrastructure — enterprise engineering depth
- * 9. Global Conference Speaking — reach & influence
- * 10. Coursera Education — structured learning at scale
- * 11. Developer Wellness — closes on the human note, memorable ending
- * 12. Year in Review — longitudinal retrospective
+ * 1. Engineering Leadership Hub — newest product, leads with current work
+ * 2. DevRel Academy — flagship DevRel product
+ * 3. ELI5 — signature series, most recognizable, hooks the reader
+ * 4. Cross-Platform Front-End — deep technical credibility
+ * 5. WhatsApp Business Platform — platform-scale impact
+ * 6. The Diff Podcast — storytelling & community voice
+ * 7. Meet the Developers — humanizing open source
+ * 8. Open Source Health Framework — strategic / data-driven leadership
+ * 9. Testing Infrastructure — enterprise engineering depth
+ * 10. Global Conference Speaking — reach & influence
+ * 11. Coursera Education — structured learning at scale
+ * 12. Developer Wellness — closes on the human note, memorable ending
+ * 13. Year in Review — longitudinal retrospective
  */
-import { ArrowLeft, ArrowRight, ExternalLink, Play, BookOpen, Users, Code, Layers, BarChart3, MessageCircle, Mic, Heart, GraduationCap, Radio, TrendingUp, Globe } from "lucide-react";
+import { ArrowLeft, ArrowRight, ExternalLink, Play, BookOpen, Users, Code, Layers, BarChart3, MessageCircle, Mic, Heart, GraduationCap, Radio, TrendingUp, Globe, Crown } from "lucide-react";
 import { Link } from "wouter";
 import SEOHead from "@/components/SEOHead";
 import AnimatedSection, { StaggerContainer, StaggerItem } from "@/components/AnimatedSection";
@@ -38,7 +39,35 @@ interface CaseStudy {
 }
 
 const caseStudies: CaseStudy[] = [
-  // 1. DevRel Academy — flagship product, leads with current work
+  // 1. Engineering Leadership Hub — newest product, leads with current work
+  {
+    id: "engineering-leadership-hub",
+    coverImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663407462879/97p7vQ5meEpw7kiKUeHkXx/cover-engleader-PqNxQFMnFrqoqpg62H5o8g.webp",
+    title: "Engineering Leadership Hub",
+    tagline: "1,000+ curated resources for engineering managers, directors, VPs, and CTOs",
+    category: "Product · Engineering Leadership · Community",
+    overview:
+      "Built and launched Engineering Leadership Hub (engleader.dev), a comprehensive learning platform for engineering leaders at every level. The platform curates 1,000+ resources — books, articles, podcasts, and tools — organized into structured learning paths covering the full leadership journey from IC-to-manager transition through CTO-level strategy.",
+    challenge:
+      "Engineering leadership resources are scattered across hundreds of blogs, books, and conference talks. New and experienced engineering managers had no single place to find curated, structured materials covering the full spectrum — from first-time manager fundamentals to VP-level organizational design and CTO-level technical strategy.",
+    approach:
+      "Organized resources around five pillars of engineering leadership excellence: The Leadership Path, People & Culture, Engineering Operations, Strategy & Architecture, and Business & Communication. Created 12+ structured learning paths for specific career transitions (IC to Manager, Staff+ Engineer, Director & VP Track, CTO Track) and practical skills (AI-Native Leadership, Platform Engineering, Team Scaling). Added a dedicated section for sharing resources with engineering teams.",
+    impact: [
+      "1,000+ curated resources across books, articles, podcasts, tools, and guides",
+      "12+ structured learning paths from IC-to-Manager through CTO/Head of Engineering",
+      "AI Skills section covering AI-native engineering leadership and AI-augmented workflows",
+      "For Your Engineers section with team-shareable paths on user stories, technical communication, and agile delivery",
+    ],
+    technologies: ["React", "TypeScript", "Cloudflare Workers", "Open Source", "Community Curation"],
+    relatedContent: [
+      { label: "Engineering Leadership Hub", href: "https://engleader.dev" },
+      { label: "Learning Paths", href: "https://engleader.dev/learn" },
+      { label: "AI Skills", href: "https://engleader.dev/ai-skills" },
+    ],
+    icon: <Crown className="w-5 h-5" />,
+    accentColor: "var(--color-nd-terracotta)",
+  },
+  // 2. DevRel Academy — flagship DevRel product
   {
     id: "devrel-academy",
     coverImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663407462879/97p7vQ5meEpw7kiKUeHkXx/cover-devrel-academy-i3CoKyteNKe6MWQUupzWPi.webp",
@@ -388,7 +417,7 @@ export default function Projects() {
     <div className="min-h-screen flex flex-col bg-background">
       <SEOHead
         title="Projects"
-        description="Case studies and key initiatives by Dmitry Vinnik — from DevRel Academy and the Explain Like I'm 5 series to developer education, open source, and engineering culture."
+        description="Case studies and key initiatives by Dmitry Vinnik — from Engineering Leadership Hub and DevRel Academy to the Explain Like I'm 5 series, developer education, open source, and engineering culture."
         path="/projects"
         image="https://d2xsxph8kpxj0f.cloudfront.net/310519663407462879/97p7vQ5meEpw7kiKUeHkXx/og-devrel-academy-SRSFfukzmvSsMEAgLNttXJ.png"
       />
