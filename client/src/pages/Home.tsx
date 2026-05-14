@@ -383,16 +383,16 @@ export default function Home() {
                 category: "Business Messaging",
               },
               {
-                title: "Engineering Leadership Hub",
-                tagline: "1,000+ resources for engineering leaders",
-                image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663407462879/97p7vQ5meEpw7kiKUeHkXx/cover-engleader-PqNxQFMnFrqoqpg62H5o8g.webp",
-                category: "Product · Leadership",
+                title: "Global Conference Speaking",
+                tagline: "30+ talks across 6 continents",
+                image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663407462879/97p7vQ5meEpw7kiKUeHkXx/cover-speaking-8SVR4hLNbybe7y3MNsaXKu.webp",
+                category: "Public Speaking",
               },
               {
-                title: "DevRel Academy",
-                tagline: "The home of DevRel learning",
-                image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663407462879/97p7vQ5meEpw7kiKUeHkXx/cover-devrel-academy-i3CoKyteNKe6MWQUupzWPi.webp",
-                category: "Product · Community",
+                title: "The Diff Podcast",
+                tagline: "Stories behind open source projects",
+                image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663407462879/97p7vQ5meEpw7kiKUeHkXx/cover-the-diff-6fKSBPgj9jYvkoTYu4VhMe.webp",
+                category: "Podcasts & Interviews",
               },
             ].map((project) => (
               <StaggerItem key={project.title}>
@@ -546,8 +546,6 @@ export default function Home() {
           </AnimatedSection>
           <StaggerContainer className="flex flex-wrap items-center justify-center gap-x-10 gap-y-6 lg:gap-x-14">
             {[
-              { name: "Engineering Leadership Hub", url: "https://engleader.dev" },
-              { name: "DevRel Academy", url: "https://devrelacademy.com" },
               { name: "GitHub Universe", url: "https://githubuniverse.com" },
               { name: "All Things Open", url: "https://allthingsopen.org" },
               { name: "Craft Conference", url: "https://craft-conf.com" },
