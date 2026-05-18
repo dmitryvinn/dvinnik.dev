@@ -7,7 +7,7 @@ import SEOHead from "@/components/SEOHead";
 import AnimatedSection from "@/components/AnimatedSection";
 import { StaggerContainer, StaggerItem } from "@/components/AnimatedSection";
 import { Link } from "wouter";
-import { ArrowRight, ExternalLink, Play } from "lucide-react";
+import { ArrowRight, ExternalLink, Play, Rocket, Users, Github, Globe, Cpu, Code, FlaskConical, Megaphone, GraduationCap, Mic, Headphones } from "lucide-react";
 import { articles, videos, presentations, stats, courses } from "@/data/content";
 import TagLink from "@/components/TagLink";
 
@@ -383,16 +383,16 @@ export default function Home() {
                 category: "Business Messaging",
               },
               {
-                title: "Global Conference Speaking",
-                tagline: "30+ talks across 6 continents",
-                image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663407462879/97p7vQ5meEpw7kiKUeHkXx/cover-speaking-8SVR4hLNbybe7y3MNsaXKu.webp",
-                category: "Public Speaking",
+                title: "Engineering Leadership Hub",
+                tagline: "1,000+ resources for engineering leaders",
+                image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663407462879/97p7vQ5meEpw7kiKUeHkXx/cover-engleader-PqNxQFMnFrqoqpg62H5o8g.webp",
+                category: "Product · Leadership",
               },
               {
-                title: "The Diff Podcast",
-                tagline: "Stories behind open source projects",
-                image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663407462879/97p7vQ5meEpw7kiKUeHkXx/cover-the-diff-6fKSBPgj9jYvkoTYu4VhMe.webp",
-                category: "Podcasts & Interviews",
+                title: "DevRel Academy",
+                tagline: "The home of DevRel learning",
+                image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663407462879/97p7vQ5meEpw7kiKUeHkXx/cover-devrel-academy-i3CoKyteNKe6MWQUupzWPi.webp",
+                category: "Product · Community",
               },
             ].map((project) => (
               <StaggerItem key={project.title}>
@@ -534,50 +534,153 @@ export default function Home() {
         </section>
 
         {/* ===== FEATURED IN / AS SEEN AT ===== */}
-        <section className="container py-16 lg:py-20">
+        <section className="container py-16 lg:py-24">
           <AnimatedSection>
-            <div className="text-center mb-10">
+            <div className="text-center mb-8">
               <div className="nd-accent-line mx-auto mb-3" />
               <span className="nd-label">Featured In</span>
               <h2 className="nd-heading text-2xl lg:text-3xl mt-2">
                 Conferences & Platforms
               </h2>
+              <p className="nd-body mt-3 max-w-lg mx-auto text-base">
+                Platforms built, conferences spoken at, and communities contributed to over the past decade.
+              </p>
             </div>
           </AnimatedSection>
-          <StaggerContainer className="flex flex-wrap items-center justify-center gap-x-10 gap-y-6 lg:gap-x-14">
-            {[
-              { name: "GitHub Universe", url: "https://githubuniverse.com" },
-              { name: "All Things Open", url: "https://allthingsopen.org" },
-              { name: "Craft Conference", url: "https://craft-conf.com" },
-              { name: "OSCAFest", url: "https://festival.oscafrica.org" },
-              { name: "Coursera", url: "https://coursera.org" },
-              { name: "PodRocket", url: "https://podrocket.logrocket.com" },
-              { name: "DjangoCon", url: "https://djangocon.us" },
-              { name: "SeleniumConf", url: "https://seleniumconf.com" },
-              { name: "Open Source Summit", url: "https://events.linuxfoundation.org" },
-              { name: "DevRelCon", url: "https://devrelcon.dev" },
-            ].map((venue) => (
-              <StaggerItem key={venue.name}>
-                <a
-                  href={venue.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="block text-center group transition-opacity hover:opacity-70"
-                >
-                  <span
-                    className="text-sm lg:text-base font-semibold tracking-wide uppercase"
-                    style={{
-                      fontFamily: "var(--font-sans)",
-                      color: "var(--color-nd-stone)",
-                      letterSpacing: "0.08em",
-                    }}
-                  >
-                    {venue.name}
-                  </span>
-                </a>
-              </StaggerItem>
-            ))}
-          </StaggerContainer>
+
+          {/* Summary Stats Row */}
+          <AnimatedSection>
+            <div className="flex flex-wrap items-center justify-center gap-6 lg:gap-10 mb-14 pt-2">
+              {[
+                { number: "30+", label: "Talks Delivered" },
+                { number: "8+", label: "Countries" },
+                { number: "12+", label: "Conferences" },
+                { number: "4", label: "Courses Published" },
+              ].map((stat) => (
+                <div key={stat.label} className="text-center">
+                  <span className="block text-2xl lg:text-3xl font-bold" style={{ fontFamily: "var(--font-display)", color: "var(--color-nd-terracotta)" }}>{stat.number}</span>
+                  <span className="text-xs tracking-wide uppercase" style={{ fontFamily: "var(--font-sans)", color: "var(--color-nd-warm-gray)" }}>{stat.label}</span>
+                </div>
+              ))}
+            </div>
+          </AnimatedSection>
+
+          {/* Platforms I Built */}
+          <AnimatedSection>
+            <div className="mb-12">
+              <h3 className="text-xs font-semibold tracking-widest uppercase mb-5" style={{ fontFamily: "var(--font-sans)", color: "var(--color-nd-terracotta)" }}>
+                Platforms Built
+              </h3>
+              <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                {[
+                  { name: "Engineering Leadership Hub", url: "https://engleader.dev", desc: "1,000+ curated resources for engineering leaders \u2014 learning paths, AI skills, and community contributions.", metric: "1,000+ resources", icon: Rocket, accent: "#C4653A" },
+                  { name: "DevRel Academy", url: "https://devrelacademy.com", desc: "2,800+ curated resources for developer relations professionals \u2014 CFP tracker, learning paths, and AI-powered tools.", metric: "2,800+ resources", icon: Users, accent: "#7A8B6F" },
+                ].map((platform) => (
+                  <StaggerItem key={platform.name}>
+                    <a
+                      href={platform.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="nd-card block p-5 lg:p-6 group hover:shadow-md transition-shadow"
+                    >
+                      <div className="flex items-start gap-4">
+                        <div className="flex-shrink-0 w-10 h-10 rounded-lg flex items-center justify-center" style={{ backgroundColor: `${platform.accent}15` }}>
+                          <platform.icon className="w-5 h-5" style={{ color: platform.accent }} />
+                        </div>
+                        <div className="flex-1 min-w-0">
+                          <div className="flex items-start justify-between gap-3">
+                            <h4 className="nd-heading text-lg lg:text-xl group-hover:text-[var(--color-nd-terracotta)] transition-colors">{platform.name}</h4>
+                            <span className="nd-tag flex-shrink-0 text-xs">{platform.metric}</span>
+                          </div>
+                          <p className="nd-meta text-sm mt-1.5 leading-relaxed">{platform.desc}</p>
+                        </div>
+                      </div>
+                      <span className="nd-link text-xs inline-flex items-center gap-1 mt-3 ml-14" style={{ fontFamily: "var(--font-sans)" }}>
+                        Visit <ExternalLink className="w-3 h-3" />
+                      </span>
+                    </a>
+                  </StaggerItem>
+                ))}
+              </StaggerContainer>
+            </div>
+          </AnimatedSection>
+
+          {/* Conferences */}
+          <AnimatedSection>
+            <div className="mb-12">
+              <h3 className="text-xs font-semibold tracking-widest uppercase mb-5" style={{ fontFamily: "var(--font-sans)", color: "var(--color-nd-terracotta)" }}>
+                Conferences & Summits
+              </h3>
+              <StaggerContainer className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                {[
+                  { name: "GitHub Universe", url: "https://githubuniverse.com", desc: "GitHub's flagship developer conference", topic: "Open Source Project Health", icon: Github, accent: "#24292f" },
+                  { name: "All Things Open", url: "https://allthingsopen.org", desc: "One of the largest open source conferences in the US", topic: "Open Source & Testing", icon: Globe, accent: "#2d6a4f" },
+                  { name: "Open Source Summit", url: "https://events.linuxfoundation.org", desc: "Linux Foundation's premier open source event", topic: "Open Source Ecosystem", icon: Cpu, accent: "#003d5b" },
+                  { name: "Craft Conference", url: "https://craft-conf.com", desc: "Software craftsmanship conference in Budapest", topic: "Software Engineering", icon: Code, accent: "#e85d04" },
+                  { name: "OSCAFest", url: "https://festival.oscafrica.org", desc: "Africa's largest open source festival", topic: "Open Source Community", icon: Globe, accent: "#2b9348" },
+                  { name: "DjangoCon", url: "https://djangocon.us", desc: "The Django community's annual gathering", topic: "Web Frameworks", icon: Code, accent: "#0c4b33" },
+                  { name: "SeleniumConf", url: "https://seleniumconf.com", desc: "Premier conference for testing professionals", topic: "Testing & QA", icon: FlaskConical, accent: "#43aa8b" },
+                  { name: "DevRelCon", url: "https://devrelcon.dev", desc: "The conference for developer relations professionals", topic: "Developer Relations", icon: Megaphone, accent: "#7209b7" },
+                ].map((conf) => (
+                  <StaggerItem key={conf.name}>
+                    <a
+                      href={conf.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="nd-card block p-4 lg:p-5 group hover:shadow-md transition-shadow h-full"
+                    >
+                      <div className="flex items-start gap-3">
+                        <div className="flex-shrink-0 w-8 h-8 rounded-md flex items-center justify-center" style={{ backgroundColor: `${conf.accent}12` }}>
+                          <conf.icon className="w-4 h-4" style={{ color: conf.accent }} />
+                        </div>
+                        <div className="flex-1 min-w-0">
+                          <h4 className="text-base font-semibold group-hover:text-[var(--color-nd-terracotta)] transition-colors" style={{ fontFamily: "var(--font-display)" }}>{conf.name}</h4>
+                          <p className="nd-meta text-xs mt-1 leading-relaxed">{conf.desc}</p>
+                          <span className="nd-tag text-xs mt-2 inline-block">{conf.topic}</span>
+                        </div>
+                      </div>
+                    </a>
+                  </StaggerItem>
+                ))}
+              </StaggerContainer>
+            </div>
+          </AnimatedSection>
+
+          {/* Education & Media */}
+          <AnimatedSection>
+            <div>
+              <h3 className="text-xs font-semibold tracking-widest uppercase mb-5" style={{ fontFamily: "var(--font-sans)", color: "var(--color-nd-terracotta)" }}>
+                Education & Media
+              </h3>
+              <StaggerContainer className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                {[
+                  { name: "Coursera", url: "https://coursera.org", desc: "Published multi-module developer courses reaching learners in 180+ countries", type: "Course Platform", icon: GraduationCap, accent: "#0056d2" },
+                  { name: "PodRocket", url: "https://podrocket.logrocket.com", desc: "Featured guest discussing open source, React Native, and developer tools", type: "Podcast", icon: Mic, accent: "#764ba2" },
+                  { name: "The Diff Podcast", url: "https://thediffpodcast.com", desc: "Long-form interviews with engineers behind major open source projects", type: "Podcast (Host)", icon: Headphones, accent: "#C4653A" },
+                ].map((media) => (
+                  <StaggerItem key={media.name}>
+                    <a
+                      href={media.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="nd-card block p-4 lg:p-5 group hover:shadow-md transition-shadow h-full"
+                    >
+                      <div className="flex items-start gap-3">
+                        <div className="flex-shrink-0 w-8 h-8 rounded-md flex items-center justify-center" style={{ backgroundColor: `${media.accent}12` }}>
+                          <media.icon className="w-4 h-4" style={{ color: media.accent }} />
+                        </div>
+                        <div className="flex-1 min-w-0">
+                          <h4 className="text-base font-semibold group-hover:text-[var(--color-nd-terracotta)] transition-colors" style={{ fontFamily: "var(--font-display)" }}>{media.name}</h4>
+                          <p className="nd-meta text-xs mt-1 leading-relaxed">{media.desc}</p>
+                          <span className="nd-tag text-xs mt-2 inline-block">{media.type}</span>
+                        </div>
+                      </div>
+                    </a>
+                  </StaggerItem>
+                ))}
+              </StaggerContainer>
+            </div>
+          </AnimatedSection>
         </section>
 
         {/* ===== CTA ===== */}
